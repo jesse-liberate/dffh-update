@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="admin/tool/delayemail/db" VERSION="20150626" COMMENT="XMLDB file for Moodle admin/tool/delayemail" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../lib/xmldb/xmldb.xsd">
+  <TABLES>
+    <TABLE NAME="delayemail_queue" COMMENT="Delay email queue">
+      <FIELDS>
+        <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true"/>
+        <FIELD NAME="touserid" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="toemail" TYPE="char" LENGTH="128" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="fromuserid" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="fromemail" TYPE="char" LENGTH="128" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="subject" TYPE="char" LENGTH="1024" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="textcontent" TYPE="text" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="htmlcontent" TYPE="text" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="issent" TYPE="int" LENGTH="1" DEFAULT="0" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="note" TYPE="char" LENGTH="1024" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="attachmentpath" TYPE="char" LENGTH="512" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="attachmentname" TYPE="char" LENGTH="512" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="timecreated" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="timemodified" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false"/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+      </KEYS>
+      <INDEXES>
+        <INDEX NAME="index_delay_touserid" UNIQUE="false" FIELDS="touserid"/>
+        <INDEX NAME="index_delay_fromuserid" UNIQUE="false" FIELDS="fromuserid"/>
+      </INDEXES>
+    </TABLE>
+  </TABLES>
+</XMLDB>

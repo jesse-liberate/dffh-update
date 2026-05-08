@@ -1,0 +1,16 @@
+[07-May-2026 17:19:05 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-May-2026 17:19:05 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 03:19:06 Australia/Melbourne] Default exception handler: Exception - Attempt to assign property "action" on null Debug: 
+Error code: generalexceptionmessage
+* line 41 of /public/blocks/training_report/classes/ajax_controller.php: Error thrown
+* line 56 of /public/blocks/training_report/classes/ajax_controller.php: call to ajax_controller_base->validate_action()
+* line 34 of /public/blocks/training_report/api/report.php: call to ajax_controller_base->process()
+* line 1629 of /public/blocks/training_report/api/report.php: call to API->__construct()
+
+[08-May-2026 03:19:06 Australia/Melbourne] Default exception handler: Exception - Attempt to assign property "action" on null Debug: 
+Error code: generalexceptionmessage
+* line 41 of /public/blocks/training_report/classes/ajax_controller.php: Error thrown
+* line 56 of /public/blocks/training_report/classes/ajax_controller.php: call to ajax_controller_base->validate_action()
+* line 34 of /public/blocks/training_report/api/report.php: call to ajax_controller_base->process()
+* line 1629 of /public/blocks/training_report/api/report.php: call to API->__construct()
+

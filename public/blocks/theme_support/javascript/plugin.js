@@ -1,0 +1,1 @@
+// global js for whole plugin

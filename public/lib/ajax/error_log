@@ -1,0 +1,658 @@
+[13-Mar-2026 15:34:08 Australia/Melbourne] Debugging: This page should be using theme mindatlas which cannot be initialised. Nor can the site theme mindatlas. Falling back to boost in 
+* line 460 of /public/lib/classes/output/theme_config.php: call to debugging()
+* line 1847 of /public/lib/pagelib.php: call to core\output\theme_config::load()
+* line 761 of /public/lib/pagelib.php: call to moodle_page->initialise_theme_and_output()
+* line 965 of /public/lib/pagelib.php: call to moodle_page->magic_get_theme()
+* line 68 of /public/lib/classes/output/icon_system.php: call to moodle_page->__get()
+* line 62 of /public/lib/classes/external/output/icon_system/load_fontawesome_map.php: call to core\output\icon_system::instance()
+* line 0 of unknownfile: call to core\external\output\icon_system\load_fontawesome_map::execute()
+* line 253 of /public/lib/external/classes/external_api.php: call to call_user_func_array()
+* line 83 of /public/lib/ajax/service.php: call to core_external\external_api::call_external_function()
+* line 33 of /public/lib/ajax/service-nologin.php: call to require_once()
+
+[13-Mar-2026 15:34:08 Australia/Melbourne] Debugging: This page should be using theme mindatlas which cannot be initialised. Nor can the site theme mindatlas. Falling back to boost in 
+* line 460 of /public/lib/classes/output/theme_config.php: call to debugging()
+* line 1847 of /public/lib/pagelib.php: call to core\output\theme_config::load()
+* line 761 of /public/lib/pagelib.php: call to moodle_page->initialise_theme_and_output()
+* line 965 of /public/lib/pagelib.php: call to moodle_page->magic_get_theme()
+* line 60 of /public/lib/classes/output/mustache_template_finder.php: call to moodle_page->__get()
+* line 104 of /public/lib/classes/output/mustache_template_finder.php: call to core\output\mustache_template_finder::get_template_directories_for_component()
+* line 49 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_finder::get_template_filepath()
+* line 82 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->{closure:core\output\mustache_template_source_loader::__construct():47}()
+* line 151 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->load()
+* line 138 of /public/lib/classes/output/external.php: call to core\output\mustache_template_source_loader->load_with_dependencies()
+* line 0 of unknownfile: call to core\output\external::load_template_with_dependencies()
+* line 253 of /public/lib/external/classes/external_api.php: call to call_user_func_array()
+* line 83 of /public/lib/ajax/service.php: call to core_external\external_api::call_external_function()
+* line 33 of /public/lib/ajax/service-nologin.php: call to require_once()
+
+[13-Mar-2026 15:34:09 Australia/Melbourne] Debugging: This page should be using theme mindatlas which cannot be initialised. Nor can the site theme mindatlas. Falling back to boost in 
+* line 460 of /public/lib/classes/output/theme_config.php: call to debugging()
+* line 1847 of /public/lib/pagelib.php: call to core\output\theme_config::load()
+* line 761 of /public/lib/pagelib.php: call to moodle_page->initialise_theme_and_output()
+* line 965 of /public/lib/pagelib.php: call to moodle_page->magic_get_theme()
+* line 60 of /public/lib/classes/output/mustache_template_finder.php: call to moodle_page->__get()
+* line 104 of /public/lib/classes/output/mustache_template_finder.php: call to core\output\mustache_template_finder::get_template_directories_for_component()
+* line 49 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_finder::get_template_filepath()
+* line 82 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->{closure:core\output\mustache_template_source_loader::__construct():47}()
+* line 151 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->load()
+* line 138 of /public/lib/classes/output/external.php: call to core\output\mustache_template_source_loader->load_with_dependencies()
+* line 0 of unknownfile: call to core\output\external::load_template_with_dependencies()
+* line 253 of /public/lib/external/classes/external_api.php: call to call_user_func_array()
+* line 83 of /public/lib/ajax/service.php: call to core_external\external_api::call_external_function()
+* line 33 of /public/lib/ajax/service-nologin.php: call to require_once()
+
+[13-Mar-2026 15:34:09 Australia/Melbourne] Debugging: This page should be using theme mindatlas which cannot be initialised. Nor can the site theme mindatlas. Falling back to boost in 
+* line 460 of /public/lib/classes/output/theme_config.php: call to debugging()
+* line 1847 of /public/lib/pagelib.php: call to core\output\theme_config::load()
+* line 761 of /public/lib/pagelib.php: call to moodle_page->initialise_theme_and_output()
+* line 965 of /public/lib/pagelib.php: call to moodle_page->magic_get_theme()
+* line 60 of /public/lib/classes/output/mustache_template_finder.php: call to moodle_page->__get()
+* line 104 of /public/lib/classes/output/mustache_template_finder.php: call to core\output\mustache_template_finder::get_template_directories_for_component()
+* line 49 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_finder::get_template_filepath()
+* line 82 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->{closure:core\output\mustache_template_source_loader::__construct():47}()
+* line 151 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->load()
+* line 138 of /public/lib/classes/output/external.php: call to core\output\mustache_template_source_loader->load_with_dependencies()
+* line 0 of unknownfile: call to core\output\external::load_template_with_dependencies()
+* line 253 of /public/lib/external/classes/external_api.php: call to call_user_func_array()
+* line 83 of /public/lib/ajax/service.php: call to core_external\external_api::call_external_function()
+* line 33 of /public/lib/ajax/service-nologin.php: call to require_once()
+
+[13-Mar-2026 15:34:09 Australia/Melbourne] Debugging: This page should be using theme mindatlas which cannot be initialised. Nor can the site theme mindatlas. Falling back to boost in 
+* line 460 of /public/lib/classes/output/theme_config.php: call to debugging()
+* line 1847 of /public/lib/pagelib.php: call to core\output\theme_config::load()
+* line 761 of /public/lib/pagelib.php: call to moodle_page->initialise_theme_and_output()
+* line 965 of /public/lib/pagelib.php: call to moodle_page->magic_get_theme()
+* line 60 of /public/lib/classes/output/mustache_template_finder.php: call to moodle_page->__get()
+* line 104 of /public/lib/classes/output/mustache_template_finder.php: call to core\output\mustache_template_finder::get_template_directories_for_component()
+* line 49 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_finder::get_template_filepath()
+* line 82 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->{closure:core\output\mustache_template_source_loader::__construct():47}()
+* line 151 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->load()
+* line 138 of /public/lib/classes/output/external.php: call to core\output\mustache_template_source_loader->load_with_dependencies()
+* line 0 of unknownfile: call to core\output\external::load_template_with_dependencies()
+* line 253 of /public/lib/external/classes/external_api.php: call to call_user_func_array()
+* line 83 of /public/lib/ajax/service.php: call to core_external\external_api::call_external_function()
+* line 33 of /public/lib/ajax/service-nologin.php: call to require_once()
+
+[13-Mar-2026 15:35:13 Australia/Melbourne] Debugging: This page should be using theme mindatlas which cannot be initialised. Nor can the site theme mindatlas. Falling back to boost in 
+* line 460 of /public/lib/classes/output/theme_config.php: call to debugging()
+* line 1847 of /public/lib/pagelib.php: call to core\output\theme_config::load()
+* line 761 of /public/lib/pagelib.php: call to moodle_page->initialise_theme_and_output()
+* line 965 of /public/lib/pagelib.php: call to moodle_page->magic_get_theme()
+* line 60 of /public/lib/classes/output/mustache_template_finder.php: call to moodle_page->__get()
+* line 104 of /public/lib/classes/output/mustache_template_finder.php: call to core\output\mustache_template_finder::get_template_directories_for_component()
+* line 49 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_finder::get_template_filepath()
+* line 82 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->{closure:core\output\mustache_template_source_loader::__construct():47}()
+* line 151 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->load()
+* line 138 of /public/lib/classes/output/external.php: call to core\output\mustache_template_source_loader->load_with_dependencies()
+* line 0 of unknownfile: call to core\output\external::load_template_with_dependencies()
+* line 253 of /public/lib/external/classes/external_api.php: call to call_user_func_array()
+* line 83 of /public/lib/ajax/service.php: call to core_external\external_api::call_external_function()
+* line 33 of /public/lib/ajax/service-nologin.php: call to require_once()
+
+[13-Mar-2026 15:35:14 Australia/Melbourne] Debugging: This page should be using theme mindatlas which cannot be initialised. Nor can the site theme mindatlas. Falling back to boost in 
+* line 460 of /public/lib/classes/output/theme_config.php: call to debugging()
+* line 1847 of /public/lib/pagelib.php: call to core\output\theme_config::load()
+* line 761 of /public/lib/pagelib.php: call to moodle_page->initialise_theme_and_output()
+* line 965 of /public/lib/pagelib.php: call to moodle_page->magic_get_theme()
+* line 60 of /public/lib/classes/output/mustache_template_finder.php: call to moodle_page->__get()
+* line 104 of /public/lib/classes/output/mustache_template_finder.php: call to core\output\mustache_template_finder::get_template_directories_for_component()
+* line 49 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_finder::get_template_filepath()
+* line 82 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->{closure:core\output\mustache_template_source_loader::__construct():47}()
+* line 151 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->load()
+* line 138 of /public/lib/classes/output/external.php: call to core\output\mustache_template_source_loader->load_with_dependencies()
+* line 0 of unknownfile: call to core\output\external::load_template_with_dependencies()
+* line 253 of /public/lib/external/classes/external_api.php: call to call_user_func_array()
+* line 83 of /public/lib/ajax/service.php: call to core_external\external_api::call_external_function()
+* line 33 of /public/lib/ajax/service-nologin.php: call to require_once()
+
+[13-Mar-2026 15:35:14 Australia/Melbourne] Debugging: This page should be using theme mindatlas which cannot be initialised. Nor can the site theme mindatlas. Falling back to boost in 
+* line 460 of /public/lib/classes/output/theme_config.php: call to debugging()
+* line 1847 of /public/lib/pagelib.php: call to core\output\theme_config::load()
+* line 761 of /public/lib/pagelib.php: call to moodle_page->initialise_theme_and_output()
+* line 965 of /public/lib/pagelib.php: call to moodle_page->magic_get_theme()
+* line 60 of /public/lib/classes/output/mustache_template_finder.php: call to moodle_page->__get()
+* line 104 of /public/lib/classes/output/mustache_template_finder.php: call to core\output\mustache_template_finder::get_template_directories_for_component()
+* line 49 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_finder::get_template_filepath()
+* line 82 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->{closure:core\output\mustache_template_source_loader::__construct():47}()
+* line 151 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->load()
+* line 138 of /public/lib/classes/output/external.php: call to core\output\mustache_template_source_loader->load_with_dependencies()
+* line 0 of unknownfile: call to core\output\external::load_template_with_dependencies()
+* line 253 of /public/lib/external/classes/external_api.php: call to call_user_func_array()
+* line 83 of /public/lib/ajax/service.php: call to core_external\external_api::call_external_function()
+* line 33 of /public/lib/ajax/service-nologin.php: call to require_once()
+
+[13-Mar-2026 15:35:14 Australia/Melbourne] Debugging: This page should be using theme mindatlas which cannot be initialised. Nor can the site theme mindatlas. Falling back to boost in 
+* line 460 of /public/lib/classes/output/theme_config.php: call to debugging()
+* line 1847 of /public/lib/pagelib.php: call to core\output\theme_config::load()
+* line 761 of /public/lib/pagelib.php: call to moodle_page->initialise_theme_and_output()
+* line 965 of /public/lib/pagelib.php: call to moodle_page->magic_get_theme()
+* line 60 of /public/lib/classes/output/mustache_template_finder.php: call to moodle_page->__get()
+* line 104 of /public/lib/classes/output/mustache_template_finder.php: call to core\output\mustache_template_finder::get_template_directories_for_component()
+* line 49 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_finder::get_template_filepath()
+* line 82 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->{closure:core\output\mustache_template_source_loader::__construct():47}()
+* line 151 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->load()
+* line 138 of /public/lib/classes/output/external.php: call to core\output\mustache_template_source_loader->load_with_dependencies()
+* line 0 of unknownfile: call to core\output\external::load_template_with_dependencies()
+* line 253 of /public/lib/external/classes/external_api.php: call to call_user_func_array()
+* line 83 of /public/lib/ajax/service.php: call to core_external\external_api::call_external_function()
+* line 33 of /public/lib/ajax/service-nologin.php: call to require_once()
+
+[13-Mar-2026 15:35:14 Australia/Melbourne] Debugging: This page should be using theme mindatlas which cannot be initialised. Nor can the site theme mindatlas. Falling back to boost in 
+* line 460 of /public/lib/classes/output/theme_config.php: call to debugging()
+* line 1847 of /public/lib/pagelib.php: call to core\output\theme_config::load()
+* line 761 of /public/lib/pagelib.php: call to moodle_page->initialise_theme_and_output()
+* line 965 of /public/lib/pagelib.php: call to moodle_page->magic_get_theme()
+* line 60 of /public/lib/classes/output/mustache_template_finder.php: call to moodle_page->__get()
+* line 104 of /public/lib/classes/output/mustache_template_finder.php: call to core\output\mustache_template_finder::get_template_directories_for_component()
+* line 49 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_finder::get_template_filepath()
+* line 82 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->{closure:core\output\mustache_template_source_loader::__construct():47}()
+* line 151 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->load()
+* line 138 of /public/lib/classes/output/external.php: call to core\output\mustache_template_source_loader->load_with_dependencies()
+* line 0 of unknownfile: call to core\output\external::load_template_with_dependencies()
+* line 253 of /public/lib/external/classes/external_api.php: call to call_user_func_array()
+* line 83 of /public/lib/ajax/service.php: call to core_external\external_api::call_external_function()
+* line 33 of /public/lib/ajax/service-nologin.php: call to require_once()
+
+[13-Mar-2026 15:35:43 Australia/Melbourne] Debugging: This page should be using theme mindatlas which cannot be initialised. Nor can the site theme mindatlas. Falling back to boost in 
+* line 460 of /public/lib/classes/output/theme_config.php: call to debugging()
+* line 1847 of /public/lib/pagelib.php: call to core\output\theme_config::load()
+* line 761 of /public/lib/pagelib.php: call to moodle_page->initialise_theme_and_output()
+* line 965 of /public/lib/pagelib.php: call to moodle_page->magic_get_theme()
+* line 68 of /public/lib/classes/output/icon_system.php: call to moodle_page->__get()
+* line 62 of /public/lib/classes/external/output/icon_system/load_fontawesome_map.php: call to core\output\icon_system::instance()
+* line 0 of unknownfile: call to core\external\output\icon_system\load_fontawesome_map::execute()
+* line 253 of /public/lib/external/classes/external_api.php: call to call_user_func_array()
+* line 83 of /public/lib/ajax/service.php: call to core_external\external_api::call_external_function()
+* line 33 of /public/lib/ajax/service-nologin.php: call to require_once()
+
+[13-Mar-2026 15:35:44 Australia/Melbourne] Debugging: This page should be using theme mindatlas which cannot be initialised. Nor can the site theme mindatlas. Falling back to boost in 
+* line 460 of /public/lib/classes/output/theme_config.php: call to debugging()
+* line 1847 of /public/lib/pagelib.php: call to core\output\theme_config::load()
+* line 761 of /public/lib/pagelib.php: call to moodle_page->initialise_theme_and_output()
+* line 965 of /public/lib/pagelib.php: call to moodle_page->magic_get_theme()
+* line 60 of /public/lib/classes/output/mustache_template_finder.php: call to moodle_page->__get()
+* line 104 of /public/lib/classes/output/mustache_template_finder.php: call to core\output\mustache_template_finder::get_template_directories_for_component()
+* line 49 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_finder::get_template_filepath()
+* line 82 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->{closure:core\output\mustache_template_source_loader::__construct():47}()
+* line 151 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->load()
+* line 138 of /public/lib/classes/output/external.php: call to core\output\mustache_template_source_loader->load_with_dependencies()
+* line 0 of unknownfile: call to core\output\external::load_template_with_dependencies()
+* line 253 of /public/lib/external/classes/external_api.php: call to call_user_func_array()
+* line 83 of /public/lib/ajax/service.php: call to core_external\external_api::call_external_function()
+* line 33 of /public/lib/ajax/service-nologin.php: call to require_once()
+
+[13-Mar-2026 15:35:45 Australia/Melbourne] Debugging: This page should be using theme mindatlas which cannot be initialised. Nor can the site theme mindatlas. Falling back to boost in 
+* line 460 of /public/lib/classes/output/theme_config.php: call to debugging()
+* line 1847 of /public/lib/pagelib.php: call to core\output\theme_config::load()
+* line 761 of /public/lib/pagelib.php: call to moodle_page->initialise_theme_and_output()
+* line 965 of /public/lib/pagelib.php: call to moodle_page->magic_get_theme()
+* line 60 of /public/lib/classes/output/mustache_template_finder.php: call to moodle_page->__get()
+* line 104 of /public/lib/classes/output/mustache_template_finder.php: call to core\output\mustache_template_finder::get_template_directories_for_component()
+* line 49 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_finder::get_template_filepath()
+* line 82 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->{closure:core\output\mustache_template_source_loader::__construct():47}()
+* line 151 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->load()
+* line 138 of /public/lib/classes/output/external.php: call to core\output\mustache_template_source_loader->load_with_dependencies()
+* line 0 of unknownfile: call to core\output\external::load_template_with_dependencies()
+* line 253 of /public/lib/external/classes/external_api.php: call to call_user_func_array()
+* line 83 of /public/lib/ajax/service.php: call to core_external\external_api::call_external_function()
+* line 33 of /public/lib/ajax/service-nologin.php: call to require_once()
+
+[13-Mar-2026 15:35:45 Australia/Melbourne] Debugging: This page should be using theme mindatlas which cannot be initialised. Nor can the site theme mindatlas. Falling back to boost in 
+* line 460 of /public/lib/classes/output/theme_config.php: call to debugging()
+* line 1847 of /public/lib/pagelib.php: call to core\output\theme_config::load()
+* line 761 of /public/lib/pagelib.php: call to moodle_page->initialise_theme_and_output()
+* line 965 of /public/lib/pagelib.php: call to moodle_page->magic_get_theme()
+* line 60 of /public/lib/classes/output/mustache_template_finder.php: call to moodle_page->__get()
+* line 104 of /public/lib/classes/output/mustache_template_finder.php: call to core\output\mustache_template_finder::get_template_directories_for_component()
+* line 49 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_finder::get_template_filepath()
+* line 82 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->{closure:core\output\mustache_template_source_loader::__construct():47}()
+* line 151 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->load()
+* line 138 of /public/lib/classes/output/external.php: call to core\output\mustache_template_source_loader->load_with_dependencies()
+* line 0 of unknownfile: call to core\output\external::load_template_with_dependencies()
+* line 253 of /public/lib/external/classes/external_api.php: call to call_user_func_array()
+* line 83 of /public/lib/ajax/service.php: call to core_external\external_api::call_external_function()
+* line 33 of /public/lib/ajax/service-nologin.php: call to require_once()
+
+[13-Mar-2026 15:35:45 Australia/Melbourne] Debugging: This page should be using theme mindatlas which cannot be initialised. Nor can the site theme mindatlas. Falling back to boost in 
+* line 460 of /public/lib/classes/output/theme_config.php: call to debugging()
+* line 1847 of /public/lib/pagelib.php: call to core\output\theme_config::load()
+* line 761 of /public/lib/pagelib.php: call to moodle_page->initialise_theme_and_output()
+* line 965 of /public/lib/pagelib.php: call to moodle_page->magic_get_theme()
+* line 60 of /public/lib/classes/output/mustache_template_finder.php: call to moodle_page->__get()
+* line 104 of /public/lib/classes/output/mustache_template_finder.php: call to core\output\mustache_template_finder::get_template_directories_for_component()
+* line 49 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_finder::get_template_filepath()
+* line 82 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->{closure:core\output\mustache_template_source_loader::__construct():47}()
+* line 151 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->load()
+* line 138 of /public/lib/classes/output/external.php: call to core\output\mustache_template_source_loader->load_with_dependencies()
+* line 0 of unknownfile: call to core\output\external::load_template_with_dependencies()
+* line 253 of /public/lib/external/classes/external_api.php: call to call_user_func_array()
+* line 83 of /public/lib/ajax/service.php: call to core_external\external_api::call_external_function()
+* line 33 of /public/lib/ajax/service-nologin.php: call to require_once()
+
+[13-Mar-2026 15:35:45 Australia/Melbourne] Debugging: This page should be using theme mindatlas which cannot be initialised. Nor can the site theme mindatlas. Falling back to boost in 
+* line 460 of /public/lib/classes/output/theme_config.php: call to debugging()
+* line 1847 of /public/lib/pagelib.php: call to core\output\theme_config::load()
+* line 761 of /public/lib/pagelib.php: call to moodle_page->initialise_theme_and_output()
+* line 965 of /public/lib/pagelib.php: call to moodle_page->magic_get_theme()
+* line 60 of /public/lib/classes/output/mustache_template_finder.php: call to moodle_page->__get()
+* line 104 of /public/lib/classes/output/mustache_template_finder.php: call to core\output\mustache_template_finder::get_template_directories_for_component()
+* line 49 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_finder::get_template_filepath()
+* line 82 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->{closure:core\output\mustache_template_source_loader::__construct():47}()
+* line 151 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->load()
+* line 138 of /public/lib/classes/output/external.php: call to core\output\mustache_template_source_loader->load_with_dependencies()
+* line 0 of unknownfile: call to core\output\external::load_template_with_dependencies()
+* line 253 of /public/lib/external/classes/external_api.php: call to call_user_func_array()
+* line 83 of /public/lib/ajax/service.php: call to core_external\external_api::call_external_function()
+* line 33 of /public/lib/ajax/service-nologin.php: call to require_once()
+
+[13-Mar-2026 15:35:46 Australia/Melbourne] Debugging: This page should be using theme mindatlas which cannot be initialised. Nor can the site theme mindatlas. Falling back to boost in 
+* line 460 of /public/lib/classes/output/theme_config.php: call to debugging()
+* line 1847 of /public/lib/pagelib.php: call to core\output\theme_config::load()
+* line 761 of /public/lib/pagelib.php: call to moodle_page->initialise_theme_and_output()
+* line 965 of /public/lib/pagelib.php: call to moodle_page->magic_get_theme()
+* line 60 of /public/lib/classes/output/mustache_template_finder.php: call to moodle_page->__get()
+* line 104 of /public/lib/classes/output/mustache_template_finder.php: call to core\output\mustache_template_finder::get_template_directories_for_component()
+* line 49 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_finder::get_template_filepath()
+* line 82 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->{closure:core\output\mustache_template_source_loader::__construct():47}()
+* line 151 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->load()
+* line 138 of /public/lib/classes/output/external.php: call to core\output\mustache_template_source_loader->load_with_dependencies()
+* line 0 of unknownfile: call to core\output\external::load_template_with_dependencies()
+* line 253 of /public/lib/external/classes/external_api.php: call to call_user_func_array()
+* line 83 of /public/lib/ajax/service.php: call to core_external\external_api::call_external_function()
+* line 33 of /public/lib/ajax/service-nologin.php: call to require_once()
+
+[13-Mar-2026 15:35:46 Australia/Melbourne] Debugging: This page should be using theme mindatlas which cannot be initialised. Nor can the site theme mindatlas. Falling back to boost in 
+* line 460 of /public/lib/classes/output/theme_config.php: call to debugging()
+* line 1847 of /public/lib/pagelib.php: call to core\output\theme_config::load()
+* line 761 of /public/lib/pagelib.php: call to moodle_page->initialise_theme_and_output()
+* line 965 of /public/lib/pagelib.php: call to moodle_page->magic_get_theme()
+* line 60 of /public/lib/classes/output/mustache_template_finder.php: call to moodle_page->__get()
+* line 104 of /public/lib/classes/output/mustache_template_finder.php: call to core\output\mustache_template_finder::get_template_directories_for_component()
+* line 49 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_finder::get_template_filepath()
+* line 82 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->{closure:core\output\mustache_template_source_loader::__construct():47}()
+* line 151 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->load()
+* line 138 of /public/lib/classes/output/external.php: call to core\output\mustache_template_source_loader->load_with_dependencies()
+* line 0 of unknownfile: call to core\output\external::load_template_with_dependencies()
+* line 253 of /public/lib/external/classes/external_api.php: call to call_user_func_array()
+* line 83 of /public/lib/ajax/service.php: call to core_external\external_api::call_external_function()
+* line 33 of /public/lib/ajax/service-nologin.php: call to require_once()
+
+[13-Mar-2026 15:35:46 Australia/Melbourne] Debugging: This page should be using theme mindatlas which cannot be initialised. Nor can the site theme mindatlas. Falling back to boost in 
+* line 460 of /public/lib/classes/output/theme_config.php: call to debugging()
+* line 1847 of /public/lib/pagelib.php: call to core\output\theme_config::load()
+* line 761 of /public/lib/pagelib.php: call to moodle_page->initialise_theme_and_output()
+* line 965 of /public/lib/pagelib.php: call to moodle_page->magic_get_theme()
+* line 60 of /public/lib/classes/output/mustache_template_finder.php: call to moodle_page->__get()
+* line 104 of /public/lib/classes/output/mustache_template_finder.php: call to core\output\mustache_template_finder::get_template_directories_for_component()
+* line 49 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_finder::get_template_filepath()
+* line 82 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->{closure:core\output\mustache_template_source_loader::__construct():47}()
+* line 151 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->load()
+* line 138 of /public/lib/classes/output/external.php: call to core\output\mustache_template_source_loader->load_with_dependencies()
+* line 0 of unknownfile: call to core\output\external::load_template_with_dependencies()
+* line 253 of /public/lib/external/classes/external_api.php: call to call_user_func_array()
+* line 83 of /public/lib/ajax/service.php: call to core_external\external_api::call_external_function()
+* line 33 of /public/lib/ajax/service-nologin.php: call to require_once()
+
+[13-Mar-2026 15:35:57 Australia/Melbourne] Debugging: This page should be using theme mindatlas which cannot be initialised. Nor can the site theme mindatlas. Falling back to boost in 
+* line 460 of /public/lib/classes/output/theme_config.php: call to debugging()
+* line 1847 of /public/lib/pagelib.php: call to core\output\theme_config::load()
+* line 761 of /public/lib/pagelib.php: call to moodle_page->initialise_theme_and_output()
+* line 965 of /public/lib/pagelib.php: call to moodle_page->magic_get_theme()
+* line 60 of /public/lib/classes/output/mustache_template_finder.php: call to moodle_page->__get()
+* line 104 of /public/lib/classes/output/mustache_template_finder.php: call to core\output\mustache_template_finder::get_template_directories_for_component()
+* line 49 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_finder::get_template_filepath()
+* line 82 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->{closure:core\output\mustache_template_source_loader::__construct():47}()
+* line 151 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->load()
+* line 138 of /public/lib/classes/output/external.php: call to core\output\mustache_template_source_loader->load_with_dependencies()
+* line 0 of unknownfile: call to core\output\external::load_template_with_dependencies()
+* line 253 of /public/lib/external/classes/external_api.php: call to call_user_func_array()
+* line 83 of /public/lib/ajax/service.php: call to core_external\external_api::call_external_function()
+* line 33 of /public/lib/ajax/service-nologin.php: call to require_once()
+
+[13-Mar-2026 15:35:58 Australia/Melbourne] Debugging: This page should be using theme mindatlas which cannot be initialised. Nor can the site theme mindatlas. Falling back to boost in 
+* line 460 of /public/lib/classes/output/theme_config.php: call to debugging()
+* line 1847 of /public/lib/pagelib.php: call to core\output\theme_config::load()
+* line 761 of /public/lib/pagelib.php: call to moodle_page->initialise_theme_and_output()
+* line 965 of /public/lib/pagelib.php: call to moodle_page->magic_get_theme()
+* line 60 of /public/lib/classes/output/mustache_template_finder.php: call to moodle_page->__get()
+* line 104 of /public/lib/classes/output/mustache_template_finder.php: call to core\output\mustache_template_finder::get_template_directories_for_component()
+* line 49 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_finder::get_template_filepath()
+* line 82 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->{closure:core\output\mustache_template_source_loader::__construct():47}()
+* line 151 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->load()
+* line 138 of /public/lib/classes/output/external.php: call to core\output\mustache_template_source_loader->load_with_dependencies()
+* line 0 of unknownfile: call to core\output\external::load_template_with_dependencies()
+* line 253 of /public/lib/external/classes/external_api.php: call to call_user_func_array()
+* line 83 of /public/lib/ajax/service.php: call to core_external\external_api::call_external_function()
+* line 33 of /public/lib/ajax/service-nologin.php: call to require_once()
+
+[13-Mar-2026 15:35:58 Australia/Melbourne] Debugging: This page should be using theme mindatlas which cannot be initialised. Nor can the site theme mindatlas. Falling back to boost in 
+* line 460 of /public/lib/classes/output/theme_config.php: call to debugging()
+* line 1847 of /public/lib/pagelib.php: call to core\output\theme_config::load()
+* line 761 of /public/lib/pagelib.php: call to moodle_page->initialise_theme_and_output()
+* line 965 of /public/lib/pagelib.php: call to moodle_page->magic_get_theme()
+* line 60 of /public/lib/classes/output/mustache_template_finder.php: call to moodle_page->__get()
+* line 104 of /public/lib/classes/output/mustache_template_finder.php: call to core\output\mustache_template_finder::get_template_directories_for_component()
+* line 49 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_finder::get_template_filepath()
+* line 82 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->{closure:core\output\mustache_template_source_loader::__construct():47}()
+* line 151 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->load()
+* line 138 of /public/lib/classes/output/external.php: call to core\output\mustache_template_source_loader->load_with_dependencies()
+* line 0 of unknownfile: call to core\output\external::load_template_with_dependencies()
+* line 253 of /public/lib/external/classes/external_api.php: call to call_user_func_array()
+* line 83 of /public/lib/ajax/service.php: call to core_external\external_api::call_external_function()
+* line 33 of /public/lib/ajax/service-nologin.php: call to require_once()
+
+[13-Mar-2026 15:35:58 Australia/Melbourne] Debugging: This page should be using theme mindatlas which cannot be initialised. Nor can the site theme mindatlas. Falling back to boost in 
+* line 460 of /public/lib/classes/output/theme_config.php: call to debugging()
+* line 1847 of /public/lib/pagelib.php: call to core\output\theme_config::load()
+* line 761 of /public/lib/pagelib.php: call to moodle_page->initialise_theme_and_output()
+* line 965 of /public/lib/pagelib.php: call to moodle_page->magic_get_theme()
+* line 60 of /public/lib/classes/output/mustache_template_finder.php: call to moodle_page->__get()
+* line 104 of /public/lib/classes/output/mustache_template_finder.php: call to core\output\mustache_template_finder::get_template_directories_for_component()
+* line 49 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_finder::get_template_filepath()
+* line 82 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->{closure:core\output\mustache_template_source_loader::__construct():47}()
+* line 151 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->load()
+* line 138 of /public/lib/classes/output/external.php: call to core\output\mustache_template_source_loader->load_with_dependencies()
+* line 0 of unknownfile: call to core\output\external::load_template_with_dependencies()
+* line 253 of /public/lib/external/classes/external_api.php: call to call_user_func_array()
+* line 83 of /public/lib/ajax/service.php: call to core_external\external_api::call_external_function()
+* line 33 of /public/lib/ajax/service-nologin.php: call to require_once()
+
+[13-Mar-2026 15:35:58 Australia/Melbourne] Debugging: This page should be using theme mindatlas which cannot be initialised. Nor can the site theme mindatlas. Falling back to boost in 
+* line 460 of /public/lib/classes/output/theme_config.php: call to debugging()
+* line 1847 of /public/lib/pagelib.php: call to core\output\theme_config::load()
+* line 761 of /public/lib/pagelib.php: call to moodle_page->initialise_theme_and_output()
+* line 965 of /public/lib/pagelib.php: call to moodle_page->magic_get_theme()
+* line 60 of /public/lib/classes/output/mustache_template_finder.php: call to moodle_page->__get()
+* line 104 of /public/lib/classes/output/mustache_template_finder.php: call to core\output\mustache_template_finder::get_template_directories_for_component()
+* line 49 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_finder::get_template_filepath()
+* line 82 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->{closure:core\output\mustache_template_source_loader::__construct():47}()
+* line 151 of /public/lib/classes/output/mustache_template_source_loader.php: call to core\output\mustache_template_source_loader->load()
+* line 138 of /public/lib/classes/output/external.php: call to core\output\mustache_template_source_loader->load_with_dependencies()
+* line 0 of unknownfile: call to core\output\external::load_template_with_dependencies()
+* line 253 of /public/lib/external/classes/external_api.php: call to call_user_func_array()
+* line 83 of /public/lib/ajax/service.php: call to core_external\external_api::call_external_function()
+* line 33 of /public/lib/ajax/service-nologin.php: call to require_once()
+
+[13-Mar-2026 05:12:42 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[13-Mar-2026 05:12:42 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[13-Mar-2026 16:12:42 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[13-Mar-2026 16:12:42 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[13-Mar-2026 05:12:42 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[13-Mar-2026 16:12:43 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[13-Mar-2026 05:18:15 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[13-Mar-2026 05:18:15 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[13-Mar-2026 16:18:15 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[13-Mar-2026 16:18:15 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[13-Mar-2026 05:18:15 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[13-Mar-2026 16:18:16 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[13-Mar-2026 06:03:26 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[14-Apr-2026 02:52:24 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[14-Apr-2026 02:52:24 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[14-Apr-2026 02:52:24 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[14-Apr-2026 02:52:25 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[14-Apr-2026 02:52:25 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[14-Apr-2026 12:52:25 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[14-Apr-2026 12:52:25 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[14-Apr-2026 02:52:26 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[14-Apr-2026 12:52:26 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[25-Apr-2026 23:44:58 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[25-Apr-2026 23:44:58 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[25-Apr-2026 23:44:58 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[25-Apr-2026 23:44:58 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[26-Apr-2026 09:44:59 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[26-Apr-2026 09:44:59 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[25-Apr-2026 23:45:00 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[26-Apr-2026 09:45:00 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[27-Apr-2026 01:23:15 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[27-Apr-2026 01:23:15 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[27-Apr-2026 01:23:15 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[27-Apr-2026 01:23:16 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[27-Apr-2026 01:23:23 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[27-Apr-2026 01:23:23 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[27-Apr-2026 01:23:25 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[27-Apr-2026 16:53:33 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[27-Apr-2026 16:53:33 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[27-Apr-2026 16:53:33 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[27-Apr-2026 16:53:33 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[27-Apr-2026 16:53:35 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[27-Apr-2026 17:18:10 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[27-Apr-2026 17:18:11 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[27-Apr-2026 17:27:38 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 15:28:57 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 15:28:57 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 15:28:57 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 15:28:58 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 15:29:24 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 15:29:24 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 15:29:25 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:31:17 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:40:39 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:40:39 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:40:39 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:40:39 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:40:40 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:41:14 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:41:14 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:41:14 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:41:14 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:41:15 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:41:26 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:41:58 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:41:58 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:42:18 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:42:18 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:42:20 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:42:20 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:42:20 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:42:20 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:42:22 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:42:23 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:42:27 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:42:28 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:50:27 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:50:27 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:50:27 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:50:27 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:50:28 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:50:28 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:50:28 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:50:28 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:50:28 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:50:28 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:50:29 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:50:30 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:50:30 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:50:30 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:50:58 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:51:23 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:51:34 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:52:54 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:52:58 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Apr-2026 16:52:59 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[01-May-2026 22:43:00 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[01-May-2026 22:43:03 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[01-May-2026 22:43:04 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[01-May-2026 22:43:04 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[01-May-2026 22:43:08 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 05:10:55 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 05:10:55 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 05:10:55 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 05:10:56 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 06:00:55 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 06:56:00 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 06:56:00 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 06:56:00 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 06:56:01 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 06:56:05 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 06:56:05 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 06:56:07 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 06:56:18 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 06:56:18 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 06:56:19 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 06:56:29 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 06:56:29 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 06:56:34 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 06:56:53 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 06:57:26 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 06:57:34 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 07:46:35 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 07:56:37 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 08:06:38 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 08:16:40 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 08:26:41 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 08:36:43 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 08:46:44 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 13:10:59 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 13:10:59 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 13:11:00 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 13:11:00 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 13:11:00 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 13:28:11 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 13:28:12 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 14:18:12 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[05-May-2026 12:38:13 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[05-May-2026 12:38:14 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[05-May-2026 12:38:14 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[05-May-2026 12:38:14 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[05-May-2026 12:38:15 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[05-May-2026 21:38:56 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[05-May-2026 21:38:56 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[05-May-2026 21:38:56 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[05-May-2026 21:38:56 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[05-May-2026 21:38:57 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[06-May-2026 12:16:44 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[06-May-2026 12:16:45 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[06-May-2026 17:42:08 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[06-May-2026 17:42:08 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[06-May-2026 17:42:09 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[06-May-2026 17:42:09 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[06-May-2026 17:42:10 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[06-May-2026 18:32:08 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-May-2026 16:53:47 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-May-2026 16:53:48 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-May-2026 16:53:48 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-May-2026 16:53:49 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-May-2026 16:53:52 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-May-2026 16:53:52 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-May-2026 16:53:53 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-May-2026 16:54:14 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-May-2026 16:54:15 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-May-2026 16:57:33 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-May-2026 16:57:33 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-May-2026 16:57:34 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-May-2026 16:57:39 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-May-2026 16:57:41 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-May-2026 16:58:19 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-May-2026 17:02:22 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-May-2026 17:19:39 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-May-2026 17:19:52 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-May-2026 17:19:52 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-May-2026 17:45:32 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-May-2026 17:45:43 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-May-2026 17:51:59 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-May-2026 17:53:20 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-May-2026 17:53:33 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-May-2026 18:43:34 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-May-2026 18:53:35 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-May-2026 19:03:36 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:16:44 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:03 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:04 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:04 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:07 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:07 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:10 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:12 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:12 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:12 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:16 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:17 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:17 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:17 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:18 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:18 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:19 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:19 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:19 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:19 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:19 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:19 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:20 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:20 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:21 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:21 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:21 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:21 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:23 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:23 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:23 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:23 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:24 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:24 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:17:25 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:28:29 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:28:31 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:28:31 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:28:38 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:28:40 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:28:50 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:29:00 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:30:49 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:32:13 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:32:19 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:34:00 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:34:28 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:34:37 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:34:37 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:34:38 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:34:44 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:34:50 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:35:03 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:40:21 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 05:40:38 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 06:30:38 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 06:40:39 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 06:50:40 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 07:00:41 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 07:10:42 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 07:20:44 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 07:30:45 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 07:40:46 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 07:50:47 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 08:00:48 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 08:10:49 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 08:20:50 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 08:30:51 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 08:40:52 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 08:50:53 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 09:00:54 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 09:10:55 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 09:20:56 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 09:30:57 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 09:40:58 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 09:50:59 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 10:01:00 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 10:11:03 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 10:21:13 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 10:31:14 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 10:41:15 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 10:51:16 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 11:01:17 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 11:11:18 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 11:21:19 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 11:31:20 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 11:41:22 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 11:51:23 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 12:01:25 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 12:11:26 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 12:21:27 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 12:31:28 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 12:41:29 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 12:51:30 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 13:01:31 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 13:11:32 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 13:21:33 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 13:21:34 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 13:21:36 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 13:41:37 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.

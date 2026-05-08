@@ -1,0 +1,193 @@
+{{!
+    This file is part of Moodle - http://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Moodle is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+}}
+{{!
+    @template theme_mindatlas/loginform
+
+    Moodle template for the login page.
+
+    Context variables required for this template:
+    * autofocusform: Auto focus on form ?,
+    * canloginasguest - Is guest login allowed?,
+    * canloginbyemail - Is login by email allowed?,
+    * cansignup - Signup allowed?,
+    * cookieshelpicon - cookies help icon details
+    * error - Any errors in the form?,
+    * forgotpasswordurl - Forgot password url,
+    * hasidentityproviders - Flag, set to true to hide identity providers,
+    * hasinstructions - Flag, set to true to show instructions,
+    * identityproviders - List of identiy providers,
+    * instructions - Instructions,
+    * instructionsformat - Format of instructions,
+    * loginurl - Login url,
+    * rememberusername - Remeber username?,
+    * signupurl - Signup url,
+    * cookieshelpiconformatted - Formatted html of cookies help icon,
+    * errorformatted - Formatted error,
+    * logourl - Flag, logo url,
+    * sitename - Name of site.
+    * logintoken - Random token to protect login request.
+
+    Example context (json):
+    {
+        "autofocusform": false,
+        "canloginasguest": "1",
+        "canloginbyemail": false,
+        "cansignup": true,
+        "cookieshelpicon": {
+            "heading": "Cookies must be enabled in your browser",
+            "text": "<div class=\"no-overflow\">Two cookies are used on this site. Both died..</div>",
+            "icon": {
+                "attributes": [
+                    {
+                        "name": "class",
+                        "value": "iconhelp"
+                    },
+                    {
+                        "name": "alt",
+                        "value": "Help with Cookies must be enabled in your browser"
+                    },
+                    {
+                        "name": "title",
+                        "value": "Help with Cookies must be enabled in your browser"
+                    },
+                    {
+                        "name": "src",
+                        "value": "http://localhost/stable_master/theme/image.php?theme=boost&component=core&image=help"
+                    }
+                ]
+            },
+            "linktext": null,
+            "title": "Help with Cookies must be enabled in your browser",
+            "url": "http://localhost/stable_master/help.php?component=core&identifier=cookiesenabled&lang=en",
+            "ltr": true
+        },
+        "error": "",
+        "forgotpasswordurl": "http://localhost/stable_master/login/forgot_password.php",
+        "hasidentityproviders": false,
+        "hasinstructions": true,
+        "identityproviders": [],
+        "instructions": "For full access to this site, you first need to create an account.",
+        "instructionsformat": "1",
+        "loginurl": "http://localhost/stable_master/login/index.php",
+        "rememberusername": true,
+        "signupurl": "http://localhost/stable_master/login/signup.php",
+        "cookieshelpiconformatted": "",
+        "errorformatted": "",
+        "logourl": false,
+        "sitename": "Beer & Chips",
+        "logintoken": "randomstring"
+    }
+}}
+
+{{! override lib/templates/loginform}}
+
+{{! HACER style}}
+
+<div class="login-form-wrapper style-1">
+    <form class="p-4" action="{{loginurl}}" method="post" id="login">
+        <div>
+            <input id="anchor" type="hidden" name="anchor" value="">
+            <script>document.getElementById('anchor').value = location.hash;</script>
+            <input type="hidden" name="logintoken" value="{{logintoken}}">            
+        </div>
+
+        <div class="text-white mb-3">
+            <div class="title login-title line-height-1em">
+                <span class="part-1">{{#str}}custom_login_title_1, theme_mindatlas{{/str}}</span>
+                <span class="part-2">{{#str}}custom_login_title_2, theme_mindatlas{{/str}}</span>
+            </div>
+            <p class="subtitle lh-120">{{#str}}custom_login_subtitle, theme_mindatlas{{/str}}</p>
+        </div>
+
+
+        <div class="inputs-wrapper container ">
+            <div class="row">
+              <h4 class="font-weight-bold">Existing users</h4>
+            </div>       
+            <div class="row">       
+                <input type="text" name="username" id="username"
+                    class="form-control login-input text-left d-inline-block mb-2 mr-2 col-12 col-md-4"
+                    value="{{username}}"
+                    placeholder={{#quote}}{{^canloginbyemail}}{{#str}}username{{/str}}{{/canloginbyemail}}{{#canloginbyemail}}{{#str}}usernameemail{{/str}}{{/canloginbyemail}}{{/quote}}
+                    autocomplete="username">              
+
+                <input type="password" name="password" id="password" value=""
+                    class="form-control login-input  text-left  d-inline-block mb-2 mr-2 col-12 col-md-4"
+                    placeholder={{#quote}}{{#str}}password{{/str}}{{/quote}}
+                    autocomplete="current-password">             
+
+                <div class="">
+                    <input type="submit" class="btn bg-color-primary text-white font-weight-bold d-inline-block mb-2 mr-2" id="loginbtn" value="{{#str}}custom_login_login_btn, theme_mindatlas{{/str}}" />
+                    
+                </div>            
+            </div>
+            <div class="row">
+              <div class="forgetpass mb-2">
+              <a class="text-white font-weight-bold" href="{{forgotpasswordurl}}">{{#str}}custom_login_forgotten, theme_mindatlas{{/str}}</a>
+            </div>
+            </div>  
+
+
+          <div class="row">
+            <hr class="login-hr col-12">
+            <h3 class="font-weight-bold">New user?</h3>
+            
+          </div> 
+          <div class="row">
+            <p>Click the Sign up button to register for access.</p>
+          </div> 
+          <div class="row">
+              {{#cansignup}}<a class="btn bg-color-primary text-white font-weight-bold d-inline-block mb-2 mr-2" href="{{signupurl}}">{{#str}}custom_login_register_btn, theme_mindatlas{{/str}}</a>{{/cansignup}}            
+          </div>    
+        </div>
+
+        
+
+
+        {{#error}}
+        <div class="message-wrapper">
+            {{#error}}
+            <div class="loginerrors mt-1">
+                <a href="#" id="loginerrormessage" class="accesshide">{{error}}</a>
+                <div class="" role="alert" data-aria-autofocus="true">{{error}}</div>
+            </div>
+            {{/error}}
+        </div>
+        {{/error}}
+    </form>
+</div>
+
+
+{{#js}}
+    {{#error}}
+        require(['jquery'], function($) {
+            $('#loginerrormessage').focus();
+        });
+    {{/error}}
+    {{^error}}
+        {{#autofocusform}}
+            require(['jquery'], function($) {
+                if ($('#username').val()) {
+                    $('#password').focus();
+                } else {
+                    $('#username').focus();
+                }
+            });
+        {{/autofocusform}}
+    {{/error}}
+{{/js}}
+

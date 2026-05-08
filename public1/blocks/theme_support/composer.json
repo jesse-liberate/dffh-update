@@ -1,0 +1,18 @@
+{
+    "name": "danielneis/moodle-block_theme_support",
+    "description": "A block template for Moodle based on http://docs.moodle.org/dev/Blocks",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "",
+            "email": ""
+        }
+    ],
+    "type": "moodle-block",
+    "require": {
+      "composer/installers": "~1.0"
+    },
+    "extra": {
+      "installer-name": "newblock"
+    }
+}

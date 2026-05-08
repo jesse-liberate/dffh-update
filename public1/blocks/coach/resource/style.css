@@ -1,0 +1,157 @@
+#reportDisplay th.headerSortUp {
+        background-image: url(asc.gif);
+        background-color: #3399FF;
+    }
+   #reportDisplay th.headerSortDown {
+        background-image: url(desc.gif);
+        background-color: #3399FF;
+    }
+    #reportDisplay th.header {
+    cursor: pointer;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 20px;
+    //border-right: 1px solid #dad9c7;
+    margin-left: -1px;
+}
+/* tables */
+#reportDisplay table.tablesorter {
+	font-family:arial;
+	//background-color: #CDCDCD;
+	margin:10px 0pt 15px;
+	font-size: 10pt;
+	width: 100%;
+	text-align: left;
+}
+#reportDisplay table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #dd1e35;
+	//border: 1px solid #FFF;
+	font-size: 8pt;
+	padding: 4px;
+}
+#reportDisplay table.tablesorter thead tr .header {
+	background-image: url('bg.gif');
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+#reportDisplay table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	//background-color: #FFF;
+	vertical-align: middle;
+}
+#reportDisplay table.tablesorter tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+#reportDisplay table.tablesorter thead tr .headerSortUp {
+	background-image: url(asc.gif);
+}
+#reportDisplay table.tablesorter thead tr .headerSortDown {
+	background-image: url(desc.gif);
+}
+#reportDisplay table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+        background-color: #196CBF;
+}
+#reportDisplay tr:nth-child(even) {
+        background-color: #FFDBDB;
+}
+#reportDisplay tr:nth-child(odd) {
+        background-color: white;
+}
+#reportDisplay table{
+     border:none;
+}
+#searchTerm{
+    background-image:url('find.png');
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-position:right;
+    float:right;
+}
+/*.backbutton{
+display: inline-block;
+padding: 4px 12px;
+margin-bottom: 0;
+font-size: 14px;
+line-height: 20px;
+color: black;
+text-align: center;
+text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+vertical-align: middle;
+cursor: pointer;
+background-color: #f5f5f5;
+background-image: -moz-linear-gradient(top,#fff,#e6e6e6);
+background-image: -webkit-gradient(linear,0 0,0 100%,from(#fff),to(#e6e6e6));
+background-image: -webkit-linear-gradient(top,#fff,#e6e6e6);
+background-image: -o-linear-gradient(top,#fff,#e6e6e6);
+background-image: linear-gradient(to bottom,#fff,#e6e6e6);
+background-repeat: repeat-x;
+border: 1px solid #ccc;
+border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+border-bottom-color: #b3b3b3;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',endColorstr='#ffe6e6e6',GradientType=0);
+filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+}*/
+
+#blacktxt a:hover{text-decoration:none;}
+/*.backbutton:hover{
+  background-image:none;
+  background-color:#DEDED2;
+}*/
+#reportDisplay tbody{
+    background-color:white;
+}
+#reportDisplay th{
+    text-align:left;
+    color:white;
+}
+
+#refresher label{
+    display:inline-block;
+    min-width:35%;
+    font-size:12pt;
+}
+#newforminput[type=submit]{
+    width:135px;
+    margin-left:78%;
+    margin-top:10pt;
+}
+#refresher select{
+    min-width:55%;
+}
+
+#texte{
+    color:#FF3030;
+}
+
+#refresher_reporting label{
+    display:inline-block;
+    min-width:20%;
+    font-size:12pt;
+}
+#refresher_reporting[type=submit]{
+    width:135px;
+    margin-left:78%;
+    margin-top:10pt;
+}
+#refresher_reporting input[type=text]{
+
+}
+#refresher_reporting select{
+    min-width:55%;
+    color:black;
+    width:70%;
+}
+
+#refresher_reporting span{
+    color:black;
+}

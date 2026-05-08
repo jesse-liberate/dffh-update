@@ -1,0 +1,30 @@
+.coaching-search {
+  width: 30%;
+}
+
+.btn-request-session {
+  padding: 10px 60px;
+  background-color: #29625f;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  &:hover {
+    color: white;
+  }
+}
+#page-theme-mindatlas-pages-my_coaching_sessions {
+  .btn-request-session {
+    max-height: 50px;
+  }
+}
+
+.search-input:focus,
+.form-control:focus {
+  // border-color: transparent;
+  box-shadow: none;
+}
+.preview-modal{
+  max-height: calc(100vh - 210px);
+  overflow-y: auto;
+}

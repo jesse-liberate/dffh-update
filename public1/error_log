@@ -1,0 +1,39 @@
+[11-Mar-2026 04:07:15 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[11-Mar-2026 04:23:26 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[11-Mar-2026 04:29:02 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[11-Mar-2026 06:41:44 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[12-Mar-2026 06:35:15 UTC] PHP Warning:  copy(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in Command line code on line 1
+[12-Mar-2026 06:35:15 UTC] PHP Warning:  copy(https://getcomposer.org/installer): Failed to open stream: no suitable wrapper could be found in Command line code on line 1
+[12-Mar-2026 06:35:20 UTC] PHP Warning:  copy(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in Command line code on line 1
+[12-Mar-2026 06:35:20 UTC] PHP Warning:  copy(https://composer.github.io/installer.sig): Failed to open stream: no suitable wrapper could be found in Command line code on line 1
+[12-Mar-2026 06:35:32 UTC] PHP Warning:  hash_file(composer-setup.php): Failed to open stream: No such file or directory in Command line code on line 1
+[12-Mar-2026 06:35:32 UTC] PHP Warning:  file_get_contents(composer.sig): Failed to open stream: No such file or directory in Command line code on line 1
+[12-Mar-2026 06:35:32 UTC] PHP Warning:  unlink(composer-setup.php): No such file or directory in Command line code on line 1
+[12-Mar-2026 06:36:17 UTC] PHP Warning:  copy(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in Command line code on line 1
+[12-Mar-2026 06:36:17 UTC] PHP Warning:  copy(https://getcomposer.org/installer): Failed to open stream: no suitable wrapper could be found in Command line code on line 1
+[12-Mar-2026 06:36:24 UTC] PHP Warning:  copy(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in Command line code on line 1
+[12-Mar-2026 06:36:24 UTC] PHP Warning:  copy(https://composer.github.io/installer.sig): Failed to open stream: no suitable wrapper could be found in Command line code on line 1
+[12-Mar-2026 06:36:51 UTC] PHP Warning:  copy(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in Command line code on line 1
+[12-Mar-2026 06:36:51 UTC] PHP Warning:  copy(https://getcomposer.org/installer): Failed to open stream: no suitable wrapper could be found in Command line code on line 1
+[12-Mar-2026 06:38:54 UTC] PHP Warning:  copy(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in Command line code on line 1
+[12-Mar-2026 06:38:54 UTC] PHP Warning:  copy(https://getcomposer.org/installer): Failed to open stream: no suitable wrapper could be found in Command line code on line 1
+[12-Mar-2026 22:20:45 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[12-Mar-2026 22:20:48 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[13-Mar-2026 01:15:11 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[13-Mar-2026 12:15:12 Australia/Melbourne] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 3519
+[13-Mar-2026 12:15:12 Australia/Melbourne] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 3527
+[13-Mar-2026 12:15:12 Australia/Melbourne] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5136
+[13-Mar-2026 02:07:06 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[13-Mar-2026 02:07:08 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[13-Mar-2026 13:07:08 Australia/Melbourne] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 3519
+[13-Mar-2026 13:07:08 Australia/Melbourne] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 3527
+[13-Mar-2026 13:07:08 Australia/Melbourne] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5136
+[13-Mar-2026 02:44:25 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[13-Mar-2026 02:44:28 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[13-Mar-2026 13:44:29 Australia/Melbourne] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 3519
+[13-Mar-2026 13:44:29 Australia/Melbourne] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 3527
+[13-Mar-2026 13:44:29 Australia/Melbourne] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5136
+[13-Mar-2026 03:57:46 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[13-Mar-2026 03:57:46 UTC] PHP Deprecated:  clean_param_array(): Implicitly marking parameter $param as nullable is deprecated, the explicit nullable type must be used instead in /home/dffhdev/public_html/public/lib/moodlelib.php on line 766
+[13-Mar-2026 03:57:46 UTC] PHP Deprecated:  remove_course_contents(): Implicitly marking parameter $options as nullable is deprecated, the explicit nullable type must be used instead in /home/dffhdev/public_html/public/lib/moodlelib.php on line 5062
+[13-Mar-2026 03:57:46 UTC] PHP Fatal error:  Cannot redeclare function moodle_process_email() (previously declared in /home/dffhdev/public_html/public/lib/deprecatedlib.php:594) in /home/dffhdev/public_html/public/lib/moodlelib.php on line 5677

@@ -1,0 +1,580 @@
+<?php
+// This file is part of Moodle - http://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+
+/**
+ * Copyright (C) 2007-2011 Catalyst IT (http://www.catalyst.net.nz)
+ * Copyright (C) 2011-2013 Totara LMS (http://www.totaralms.com)
+ * Copyright (C) 2014 onwards Catalyst IT (http://www.catalyst-eu.net)
+ *
+ * @package    mod
+ * @subpackage facetoface
+ * @copyright  2014 onwards Catalyst IT <http://www.catalyst-eu.net>
+ * @author     Stacey Walker <stacey@catalyst-eu.net>
+ * @author     Alastair Munro <alastair.munro@totaralms.com>
+ * @author     Aaron Barnes <aaron.barnes@totaralms.com>
+ * @author     Francois Marier <francois@catalyst.net.nz>
+ */
+
+require_once(dirname(dirname(dirname(__FILE__))) . '/config.php');
+require_once($CFG->dirroot . '/mod/facetoface/lib.php');
+require_once($CFG->dirroot . '/mod/facetoface/lib_mindatlas.php');  // MA-MODIFIED
+
+// Face-to-face session ID.
+$s = required_param('s', PARAM_INT);
+
+$takeattendance = optional_param('takeattendance', false, PARAM_BOOL); // Take attendance.
+$cancelform = optional_param('cancelform', false, PARAM_BOOL); // Cancel request.
+$backtoallsessions = optional_param('backtoallsessions', 0, PARAM_INT); // Face-to-face activity to return to.
+// MA-MODIFIED ===>
+$suppressemail  = optional_param('suppressemail', false, PARAM_BOOL);
+$supp = optional_param('supp',0, PARAM_INT);
+if($supp==1) $suppressemail = true;
+// <=== MA-MODIFIED 
+
+// Load data.
+if (!$session = facetoface_get_session($s)) {
+    print_error('error:incorrectcoursemodulesession', 'facetoface');
+}
+if (!$facetoface = $DB->get_record('facetoface', array('id' => $session->facetoface))) {
+    print_error('error:incorrectfacetofaceid', 'facetoface');
+}
+if (!$course = $DB->get_record('course', array('id' => $facetoface->course))) {
+    print_error('error:coursemisconfigured', 'facetoface');
+}
+if (!$cm = get_coursemodule_from_instance('facetoface', $facetoface->id, $course->id)) {
+    print_error('error:incorrectcoursemodule', 'facetoface');
+}
+
+// Load attendees.
+$attendees = facetoface_get_attendees($session->id);
+
+// Load cancellations.
+$cancellations = facetoface_get_cancellations($session->id);
+
+
+/*
+ * Capability checks to see if the current user can view this page
+ *
+ * This page is a bit of a special case in this respect as there are four uses for this page.
+ *
+ * 1) Viewing attendee list
+ *   - Requires mod/facetoface:viewattendees capability in the course
+ *
+ * 2) Viewing cancellation list
+ *   - Requires mod/facetoface:viewcancellations capability in the course
+ *
+ * 3) Taking attendance
+ *   - Requires mod/facetoface:takeattendance capabilities in the course
+ */
+$context = context_course::instance($course->id);
+$contextmodule = context_module::instance($cm->id);
+// MA-MODIFIED ===>
+// require_course_login($course); 
+
+//Check if you are manager or not
+require_login();
+$is_hierarchy_installed = face_to_face_check_hierarchy();
+$is_admin = is_siteadmin($USER->id);
+$team_members = array();
+if($is_hierarchy_installed && !$is_admin){ 
+    //Use new hiearchy tool function to get all staffs
+    // $team_members = get_hierarchy_teammembers($USER->id);
+    $team_members = get_hierarchy_teammembers($USER->id);
+    //add here if the attendees need to remove from the list.
+}
+// <=== MA-MODIFIED 
+
+// Actions the user can perform.
+$canviewattendees = has_capability('mod/facetoface:viewattendees', $context) || !empty($team_members);
+$cantakeattendance = has_capability('mod/facetoface:takeattendance', $context) || !empty($team_members);
+$canviewcancellations = has_capability('mod/facetoface:viewcancellations', $context) || !empty($team_members);
+$canviewsession = $canviewattendees || $cantakeattendance || $canviewcancellations;
+$canapproverequests = false;
+
+$requests = array();
+$declines = array();
+
+// If a user can take attendance, they can approve staff's booking requests.
+
+    $requests = facetoface_get_requests($session->id);
+   
+    foreach ($requests as $key => $request) {
+        if(!$is_admin){
+            if (!in_array($request->id, $team_members)) {
+               
+            }
+        }
+    }
+
+   
+// If requests found (but not in the middle of taking attendance), show requests table.
+if ($requests && !$takeattendance) {
+
+    $canapproverequests = true;
+}
+// Check the user is allowed to view this page.
+if (!$canviewattendees && !$cantakeattendance && !$canapproverequests && !$canviewcancellations) {
+    print_error('nopermissions', '', "{$CFG->wwwroot}/mod/facetoface/view.php?id={$cm->id}", get_string('view'));
+}
+
+//Check user has permissions to take attendance.
+if ($takeattendance && !$cantakeattendance) {
+    print_error('nopermissions', '', '', get_capability_string('mod/facetoface:takeattendance'));
+}
+
+
+/*
+ * Handle submitted data
+ */
+// MA-MODIFIED ===>
+$notify=0;
+if(isset($_GET['notify'])) $notify=$_GET['notify'];
+else if(isset($_POST['notify'])) $notify=$_POST['notify'];
+
+if($notify==1) $PAGE->set_url('/mod/facetoface/attendees.php', array('s' => $s, 'notify'=>1));
+else $PAGE->set_url('/mod/facetoface/attendees.php', array('s' => $s));
+$PAGE->set_context($context);
+$PAGE->set_cm($cm);
+
+$pagetitle = format_string($facetoface->name);
+$PAGE->set_title($pagetitle);
+$PAGE->set_heading($course->fullname);
+// <=== MA-MODIFIED 
+if ($form = data_submitted()) {
+    if (!confirm_sesskey()) {
+        print_error('confirmsesskeybad', 'error');
+    }
+
+    $return = "{$CFG->wwwroot}/mod/facetoface/attendees.php?s={$s}&backtoallsessions={$backtoallsessions}";
+
+    // MA-MODIFIED ===>
+    $return_notify_page = "{$CFG->wwwroot}/blocks/mynotification/mynotification.php";
+    if($notify==1) $return.="&notify=1";
+    // <=== MA-MODIFIED 
+
+    if ($cancelform) {
+        // MA-MODIFIED ===>
+        if($notify==1) redirect($return_notify_page);
+        else redirect($return);
+        // <=== MA-MODIFIED 
+    } else if (!empty($form->requests)) {
+
+        // Approve requests.
+        if ($canapproverequests && facetoface_approve_requests($form)) {
+
+            // Logging and events trigger.
+            $params = array(
+                'context'  => $contextmodule,
+                'objectid' => $session->id
+            );
+            $event = \mod_facetoface\event\approve_requests::create($params);
+            $event->add_record_snapshot('facetoface_sessions', $session);
+            $event->add_record_snapshot('facetoface', $facetoface);
+            $event->trigger();
+        }
+        // MA-MODIFIED ===>
+        if($notify==1) redirect($return_notify_page);
+        else redirect($return);
+        // <=== MA-MODIFIED 
+    } else if ($takeattendance) {
+        if (facetoface_take_attendance($form)) {
+
+            // Logging and events trigger.
+            $params = array(
+                'context'  => $contextmodule,
+                'objectid' => $session->id
+            );
+            $event = \mod_facetoface\event\take_attendance::create($params);
+            $event->add_record_snapshot('facetoface_sessions', $session);
+            $event->add_record_snapshot('facetoface', $facetoface);
+            $event->trigger();
+        } else {
+
+            // Logging and events trigger.
+            $params = array(
+                'context'  => $contextmodule,
+                'objectid' => $session->id
+            );
+            $event = \mod_facetoface\event\take_attendance_failed::create($params);
+            $event->add_record_snapshot('facetoface_sessions', $session);
+            $event->add_record_snapshot('facetoface', $facetoface);
+            $event->trigger();
+        }
+        redirect($return.'&takeattendance=1');
+    }
+}
+
+/*
+ * Print page header
+ */
+
+// Logging and events trigger.
+$params = array(
+    'context'  => $contextmodule,
+    'objectid' => $session->id
+);
+$event = \mod_facetoface\event\attendees_viewed::create($params);
+$event->add_record_snapshot('facetoface_sessions', $session);
+$event->add_record_snapshot('facetoface', $facetoface);
+$event->trigger();
+
+$PAGE->requires->css('/mod/facetoface/css/table-styles.css');   // MA-MODIFIED
+$pagetitle = format_string($facetoface->name);
+
+$PAGE->set_url('/mod/facetoface/attendees.php', array('s' => $s));
+$PAGE->set_context($context);
+$PAGE->set_cm($cm);
+
+$PAGE->set_title($pagetitle);
+$PAGE->set_heading($course->fullname);
+
+echo $OUTPUT->header();
+
+/*
+ * Print page content
+ */
+
+// If taking attendance, make sure the session has already started.
+if ($takeattendance && $session->datetimeknown && !facetoface_has_session_started($session, time())) {
+    $link = "{$CFG->wwwroot}/mod/facetoface/attendees.php?s={$session->id}";
+    print_error('error:canttakeattendanceforunstartedsession', 'facetoface', $link);
+}
+
+echo $OUTPUT->box_start();
+echo $OUTPUT->heading(format_string($facetoface->name));
+
+if ($canviewsession) {
+    echo facetoface_print_session($session, true);
+}
+
+// MA-MODIFIED ===>
+$attendance_options = array(
+    'Attended' => 'Attended',
+    'No Reason Provided/Changed Mind' => 'No Reason Provided/Changed Mind',
+    'Unwell' => 'Unwell',
+    'Personal Reason' => 'Personal Reason',
+    'Work Reason' => 'Work Reason',
+    'Arrived Late' => 'Arrived Late',
+    'Left early' => 'Left early',
+    'partially_attended_one' => 'Participated first day only',
+    'partially_attended_two' => 'Participated second day only',
+);
+/*$attendance_options = array(
+    'Attended' => 'Attended',
+    'Arrived late' => 'Arrived late',
+    'Competent' => 'Competent',
+    'Not yet competent' => 'Not yet competent',
+    'Replacement sent' => 'Replacement sent',
+    'Left early' => 'Left early',
+);*/
+// <=== MA-MODIFIED 
+// MA-MODIFIED: Formbuilder ===>
+$formbuilderid  = get_config(null, 'facetoface_data_form');
+// <=== MA-MODIFIED 
+/*
+ * Print attendees (if user able to view)
+ */
+if ($canviewattendees || $cantakeattendance) {
+    if ($takeattendance) {
+        $heading = get_string('takeattendance', 'facetoface');
+    } else {
+        $heading = get_string('attendees', 'facetoface');
+    }
+
+    echo $OUTPUT->heading($heading);
+
+    if (empty($attendees)) {
+        echo $OUTPUT->notification(get_string('nosignedupusers', 'facetoface'));
+    } else {
+        if ($takeattendance) {
+            $attendeesurl = new moodle_url('attendees.php', array('s' => $s, 'takeattendance' => '1'));
+            echo html_writer::start_tag('form', array('action' => $attendeesurl, 'method' => 'post'));
+            // echo html_writer::tag('p', get_string('attendanceinstructions', 'facetoface'));  // MA-MODIFIED
+            echo html_writer::start_tag('div', array('class'=>'checkall')); // MA-MODIFIED
+            echo get_string('attendanceinstructions', 'facetoface');    // MA-MODIFIED
+            echo html_writer::end_tag('div');   // MA-MODIFIED
+            echo html_writer::empty_tag('input', array('type' => 'hidden', 'name' => 'sesskey', 'value' => $USER->sesskey));
+            echo html_writer::empty_tag('input', array('type' => 'hidden', 'name' => 's', 'value' => $s));
+            echo html_writer::empty_tag('input', array('type' => 'hidden', ' name' => 'backtoallsessions', 'value' => $backtoallsessions)); // MA-MODIFIED
+
+            // Prepare status options array.
+            $statusoptions = array();
+            foreach ($MDL_F2F_STATUS as $key => $value) {
+                if ($key <= MDL_F2F_STATUS_BOOKED) {
+                    continue;
+                }
+
+                $statusoptions[$key] = get_string('status_'.$value, 'facetoface');
+            }
+        }
+
+        $table = new html_table();
+        $table->head = array(get_string('name'));
+        $table->summary = get_string('attendeestablesummary', 'facetoface');
+        $table->align = array('left');
+        $table->size = array('50%', '15%', '20%', '5%');    // MA-MODIFIED
+
+        if ($takeattendance) {
+            $table->head[] = get_string('currentstatus', 'facetoface');
+            $table->align[] = 'center';
+            // MA-MODIFIED ===>
+            $attended_session_html = '';
+            $attended_session_html .= '<a href="#" id="toggle-all">' . get_string('checkall/clearall', 'facetoface') . '</a>';
+            $attended_session_html .= '<div>' . get_string('attendedsession', 'facetoface') . '</div>';
+            $table->head[] = $attended_session_html;
+            $table->align[] = 'center';
+            $table->head[] = get_string('comments', 'facetoface');
+            $table->align[] = 'center';
+            // <=== MA-MODIFIED 
+            // MA-MODIFIED ===>
+            $table->head[] = get_string('bookingdetails', 'facetoface');
+            $table->align[] = 'center';
+            // <=== MA-MODIFIED 
+           
+        } else {
+            if (!get_config(null, 'facetoface_hidecost')) {
+                $table->head[] = get_string('cost', 'facetoface');
+                $table->align[] = 'center';
+                if (!get_config(null, 'facetoface_hidediscount')) {
+                    $table->head[] = get_string('discountcode', 'facetoface');
+                    $table->align[] = 'center';
+                }
+            }
+
+            $table->head[] = get_string('attendance', 'facetoface');
+            $table->align[] = 'center';
+
+            // MA-MODIFIED ===>
+            $table->head[] = get_string('comments', 'facetoface');
+            $table->align[] = 'center';
+            $table->head[] = get_string('bookingdetails', 'facetoface');
+            $table->align[] = 'center';
+            // <=== MA-MODIFIED 
+        }
+
+        foreach ($attendees as $attendee) {
+            $data = array();
+            $attendeeurl = new moodle_url('/user/view.php', array('id' => $attendee->id, 'course' => $course->id));
+            $data[] = html_writer::link($attendeeurl, format_string(fullname($attendee)));
+            
+            if ($takeattendance) {
+
+                // Show current status.
+                $data[] = get_string('status_'.facetoface_get_status($attendee->statuscode), 'facetoface');
+
+                // MA-MODIFIED ===>
+                $checked = ($attendee->statuscode==MDL_F2F_STATUS_FULLY_ATTENDED) || ($attendee->statuscode==MDL_F2F_STATUS_PARTIALLY_ATTENDED)   ? true : false;
+                $checkbox = html_writer::checkbox('isattended_'.$attendee->submissionid, MDL_F2F_STATUS_FULLY_ATTENDED, $checked);
+                $hidden = html_writer::empty_tag('input', array('type' => 'hidden', 'name' => 'subid_'.$attendee->submissionid, 'value' => $attendee->submissionid));
+                $data[] = $checkbox;
+                
+                $comment_select = html_writer::start_tag('select', array(
+                    'name' => 'commentid_'.$attendee->submissionid
+                ));
+                $comment = isset($attendance_options[$attendee->note]) ? $attendance_options[$attendee->note] : '';
+
+                foreach ($attendance_options as $value => $text) {
+                    $attributes = array(
+                        'value' => $value
+                    );
+                 
+                    if ($comment === $text) {
+                        $attributes['selected'] = 'selected';
+                    }
+
+                    $comment_select .= html_writer::tag('option', $text, $attributes);
+                }
+                $comment_select .= html_writer::end_tag('select');
+
+                $data[] = $comment_select;
+                //dffh formbuilder 
+                $formbuilderurl = new moodle_url('coachingdata.php', array('s' => $s, 'takeattendance' => $takeattendance,'backtoallsessions'=> $backtoallsessions,'attendeeid'=>$attendee->id,'edit'=>1));
+                $data[] = html_writer::link($formbuilderurl, "view data");
+                $data[] = $hidden;
+                
+                // <=== MA-MODIFIED  
+            } else {
+                if (!get_config(null, 'facetoface_hidecost')) {
+                    $data[] = facetoface_cost($attendee->id, $session->id, $session);
+                    if (!get_config(null, 'facetoface_hidediscount')) {
+                        $data[] = $attendee->discountcode;
+                    }
+                }
+                $data[] = str_replace(' ', '&nbsp;', get_string('status_'.facetoface_get_status($attendee->statuscode), 'facetoface'));
+                $data[] = isset($attendance_options[$attendee->note]) ? $attendance_options[$attendee->note] : '';  // MA-MODIFIED
+                   //dffh formbuilder 
+                   $formbuilderurl = new moodle_url('coachingdata.php', array('s' => $s, 'takeattendance' => $takeattendance,'backtoallsessions'=> $backtoallsessions,'attendeeid'=>$attendee->id, 'edit'=>0));
+                   $data[] = html_writer::link($formbuilderurl, "view data");
+                   $data[] = $hidden;
+            }
+            $table->data[] = $data;
+        }
+
+        echo html_writer::table($table);
+
+        if ($takeattendance) {
+            echo html_writer::start_tag('p');
+            echo html_writer::empty_tag('input', array('type' => 'submit', 'value' => get_string('saveattendance', 'facetoface')));
+            echo '&nbsp;' . html_writer::empty_tag('input', array('type' => 'submit', 'name' => 'cancelform', 'value' => get_string('cancel')));
+            echo html_writer::end_tag('p') . html_writer::end_tag('form');
+        } else {
+
+            // Actions.
+            print html_writer::start_tag('p');
+            if ($cantakeattendance && $session->datetimeknown && facetoface_has_session_started($session, time())) {
+
+                // Take attendance.
+                $attendanceurl = new moodle_url('attendees.php', array('s' => $session->id, 'takeattendance' => '1', 'backtoallsessions' => $backtoallsessions));
+                echo html_writer::link($attendanceurl, get_string('takeattendance', 'facetoface')) . ' - ';
+            }
+        }
+    }
+
+    if (!$takeattendance) {
+        if (has_capability('mod/facetoface:addattendees', $context) ||
+            has_capability('mod/facetoface:removeattendees', $context)) {
+
+            // Add/remove attendees.
+            // MA-MODIFIED ===>
+            if($notify==1) $editattendeeslink = new moodle_url('editattendees.php', array('s' => $session->id, 'backtoallsessions' => $backtoallsessions, 'notify'=>1));
+            else $editattendeeslink = new moodle_url('editattendees.php', array('s' => $session->id, 'backtoallsessions' => $backtoallsessions));
+            // <=== MA-MODIFIED 
+            echo html_writer::link($editattendeeslink, get_string('addremoveattendees', 'facetoface')) . ' - ';
+        }
+    }
+}
+
+// Go back.
+// MA-MODIFIED ===>
+if($notify==1){
+    $url = new moodle_url('/blocks/mynotification/mynotification.php', array());
+}else $url = new moodle_url('/course/view.php', array('id' => $course->id));
+// <=== MA-MODIFIED 
+if ($backtoallsessions) {
+    $url = new moodle_url('/mod/facetoface/view.php', array('f' => $facetoface->id, 'backtoallsessions' => $backtoallsessions));
+}
+echo html_writer::link($url, get_string('goback', 'facetoface')) . html_writer::end_tag('p');
+
+
+/*
+ * Print unapproved requests (if user able to view)
+ */
+
+// MA-MODIFIED ===>
+// Only Site administrators and managers of the user can approve the request
+if($is_hierarchy_installed && !$is_admin){
+    if($requests){   
+        foreach ($requests as $attendee_id=>$attendee) {
+            // if(!in_array($attendee_id,$team_members)) unset($requests[$attendee_id]);
+        }
+    }
+}
+// <=== MA-MODIFIED 
+
+if ($canapproverequests) {
+    echo html_writer::empty_tag('br', array('id' => 'unapproved'));
+    if (!$requests) {
+        echo $OUTPUT->notification(get_string('noactionableunapprovedrequests', 'facetoface'));
+    } else {
+        $canbookuser = (facetoface_session_has_capacity($session, $contextmodule) || $session->allowoverbook);
+
+        $OUTPUT->heading(get_string('unapprovedrequests', 'facetoface'));
+
+        if (!$canbookuser) {
+            echo html_writer::tag('p', get_string('cannotapproveatcapacity', 'facetoface'));
+        }
+
+
+        $action = new moodle_url('attendees.php', array('s' => $s));
+        echo html_writer::start_tag('form', array('action' => $action->out(), 'method' => 'post'));
+        echo html_writer::empty_tag('input', array('type' => 'hidden', 'name' => 'sesskey', 'value' => $USER->sesskey));
+        echo html_writer::empty_tag('input', array('type' => 'hidden', 'name' => 's', 'value' => $s));
+        echo html_writer::empty_tag('input', array('type' => 'hidden', 'name' => 'backtoallsessions', 'value' => $backtoallsessions)) . html_writer::end_tag('p');
+
+        echo html_writer::empty_tag('input', array('type' => 'hidden', 'name' => 'notify', 'value' => $notify));    // MA-MODIFIED
+        $table = new html_table();
+        $table->summary = get_string('requeststablesummary', 'facetoface');
+        $table->head = array(get_string('name'), get_string('timerequested', 'facetoface'),
+                            get_string('decidelater', 'facetoface'), get_string('decline', 'facetoface'), get_string('approve', 'facetoface'));
+        $table->align = array('left', 'center', 'center', 'center', 'center');
+
+        foreach ($requests as $attendee) {
+            $data = array();
+            $attendeelink = new moodle_url('/user/view.php', array('id' => $attendee->id, 'course' => $course->id));
+            $data[] = html_writer::link($attendeelink, format_string(fullname($attendee)));
+            $data[] = userdate($attendee->timerequested, get_string('strftimedatetime'));
+            $data[] = html_writer::empty_tag('input', array('type' => 'radio', 'name' => 'requests['.$attendee->id.']', 'value' => '0', 'checked' => 'checked'));
+            $data[] = html_writer::empty_tag('input', array('type' => 'radio', 'name' => 'requests['.$attendee->id.']', 'value' => '1'));
+            $disabled = ($canbookuser) ? array() : array('disabled' => 'disabled');
+            $data[] = html_writer::empty_tag('input', array_merge(array('type' => 'radio', 'name' => 'requests['.$attendee->id.']', 'value' => '2'), $disabled));
+            $table->data[] = $data;
+        }
+
+        echo html_writer::table($table);
+        // echo html_writer::checkbox('suppressemail', 1, $suppressemail, get_string('suppressemail', 'facetoface'), array('id' => 'suppressemail'));  // MA-MODIFIED
+        // echo $OUTPUT->help_icon('suppressemail', 'facetoface'); // MA-MODIFIED
+        echo html_writer::tag('p', html_writer::empty_tag('input', array('type' => 'submit', 'value' => get_string('updaterequests', 'facetoface'))));
+        echo html_writer::end_tag('form');
+    }
+}
+
+/*
+ * Print cancellations (if user able to view)
+ */
+if (!$takeattendance && $canviewcancellations && $cancellations) {
+
+    echo html_writer::empty_tag('br');
+    echo $OUTPUT->heading(get_string('cancellations', 'facetoface'));
+
+    $table = new html_table();
+    $table->summary = get_string('cancellationstablesummary', 'facetoface');
+    $table->head = array(get_string('name'), get_string('timesignedup', 'facetoface'),
+                         get_string('timecancelled', 'facetoface'), get_string('cancelreason', 'facetoface'));
+    $table->align = array('left', 'center', 'center');
+
+    foreach ($cancellations as $attendee) {
+        $data = array();
+        $attendeelink = new moodle_url('/user/view.php', array('id' => $attendee->id, 'course' => $course->id));
+        $data[] = html_writer::link($attendeelink, format_string(fullname($attendee)));
+        $data[] = userdate($attendee->timesignedup, get_string('strftimedatetime'));
+        $data[] = userdate($attendee->timecancelled, get_string('strftimedatetime'));
+        $data[] = format_string($attendee->cancelreason);
+        $table->data[] = $data;
+    }
+    echo html_writer::table($table);
+}
+
+/*
+ * Print page footer
+ */
+echo $OUTPUT->box_end();
+echo $OUTPUT->footer($course);
+?>  
+
+<!-- MA-MODIFIED ===> -->
+<script type="text/javascript">
+(function($){
+    var is_checked_all = false;
+    $(document).ready(function(){
+        $("#toggle-all").click(function(e) {
+            e.preventDefault();
+            $("input:checkbox").prop('checked', is_checked_all);
+            is_checked_all = !is_checked_all;
+        });
+    });
+})(jQuery)
+</script>
+<!-- <=== MA-MODIFIED  -->

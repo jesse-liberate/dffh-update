@@ -1,0 +1,68 @@
+.learning-progress {
+  .title {
+    font-size: 1.3rem;
+  }
+  .progressbar {
+    // max-width: 480px;
+    // width: 100%;
+    position: relative;
+    border: 1px solid #aaa;
+    height: 40px;
+    text-align: center;
+
+    .bar-inner {
+      width: 0;
+      height: 38px;
+      background-color: #3fc75f;
+      transition: width 2s;
+    }
+
+    .text {
+      position: absolute;
+      line-height: 40px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+
+  @media only screen and (max-width: 767.9px) {
+    flex-direction: column;
+
+    .progressbar-wrapper {
+      width: 100%;
+    }
+
+    .progressbar {
+      margin-top: 0.5rem;
+    }
+  }
+}
+
+#coursesearch {
+  display: none;
+}
+
+.page-banner {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.page-title {
+  color: white;
+  font-weight: 700;
+  font-size: 4rem;
+  padding-left: 9rem;
+  padding-top: 5rem;
+  margin-bottom: 0;
+  width: 50%;
+}
+
+@media only screen and (max-width: 767.9px) {
+  .page-title {
+    padding-left: 3rem;
+    padding-top: 2rem;
+    width: 80%;
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,18 @@
+.rate {
+    i {
+        display: inline-block;
+        width: 20px;
+        height: 15px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(../pix/icons/star-grey.svg);
+
+        &.full {
+            background-image: url(../pix/icons/star-full.svg);
+        }
+        &.half {
+            background-image: url(../pix/icons/star-half.svg);
+        }
+    }
+}

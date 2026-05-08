@@ -1,0 +1,90 @@
+{{!
+    @template theme_boost/login
+
+    Login page template
+
+    Example context (json):
+    {
+        "output": {
+            "doctype": "<!DOCTYPE html>",
+            "page_title": "Login page",
+            "favicon": "favicon.ico",
+            "main_content": "<h1>Headers keep HTML validators happy</h1>"
+        }
+    }
+}}
+{{> theme_boost/head }}
+
+<body {{{ bodyattributes }}}>
+{{> core/local/toast/wrapper}}
+
+<div id="page-wrapper" class="theme-mindatlas-template-login bg-center-cover" style="background-image: url({{theme_brand.loginbackgroundimage}})">
+
+    <div class="login-shadow-layer-none">
+        {{{ output.standard_top_of_body_html }}}
+
+        <div id="page-header" class="container-fluid px-0 text-white">
+            <div class="px-4 pt-4 mt-4">
+                <a class="ml-4" href="{{theme_url.root}}"><img class="h-400r" src="{{theme_url.pix}}/logo-1.png" /></a>
+                {{! <span class='header-subtitle mr-4 float-right font-weight-bold mt-3'>YOUR ONLINE TRANINING </span> }}
+            </div>
+        </div>
+
+        <div id="page" class="container-fluid mt-0">
+
+
+            <div id="main-overlay" class="row no-gutters">
+
+                <div class="main-overlay__left col-12 col-lg-6 ">
+                    <section id="region-main" class="" aria-label="{{#str}}content{{/str}}">
+                        {{{ output.course_content_header }}}
+                        {{{ output.main_content }}}
+                        {{{ output.course_content_footer }}}
+                    </section>
+                </div>
+                
+                <div class="main-overlay__right col-12 col-lg-6 d-md-none d-sm-block"></div>
+        
+            </div>
+
+        </div>
+
+        <footer id="page-footer" class="footer text-white">
+            <!-- customize -->
+
+
+            <div class="container-fluid d-flex  justify-content-between overflow-auto py-3 px-md-5 mx-md-5 text-center row">
+             
+              <div class="copy-right-wrapper col-md-8 text-left">
+                  {{! <div class="flag1 d-inline-block"></div>
+                  <div class="flag2 d-inline-block mx-3"></div> }}
+                  <span class="gov-info">The department acknowledges the Traditional Owners of Country throughout Victoria and pays respects to their Elders past and present. The department also acknowledges that Aboriginal self-determination is a human right and recognises the hard work of many generations of Aboriginal people who have fought for this right to be upheld.</span>
+                  <br>
+                  <span class="align-middle "> © Department Family, Fairness and Housing  - Learning Management System {{year}}</span>
+              </div>
+               <div class="footer-logo my-auto col-md-4 text-right">
+                <a class="ml-4" href="{{theme_url.root}}"><img class="h-200r" src="{{theme_url.pix}}/logo-2.png" /></a>
+                {{! <span class='header-subtitle mr-4 float-right font-weight-bold mt-3'>YOUR ONLINE TRANINING </span> }}
+              </div>
+            </div>
+            <!-- end customize -->
+            <div class="container d-none">
+                <div id="course-footer">{{{ output.course_footer }}}</div>
+                {{{ output.standard_footer_html }}}
+                {{{ output.standard_end_of_body_html }}}
+            </div>
+        </footer>    
+    </div>
+
+
+
+</div>
+
+</body>
+</html>
+{{#js}}
+M.util.js_pending('theme_boost/loader');
+require(['theme_boost/loader'], function() {
+  M.util.js_complete('theme_boost/loader');
+});
+{{/js}}

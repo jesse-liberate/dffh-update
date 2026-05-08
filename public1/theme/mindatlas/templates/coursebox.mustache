@@ -1,0 +1,33 @@
+<div class="col-md-4">
+    <div class="coursebox mb-3 p-0">
+        <div class="img-wrapper bg-center-cover" style="background-image:url('{{course_image}}')" >
+            <div className="course-banner-under">
+            </div>
+            <div class="course-progress row no-gutters py-1 px-5">
+                <div class="bar-outter col-10 px-0 bg-white">
+                    <div class="bar-inner bg-color-brand-2 font-weight-bold" style="width:{{progress}}%"></div>
+                </div>
+                <div class="progress-text col-2 text-right font-weight-bold">{{progress}}%</div>
+            </div>
+        </div>
+        <div class="info-wrapper bg-white p-3">
+            <a href="{{course_url}}" class="name mb-3 font-weight-bold d-block color-deep">{{fullname}}</a>
+            <div class="desc mb-4 lh-110">{{{summary}}}</div>
+            <div class="row no-gutters">
+            {{#hascourserateplugin}}
+                <div class="col-md-7  mb-2"> 
+                    <div class="mount-react-course-courserate d-inline-block" data-rate="{{rate}}"></div>
+                    <span class="ml-1 align-middle font-weight-bold color-primary rate-text"> {{{rate}}} </span>
+                </div>
+            {{/hascourserateplugin}}
+            {{^hascourserateplugin}}
+                <div class=""> 
+                </div>
+            {{/hascourserateplugin}}
+                <div class="col-md-5  mb-2"> 
+                    <a href="{{course_url}}" class="btn-custom bg-color-brand-1 hover-bg-color-brand-1 float-left text-white mb-2 font-weight-bold">Start</a>
+                </div> 
+            </div>
+        </div>
+    </div>
+</div>

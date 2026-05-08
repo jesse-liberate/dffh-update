@@ -1,0 +1,167 @@
+.training-table {
+  width: 100%;
+  .training-table-header {
+    background-image: url(../pix/header.png);
+    height: 60px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    td {
+      font-size: 14px;
+      padding: 12px;
+    }
+  }
+  .training-table-body{
+    td {
+      font-size: 14px;
+      padding: 12px;
+    }
+  }
+  tr {
+    border-bottom: 1px solid rgb(197, 197, 197);
+    height: 80px;
+  }
+}
+.training-button {
+  background-color: #29625f;
+  color: white;
+  padding: 8px 30px;
+  text-decoration: none;
+  &:hover {
+    color: white;
+  }
+}
+.pagination-mycourses {
+  display: inline-block;
+  ul {
+    display: flex;
+    list-style: none;
+    li {
+      color: black;
+      text-decoration: none;
+      padding: 0 10px;
+      &:focus {
+        outline: none;
+        box-shadow: none;
+      }
+      a {
+        &:focus {
+          outline: none;
+          box-shadow: none;
+        }
+      }
+    }
+    li.selected {
+      a {
+        background-color: #29625f;
+        color: white;
+        font-weight: bold;
+      }
+    }
+    li.previous {
+      a {
+        border: 1px solid #ccc;
+      }
+    }
+    li.next {
+      a {
+        border: 1px solid #ccc;
+      }
+    }
+  }
+  a {
+    color: black;
+    padding: 8px 12px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    border: 1px solid #ddd;
+  }
+  a.active {
+    color: white;
+  }
+}
+
+.title-training {
+  font-weight: bold;
+  color: #357ab7;
+  margin-bottom:40px;
+
+  &.border {
+    border: none !important;
+    border-bottom: 2px solid #357ab7 !important;
+    padding-bottom: 5px;
+  }
+}
+.simplesearchform{
+  margin-bottom:20px;
+}
+.selectOption{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='green' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 5px;
+  border: 1px solid #dfdfdf;
+  border-radius: 2px;
+  margin-right: 2rem;
+  padding-right: 2rem;
+  font-weight: 600;
+}
+/* For IE (thanks to @SaiManoj) */
+.selectOption::-ms-expand {
+  display: none;
+}
+.search-icon{
+  background:#29625f;
+}
+.selectOption.requestSession{
+  background-image: url("data:image/svg+xml;utf8,<svg fill='RoyalBlue' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+}
+.cancelSession{
+  background: #007cbc;
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+.dateTimeBox{
+  display: flex;
+}
+.react-datepicker__input-container input{
+  height:36px;
+}
+.coachingNameResult{
+  font-weight: bold;
+  font-size: 20px;
+}
+.coachingDateResult{
+  background: #ffffff;
+  border: 1px solid #ccc;
+  padding: 5px 20px;
+  display: inline-block;
+}
+.coachingTimeResult{
+  background: #ffffff;
+  border: 1px solid #ccc;
+  padding: 5px 20px;
+  display: inline-block;
+  margin-left: 8px;
+}
+.mb50{
+  margin-bottom: 50px;
+}
+.mt60{
+  margin-top: 60px;
+}
+.mb10{
+  margin-bottom: 10px;
+}
+.ml10{
+  margin-left:10px;
+}
+.mr10{
+  margin-right: 10px;
+}

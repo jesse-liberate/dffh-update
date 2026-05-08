@@ -1,0 +1,20 @@
+.block-table-reports {
+	width: 100%;
+}
+
+.block-table-reports .operations{
+	text-align: right;
+}
+
+.block-table-reports .operations img {
+	margin: 5px 2px;
+}
+
+.block-table-reports tr {
+	padding: 2px;
+	border-bottom: 1px solid #ccc;
+}
+
+.block-table-reports tr:last-child {
+	border-bottom: none;
+}

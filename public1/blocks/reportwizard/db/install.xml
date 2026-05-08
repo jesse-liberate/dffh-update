@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="blocks/reportwizard/db" VERSION="20180802" COMMENT="XMLDB file for Moodle blocks/reportwizard"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd"
+>
+  <TABLES>
+    <TABLE NAME="report_wzd_completion" COMMENT="Current course and activity completion status of all users">
+      <FIELDS>
+        <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true"/>
+        <FIELD NAME="user_id" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="user_fullname" TYPE="char" LENGTH="255" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="node_id" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="node_description" TYPE="char" LENGTH="255" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="category_id" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="category_name" TYPE="char" LENGTH="255" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="course_id" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="course_name" TYPE="char" LENGTH="255" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="course_enrolmentdate" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="activity_instance_id" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="activity_type" TYPE="char" LENGTH="255" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="activity_name" TYPE="char" LENGTH="255" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="scormstatus" TYPE="char" LENGTH="255" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="activity_completionstatus" TYPE="char" LENGTH="255" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="activity_completiondate" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="timecreated" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false"/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+      </KEYS>
+    </TABLE>
+    <TABLE NAME="report_wzd_report" COMMENT="The report created by admin or manager">
+      <FIELDS>
+        <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true"/>
+        <FIELD NAME="name" TYPE="char" LENGTH="1024" NOTNULL="false" SEQUENCE="false" COMMENT="Report name"/>
+        <FIELD NAME="type" TYPE="int" LENGTH="2" NOTNULL="true" SEQUENCE="false" COMMENT="Type of report. Can be general report, course overview report, activity report."/>
+        <FIELD NAME="object_type" TYPE="int" LENGTH="2" NOTNULL="false" SEQUENCE="false" COMMENT="The type of the object will be reported on. Can be category or course"/>
+        <FIELD NAME="object_id" TYPE="text" NOTNULL="false" SEQUENCE="false" COMMENT="the instance id of the report object. Can be category id, course id"/>
+        <FIELD NAME="hierarchy_nodes" TYPE="text" NOTNULL="false" SEQUENCE="false" COMMENT="The hierarchy nodes included in the report"/>
+        <FIELD NAME="enrol_date_from" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false" COMMENT="Enrol date period from."/>
+        <FIELD NAME="enrol_date_to" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false" COMMENT="Enrol date period to."/>
+        <FIELD NAME="enrol_period_condition" TYPE="int" LENGTH="2" NOTNULL="false" SEQUENCE="false" COMMENT="Before or after"/>
+        <FIELD NAME="enrol_period_number" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false" COMMENT="number of units"/>
+        <FIELD NAME="enrol_period_unit" TYPE="int" LENGTH="2" NOTNULL="false" SEQUENCE="false" COMMENT="units"/>
+        <FIELD NAME="complete_date_from" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false" COMMENT="Complete date period from."/>
+        <FIELD NAME="complete_date_to" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false" COMMENT="Complete date period to."/>
+        <FIELD NAME="complete_period_condition" TYPE="int" LENGTH="2" NOTNULL="false" SEQUENCE="false" COMMENT="Before or after"/>
+        <FIELD NAME="complete_period_number" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false" COMMENT="number of units"/>
+        <FIELD NAME="complete_period_unit" TYPE="int" LENGTH="2" NOTNULL="false" SEQUENCE="false" COMMENT="units, day(s), week(s), month(s), year(s)"/>
+        <FIELD NAME="completion_status" TYPE="int" LENGTH="2" NOTNULL="false" SEQUENCE="false" COMMENT="The completion status"/>
+        <FIELD NAME="creator_type" TYPE="int" LENGTH="2" NOTNULL="false" SEQUENCE="false" COMMENT="The type of the report creator. Can be admin or manager."/>
+        <FIELD NAME="access_type" TYPE="int" LENGTH="2" NOTNULL="false" SEQUENCE="false" COMMENT="public or private"/>
+        <FIELD NAME="share_to" TYPE="text" NOTNULL="false" SEQUENCE="false" COMMENT="The hierarchy nodes that the report is shared to"/>
+        <FIELD NAME="creator_id" TYPE="int" LENGTH="20" NOTNULL="false" SEQUENCE="false" COMMENT="creator id"/>
+        <FIELD NAME="timecreated" TYPE="int" LENGTH="20" NOTNULL="false" SEQUENCE="false"/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+      </KEYS>
+    </TABLE>
+    <TABLE NAME="report_wzd_infofield_filter" COMMENT="user profile field filter setting for each report">
+      <FIELDS>
+        <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true"/>
+        <FIELD NAME="report_id" TYPE="int" LENGTH="20" NOTNULL="true" SEQUENCE="false"/>
+        <FIELD NAME="infofield_id" TYPE="int" LENGTH="20" NOTNULL="true" SEQUENCE="false" COMMENT="user_info_field id"/>
+        <FIELD NAME="infofield_enabled" TYPE="int" LENGTH="1" NOTNULL="false" SEQUENCE="false" COMMENT="status of this filter"/>
+        <FIELD NAME="infofield_data" TYPE="text" NOTNULL="false" SEQUENCE="false" COMMENT="the value of the filter"/>
+        <FIELD NAME="infofield_display" TYPE="int" LENGTH="1" NOTNULL="false" SEQUENCE="false" COMMENT="display this column or not"/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+      </KEYS>
+    </TABLE>
+    <TABLE NAME="report_wzd_columns" COMMENT="the default fields that can be shown in report">
+      <FIELDS>
+        <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true"/>
+        <FIELD NAME="report_id" TYPE="int" LENGTH="20" NOTNULL="true" SEQUENCE="false"/>
+        <FIELD NAME="table" TYPE="char" LENGTH="1024" NOTNULL="false" SEQUENCE="false" COMMENT="the db table that field value comes from"/>
+        <FIELD NAME="field" TYPE="char" LENGTH="1024" NOTNULL="false" SEQUENCE="false" COMMENT="the field name in the table"/>
+        <FIELD NAME="display" TYPE="int" LENGTH="4" NOTNULL="false" DEFAULT="0" SEQUENCE="false" COMMENT="display in report or not"/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+      </KEYS>
+    </TABLE>
+    <TABLE NAME="report_wzd_shareto" COMMENT="The report created by admin or manager">
+      <FIELDS>
+        <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true"/>
+        <FIELD NAME="report_id" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="node_name" TYPE="char" LENGTH="255" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="timecreated" TYPE="int" LENGTH="20" NOTNULL="false" SEQUENCE="false"/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+      </KEYS>
+    </TABLE>
+    <TABLE NAME="report_wzd_schedule" COMMENT="The report schedule">
+      <FIELDS>
+        <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true"/>
+        <FIELD NAME="report_id" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="report_format" TYPE="char" LENGTH="50" NOTNULL="false" DEFAULT="PDF" SEQUENCE="false" COMMENT="The format of the report file (i.e. CSV or PDF)"/>
+        <FIELD NAME="userid" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="cohortid" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="frequency" TYPE="char" LENGTH="128" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="startdate" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="lastrun" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="nextrun" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="timecreated" TYPE="int" LENGTH="20" NOTNULL="false" SEQUENCE="false"/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+      </KEYS>
+    </TABLE>
+  </TABLES>
+</XMLDB>

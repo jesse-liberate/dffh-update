@@ -1,0 +1,41 @@
+<section class="py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1">
+                <img class="resource-icon" src="{{icon_img}}">
+            </div>
+            <div class="col-md-11">
+                <div class="detals">
+                    <div class="name h1 font-weight-bold">{{name}}</div>
+                    <div class="category h4 font-weight-bold" data-categoryid="{{category_id}}">
+                        {{category_name}}
+                    </div>
+                    <div class="date-uploader">
+                        <span class="date">{{last_modified}}</span>
+                        {{#uploaded_by}}
+                        <span class="uploader">Uploaded by {{uploaded_by}}</span>
+                        {{/uploaded_by}}
+                    </div>
+                    <div class="desc py-3">
+                        {{{description}}}
+                    </div>
+                    {{#attachment.fileid}}
+                    <div class="attachment p-3">
+                        <div class="file-name mb-3">{{filename}}</div>
+                        <div class="preview">
+                            {{{preview}}}
+                        </div>
+                        {{#attachment.filedownload}}
+                        <a class="btn btn-primary btn-download my-3" href="{{attachment.filedownload}}" target="_blank">Download</a>
+                        {{/attachment.filedownload}}
+
+                    </div>
+                    {{/attachment.fileid}}
+                    {{#can_edit}}
+                    <a class="btn btn-edit btn-primary my-3" href="{{wwwroot}}/blocks/resources/resources_add.php?id={{id}}">Edit</a>
+                    {{/can_edit}}                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

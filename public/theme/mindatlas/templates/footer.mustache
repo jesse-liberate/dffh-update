@@ -1,0 +1,99 @@
+    <div class="modal" tabindex="-1" role="dialog" id="collection_statement">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" v-html="collection_statement">{{{theme.collection_statement}}}</div>
+            </div>
+        </div>
+    </div>
+<div id="goto-top-link">
+    {{! go to top is sticky to footer so needs to be sibling }}
+    <a class="btn btn-light" role="button" href="#">
+        {{#pix}} i/up, core, {{#str}} totop, theme_boost {{/str}}{{/pix}}
+    </a>
+</div>
+<footer id="page-footer" class="pt-5 px-3 theme-mindatlas-template-footer bg-light-blue text-white">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="footer-block p-3 mb-3">
+                    <div class="title mb-2">
+                        <b>Navigation</b>
+                    </div>
+                    <div><a href="{{{ config.wwwroot }}}">Home</a></div>
+                    <div><a href="{{{ config.wwwroot }}}/course">My courses</a></div>
+                    <div><a href="{{{ config.wwwroot }}}/user/profile.php">My profile</a></div>
+                    <div><a href="#collection_statement_nav" id="collection_statement_nav">Data collection statement</a></div>
+                </div>
+            </div>
+            <div class="blocks-wrapper col-md-8">
+                <section data-region="" class="hidden-print" aria-label="{{#str}}blocks{{/str}}">
+                    {{{ sidepreblocks }}}
+                    <div class="clearfix"></div>
+                </section>
+            </div>      
+            <div class="col-md-2">
+                <div class="row no-gutters">
+                    <div class="social-join col-lg-auto font-weight-bold pr-lg-4">Join Us
+                    </div>
+                    <div class="social-links col-lg-auto text-nowrap">
+                        {{#theme_brand.facebook}}
+                            <a class="social-logo facebook mr-2" href="{{theme_brand.facebook}}" target="_blank"><img src="{{theme_url.pix}}/social/facebook.png" /></a>
+                        {{/theme_brand.facebook}}
+                        {{#theme_brand.twitter}}
+                            <a class="social-logo twitter mr-2" href="{{theme_brand.twitter}}" target="_blank"><img src="{{theme_url.pix}}/social/twitter.png" /></a>
+                        {{/theme_brand.twitter}}
+                        {{#theme_brand.youtube}}
+                            <a class="social-logo youtube mr-2" href="{{theme_brand.youtube}}" target="_blank"><img src="{{theme_url.pix}}/social/youtube.png" /></a>
+                        {{/theme_brand.youtube}}
+                        {{#theme_brand.linkedin}}
+                            <a class="social-logo linkedin mr-2" href="{{theme_brand.linkedin}}" target="_blank"><img src="{{theme_url.pix}}/social/linkedin.png" /></a>
+                        {{/theme_brand.linkedin}}
+                        {{#theme_brand.instagram}}
+                            <a class="social-logo instagram mr-2" href="{{theme_brand.instagram}}" target="_blank"><img src="{{theme_url.pix}}/social/instagram.png" /></a>
+                        {{/theme_brand.instagram}}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Mindatlas theme content -->
+        {{! <div class="row">
+            
+            <div class="col-md-5">
+
+            </div>
+        </div> }}
+        
+        <!-- End of Mindatlas theme content -->
+
+        <div id="course-footer">{{{ output.course_footer }}}</div>
+
+        <nav class="nav navbar-nav d-md-none" aria-label="{{#str}}custommenu, admin{{/str}}">
+            {{# output.custom_menu_flat }}
+                <ul class="list-unstyled pt-3">
+                    {{> theme_boost/custom_menu_footer }}
+                </ul>
+            {{/ output.custom_menu_flat }}
+        </nav>
+
+        <div class="d-none">
+            {{{ output.standard_footer_html }}}
+            {{{ output.standard_end_of_body_html }}}
+        </div>
+    </div>
+    <div class="container-fluid overflow-auto py-3 text-center">
+        <div class="copy-right-wrapper ml-md-5 text-left row">
+            {{! <div class="flag1 d-inline-block"></div>
+            <div class="flag2 d-inline-block mx-5"></div> }}
+            <span class="gov-info col-md-6">The department acknowledges the Traditional Owners of Country throughout Victoria and pays respects to their Elders past and present. The department also acknowledges that Aboriginal self-determination is a human right and recognises the hard work of many generations of Aboriginal people who have fought for this right to be upheld.</span>
+        </div>
+        <hr class="footer-hr">
+        <div class="d-inline-block copy-right-wrapper float-left ml-md-5">
+            <span class="align-middle col-md-6"> © Department Families, Fairness and Housing  - Learning Management System {{year}}</span>
+        </div>
+    </div>
+</footer>

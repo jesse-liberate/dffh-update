@@ -1,0 +1,700 @@
+[25-Feb-2026 05:52:25 UTC] PHP Warning:  require_once(config.php): Failed to open stream: No such file or directory in /home/dffhdev/public_html/index.php on line 24
+[25-Feb-2026 05:52:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/dffhdev/public_html/index.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/dffhdev/public_html/index.php on line 24
+[26-Feb-2026 10:44:52 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[26-Feb-2026 10:44:55 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$section in /home/dffhdev/public_html/public/course/classes/modinfo.php on line 730
+[26-Feb-2026 10:44:55 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$section in /home/dffhdev/public_html/public/course/classes/modinfo.php on line 736
+[26-Feb-2026 11:03:53 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[26-Feb-2026 11:03:53 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$section in /home/dffhdev/public_html/public/course/classes/modinfo.php on line 730
+[26-Feb-2026 11:03:53 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$section in /home/dffhdev/public_html/public/course/classes/modinfo.php on line 736
+[26-Feb-2026 15:23:51 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[26-Feb-2026 15:23:52 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$section in /home/dffhdev/public_html/public/course/classes/modinfo.php on line 730
+[26-Feb-2026 15:23:52 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$section in /home/dffhdev/public_html/public/course/classes/modinfo.php on line 736
+[26-Feb-2026 17:06:30 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[26-Feb-2026 17:06:30 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$section in /home/dffhdev/public_html/public/course/classes/modinfo.php on line 730
+[26-Feb-2026 17:06:30 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$section in /home/dffhdev/public_html/public/course/classes/modinfo.php on line 736
+[26-Feb-2026 20:57:04 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[26-Feb-2026 20:57:06 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$section in /home/dffhdev/public_html/public/course/classes/modinfo.php on line 730
+[26-Feb-2026 20:57:06 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$section in /home/dffhdev/public_html/public/course/classes/modinfo.php on line 736
+[27-Feb-2026 09:36:56 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[27-Feb-2026 09:36:56 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$section in /home/dffhdev/public_html/public/course/classes/modinfo.php on line 730
+[27-Feb-2026 09:36:56 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$section in /home/dffhdev/public_html/public/course/classes/modinfo.php on line 736
+[27-Feb-2026 11:25:06 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[27-Feb-2026 11:25:07 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$section in /home/dffhdev/public_html/public/course/classes/modinfo.php on line 730
+[27-Feb-2026 11:25:07 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$section in /home/dffhdev/public_html/public/course/classes/modinfo.php on line 736
+[27-Feb-2026 15:02:59 Australia/Melbourne] PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated after headers have already been sent in /home/dffhdev/public_html/public/lib/classes/session/manager.php on line 470
+[27-Feb-2026 15:02:59 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[27-Feb-2026 15:02:59 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[27-Feb-2026 15:03:00 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$section in /home/dffhdev/public_html/public/course/classes/modinfo.php on line 730
+[27-Feb-2026 15:03:00 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$section in /home/dffhdev/public_html/public/course/classes/modinfo.php on line 736
+[27-Feb-2026 15:03:00 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$section in /home/dffhdev/public_html/public/course/classes/modinfo.php on line 730
+[27-Feb-2026 15:03:00 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$section in /home/dffhdev/public_html/public/course/classes/modinfo.php on line 736
+[27-Feb-2026 15:04:00 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[27-Feb-2026 15:04:00 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$section in /home/dffhdev/public_html/public/course/classes/modinfo.php on line 730
+[27-Feb-2026 15:04:00 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$section in /home/dffhdev/public_html/public/course/classes/modinfo.php on line 736
+[27-Feb-2026 15:04:04 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[27-Feb-2026 15:04:04 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$section in /home/dffhdev/public_html/public/course/classes/modinfo.php on line 730
+[27-Feb-2026 15:04:04 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$section in /home/dffhdev/public_html/public/course/classes/modinfo.php on line 736
+[27-Feb-2026 15:04:07 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[27-Feb-2026 15:04:07 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$section in /home/dffhdev/public_html/public/course/classes/modinfo.php on line 730
+[27-Feb-2026 15:04:07 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$section in /home/dffhdev/public_html/public/course/classes/modinfo.php on line 736
+[27-Feb-2026 15:16:08 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[27-Feb-2026 15:16:08 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$section in /home/dffhdev/public_html/public/course/classes/modinfo.php on line 730
+[27-Feb-2026 15:16:08 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$section in /home/dffhdev/public_html/public/course/classes/modinfo.php on line 736
+[27-Feb-2026 15:26:21 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[27-Feb-2026 15:26:21 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$section in /home/dffhdev/public_html/public/course/classes/modinfo.php on line 730
+[27-Feb-2026 15:26:21 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$section in /home/dffhdev/public_html/public/course/classes/modinfo.php on line 736
+[27-Feb-2026 04:35:29 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[27-Feb-2026 04:35:39 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[27-Feb-2026 15:35:39 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[27-Feb-2026 15:35:39 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[27-Feb-2026 15:35:39 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[27-Feb-2026 04:46:43 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[27-Feb-2026 15:46:43 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[27-Feb-2026 15:46:43 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[27-Feb-2026 15:46:43 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[27-Feb-2026 05:37:02 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[27-Feb-2026 16:37:04 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[27-Feb-2026 16:37:04 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[27-Feb-2026 16:37:04 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[27-Feb-2026 06:41:44 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[27-Feb-2026 17:41:45 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[27-Feb-2026 17:41:45 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[27-Feb-2026 17:41:45 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[27-Feb-2026 06:41:56 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[27-Feb-2026 06:41:56 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[27-Feb-2026 17:41:57 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[27-Feb-2026 17:41:57 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[27-Feb-2026 17:41:57 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[27-Feb-2026 07:43:59 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[27-Feb-2026 18:44:00 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[27-Feb-2026 18:44:00 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[27-Feb-2026 18:44:00 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[27-Feb-2026 11:08:45 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[27-Feb-2026 11:09:23 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[27-Feb-2026 22:09:23 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[27-Feb-2026 22:09:23 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[27-Feb-2026 22:09:23 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[28-Feb-2026 01:59:15 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Feb-2026 01:59:25 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Feb-2026 12:59:25 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[28-Feb-2026 12:59:25 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[28-Feb-2026 12:59:25 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[28-Feb-2026 10:20:54 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Feb-2026 10:58:01 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Feb-2026 10:58:08 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Feb-2026 21:58:08 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[28-Feb-2026 21:58:08 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[28-Feb-2026 21:58:08 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[28-Feb-2026 12:24:13 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Feb-2026 12:24:17 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Feb-2026 23:24:18 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[28-Feb-2026 23:24:18 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[28-Feb-2026 23:24:18 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[28-Feb-2026 17:31:21 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[01-Mar-2026 04:31:40 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[01-Mar-2026 04:31:40 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[01-Mar-2026 04:31:41 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[28-Feb-2026 19:48:54 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-Feb-2026 19:49:02 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[01-Mar-2026 06:49:03 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[01-Mar-2026 06:49:03 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[01-Mar-2026 06:49:03 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[28-Feb-2026 21:24:25 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[01-Mar-2026 08:24:26 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[01-Mar-2026 08:24:26 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[01-Mar-2026 08:24:26 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[28-Feb-2026 21:26:17 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[01-Mar-2026 08:26:18 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[01-Mar-2026 08:26:18 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[01-Mar-2026 08:26:18 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[01-Mar-2026 02:27:32 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[01-Mar-2026 02:27:34 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[01-Mar-2026 13:27:35 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[01-Mar-2026 13:27:35 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[01-Mar-2026 13:27:35 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[01-Mar-2026 07:47:13 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[01-Mar-2026 07:47:15 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[01-Mar-2026 10:10:04 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[01-Mar-2026 10:10:20 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[01-Mar-2026 21:10:21 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[01-Mar-2026 21:10:21 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[01-Mar-2026 21:10:21 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[01-Mar-2026 12:28:23 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[01-Mar-2026 12:29:10 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[01-Mar-2026 15:50:45 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[02-Mar-2026 01:40:11 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[02-Mar-2026 03:28:05 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[02-Mar-2026 08:30:07 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[02-Mar-2026 21:14:28 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[02-Mar-2026 21:14:32 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[03-Mar-2026 08:14:45 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[03-Mar-2026 08:14:45 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[03-Mar-2026 08:14:45 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[02-Mar-2026 21:14:45 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[03-Mar-2026 08:14:46 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[03-Mar-2026 08:14:46 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[03-Mar-2026 08:14:46 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[02-Mar-2026 21:39:36 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[02-Mar-2026 21:39:39 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[03-Mar-2026 08:39:40 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[03-Mar-2026 08:39:40 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[03-Mar-2026 08:39:40 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[03-Mar-2026 00:11:43 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[03-Mar-2026 01:02:24 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[03-Mar-2026 01:02:27 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[03-Mar-2026 12:02:28 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[03-Mar-2026 12:02:28 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[03-Mar-2026 12:02:28 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[03-Mar-2026 07:46:47 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[03-Mar-2026 07:46:47 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[03-Mar-2026 09:01:52 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[03-Mar-2026 20:01:53 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[03-Mar-2026 20:01:53 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[03-Mar-2026 20:01:53 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[03-Mar-2026 16:38:18 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-Mar-2026 03:38:39 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[04-Mar-2026 03:38:39 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[04-Mar-2026 03:38:39 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[03-Mar-2026 16:39:56 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-Mar-2026 03:39:57 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[04-Mar-2026 03:39:57 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[04-Mar-2026 03:39:57 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[03-Mar-2026 17:29:16 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[03-Mar-2026 20:42:52 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-Mar-2026 07:43:09 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[04-Mar-2026 07:43:09 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[04-Mar-2026 07:43:09 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[03-Mar-2026 20:43:09 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-Mar-2026 07:43:10 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[04-Mar-2026 07:43:10 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[04-Mar-2026 07:43:10 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[03-Mar-2026 20:43:10 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-Mar-2026 07:43:10 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[04-Mar-2026 07:43:10 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[04-Mar-2026 07:43:10 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[03-Mar-2026 20:43:10 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-Mar-2026 07:43:11 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[04-Mar-2026 07:43:11 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[04-Mar-2026 07:43:11 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[03-Mar-2026 22:41:37 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-Mar-2026 09:41:38 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[04-Mar-2026 09:41:38 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[04-Mar-2026 09:41:38 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[03-Mar-2026 23:37:34 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[03-Mar-2026 23:37:38 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-Mar-2026 10:37:38 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[04-Mar-2026 10:37:38 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[04-Mar-2026 10:37:38 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[04-Mar-2026 05:31:35 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-Mar-2026 05:31:52 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-Mar-2026 16:31:58 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[04-Mar-2026 16:31:58 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[04-Mar-2026 16:31:58 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[04-Mar-2026 16:31:58 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[04-Mar-2026 16:31:58 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[04-Mar-2026 16:31:58 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[04-Mar-2026 06:03:30 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-Mar-2026 06:03:32 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-Mar-2026 17:03:33 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[04-Mar-2026 17:03:33 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[04-Mar-2026 17:03:33 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[04-Mar-2026 12:04:11 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-Mar-2026 23:04:14 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[04-Mar-2026 23:04:14 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[04-Mar-2026 23:04:14 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[04-Mar-2026 12:29:25 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-Mar-2026 12:44:10 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-Mar-2026 23:44:10 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[04-Mar-2026 23:44:11 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[04-Mar-2026 23:44:11 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[04-Mar-2026 16:28:51 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[05-Mar-2026 03:29:15 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[05-Mar-2026 03:29:15 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[05-Mar-2026 03:29:15 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[04-Mar-2026 16:30:23 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[05-Mar-2026 03:30:24 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[05-Mar-2026 03:30:24 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[05-Mar-2026 03:30:24 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[05-Mar-2026 01:37:41 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[05-Mar-2026 01:38:04 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[05-Mar-2026 12:38:05 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[05-Mar-2026 12:38:05 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[05-Mar-2026 12:38:05 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[05-Mar-2026 09:21:46 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[05-Mar-2026 09:22:49 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[05-Mar-2026 20:22:49 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[05-Mar-2026 20:22:49 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[05-Mar-2026 20:22:49 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[05-Mar-2026 09:23:04 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[05-Mar-2026 16:16:00 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[06-Mar-2026 03:16:22 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[06-Mar-2026 03:16:22 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[06-Mar-2026 03:16:22 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[05-Mar-2026 16:20:55 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[06-Mar-2026 03:20:55 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[06-Mar-2026 03:20:55 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[06-Mar-2026 03:20:55 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[05-Mar-2026 23:17:43 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[06-Mar-2026 10:18:00 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[06-Mar-2026 10:18:00 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[06-Mar-2026 10:18:01 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[05-Mar-2026 23:18:01 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[06-Mar-2026 10:18:02 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[06-Mar-2026 10:18:02 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[06-Mar-2026 10:18:02 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[05-Mar-2026 23:18:02 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[06-Mar-2026 10:18:04 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[06-Mar-2026 10:18:04 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[06-Mar-2026 10:18:04 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[05-Mar-2026 23:18:04 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[06-Mar-2026 10:18:05 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[06-Mar-2026 10:18:05 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[06-Mar-2026 10:18:05 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[06-Mar-2026 03:42:56 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[06-Mar-2026 08:01:03 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[06-Mar-2026 08:01:23 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[06-Mar-2026 19:01:24 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[06-Mar-2026 19:01:24 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[06-Mar-2026 19:01:24 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[06-Mar-2026 08:01:25 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[06-Mar-2026 19:01:25 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[06-Mar-2026 19:01:25 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[06-Mar-2026 19:01:25 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[06-Mar-2026 16:02:14 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[06-Mar-2026 16:02:17 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[06-Mar-2026 20:25:21 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-Mar-2026 07:25:44 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[07-Mar-2026 07:25:44 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[07-Mar-2026 07:25:45 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[07-Mar-2026 01:43:13 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-Mar-2026 01:43:15 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-Mar-2026 12:43:16 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[07-Mar-2026 12:43:16 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[07-Mar-2026 12:43:16 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[07-Mar-2026 12:44:41 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-Mar-2026 12:54:37 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-Mar-2026 14:46:34 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-Mar-2026 01:46:48 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[08-Mar-2026 01:46:48 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[08-Mar-2026 01:46:48 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[07-Mar-2026 20:35:37 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-Mar-2026 07:35:56 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[08-Mar-2026 07:35:56 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[08-Mar-2026 07:35:56 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[07-Mar-2026 20:51:04 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-Mar-2026 07:51:05 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[08-Mar-2026 07:51:05 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[08-Mar-2026 07:51:05 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[08-Mar-2026 00:42:01 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-Mar-2026 11:42:03 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[08-Mar-2026 11:42:03 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[08-Mar-2026 11:42:03 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[08-Mar-2026 02:30:20 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-Mar-2026 02:30:22 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-Mar-2026 13:30:22 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[08-Mar-2026 13:30:22 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[08-Mar-2026 13:30:22 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[08-Mar-2026 02:30:24 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-Mar-2026 02:30:25 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-Mar-2026 13:30:26 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[08-Mar-2026 13:30:26 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[08-Mar-2026 13:30:26 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[08-Mar-2026 02:30:27 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-Mar-2026 02:30:27 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-Mar-2026 13:30:28 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[08-Mar-2026 13:30:28 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[08-Mar-2026 13:30:28 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[08-Mar-2026 02:30:28 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-Mar-2026 02:30:29 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-Mar-2026 13:30:29 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[08-Mar-2026 13:30:29 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[08-Mar-2026 13:30:29 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[08-Mar-2026 02:30:29 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-Mar-2026 02:30:30 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-Mar-2026 13:30:30 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[08-Mar-2026 13:30:30 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[08-Mar-2026 13:30:30 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[08-Mar-2026 02:30:31 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-Mar-2026 02:30:32 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-Mar-2026 13:30:32 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[08-Mar-2026 13:30:32 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[08-Mar-2026 13:30:32 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[08-Mar-2026 02:30:32 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-Mar-2026 02:30:33 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-Mar-2026 13:30:33 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[08-Mar-2026 13:30:33 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[08-Mar-2026 13:30:33 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[08-Mar-2026 10:21:28 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-Mar-2026 10:21:30 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-Mar-2026 21:21:31 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[08-Mar-2026 21:21:31 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[08-Mar-2026 21:21:31 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[08-Mar-2026 14:19:15 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-Mar-2026 14:19:30 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[09-Mar-2026 01:19:30 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[09-Mar-2026 01:19:30 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[09-Mar-2026 01:19:31 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[08-Mar-2026 22:41:28 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-Mar-2026 22:41:53 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[09-Mar-2026 09:41:53 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[09-Mar-2026 09:41:53 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[09-Mar-2026 09:41:53 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[09-Mar-2026 02:05:17 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[09-Mar-2026 02:05:21 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[09-Mar-2026 13:05:21 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[09-Mar-2026 13:05:21 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[09-Mar-2026 13:05:21 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[09-Mar-2026 05:38:07 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[09-Mar-2026 05:38:09 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[09-Mar-2026 16:38:10 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[09-Mar-2026 16:38:10 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[09-Mar-2026 16:38:10 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[10-Mar-2026 04:17:51 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[10-Mar-2026 15:18:16 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[10-Mar-2026 15:18:16 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[10-Mar-2026 15:18:16 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[10-Mar-2026 11:14:30 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[11-Mar-2026 00:40:05 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[11-Mar-2026 00:40:05 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[11-Mar-2026 11:40:26 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[11-Mar-2026 11:40:26 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[11-Mar-2026 11:40:26 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[11-Mar-2026 03:36:02 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[11-Mar-2026 14:36:23 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[11-Mar-2026 14:36:23 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[11-Mar-2026 14:36:23 Australia/Melbourne] PHP Fatal error:  Declaration of theme_mindatlas_core_renderer::activity_information(cm_info $cminfo, core_completion\cm_completion_details $completiondetails, array $activitydates): string must be compatible with core\output\core_renderer::activity_information() in /home/dffhdev/public_html/public/theme/mindatlas/classes/renderers/core_renderer.php on line 371
+[11-Mar-2026 03:47:34 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[11-Mar-2026 14:47:35 Australia/Melbourne] Default exception handler: error/rootdirpublic Debug: 
+Error code: rootdirpublic
+$a contents: 
+* line 26 of /index.php: core\exception\moodle_exception thrown
+
+[11-Mar-2026 14:47:36 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$section in /home/dffhdev/public_html/public/course/classes/modinfo.php on line 730
+[11-Mar-2026 14:47:36 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$section in /home/dffhdev/public_html/public/course/classes/modinfo.php on line 736

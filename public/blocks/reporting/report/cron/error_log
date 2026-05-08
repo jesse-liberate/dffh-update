@@ -1,0 +1,60 @@
+[28-Apr-2026 16:42:18 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[29-Apr-2026 02:42:18 Australia/Melbourne] Default exception handler: Exception - Call to undefined function getCourses() Debug: 
+Error code: generalexceptionmessage
+* line 18 of /public/blocks/reporting/report/cron/courseoverview_report_export.php: Error thrown
+
+[28-Apr-2026 17:00:05 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[29-Apr-2026 03:00:11 Australia/Melbourne] Default exception handler: Exception - Call to undefined function getCourses() Debug: 
+Error code: generalexceptionmessage
+* line 18 of /public/blocks/reporting/report/cron/courseoverview_report_export.php: Error thrown
+
+[29-Apr-2026 17:00:02 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[30-Apr-2026 03:00:10 Australia/Melbourne] Default exception handler: Exception - Call to undefined function getCourses() Debug: 
+Error code: generalexceptionmessage
+* line 18 of /public/blocks/reporting/report/cron/courseoverview_report_export.php: Error thrown
+
+[30-Apr-2026 17:00:03 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[01-May-2026 03:00:09 Australia/Melbourne] Default exception handler: Exception - Call to undefined function getCourses() Debug: 
+Error code: generalexceptionmessage
+* line 18 of /public/blocks/reporting/report/cron/courseoverview_report_export.php: Error thrown
+
+[01-May-2026 17:00:05 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[02-May-2026 03:00:10 Australia/Melbourne] Default exception handler: Exception - Call to undefined function getCourses() Debug: 
+Error code: generalexceptionmessage
+* line 18 of /public/blocks/reporting/report/cron/courseoverview_report_export.php: Error thrown
+
+[02-May-2026 17:00:01 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[03-May-2026 03:00:05 Australia/Melbourne] Default exception handler: Exception - Call to undefined function getCourses() Debug: 
+Error code: generalexceptionmessage
+* line 18 of /public/blocks/reporting/report/cron/courseoverview_report_export.php: Error thrown
+
+[03-May-2026 17:00:01 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-May-2026 03:00:06 Australia/Melbourne] Default exception handler: Exception - Call to undefined function getCourses() Debug: 
+Error code: generalexceptionmessage
+* line 18 of /public/blocks/reporting/report/cron/courseoverview_report_export.php: Error thrown
+
+[04-May-2026 17:00:02 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[05-May-2026 03:00:06 Australia/Melbourne] Default exception handler: Exception - Call to undefined function getCourses() Debug: 
+Error code: generalexceptionmessage
+* line 18 of /public/blocks/reporting/report/cron/courseoverview_report_export.php: Error thrown
+
+[05-May-2026 17:00:01 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[06-May-2026 03:00:09 Australia/Melbourne] Default exception handler: Exception - Call to undefined function getCourses() Debug: 
+Error code: generalexceptionmessage
+* line 18 of /public/blocks/reporting/report/cron/courseoverview_report_export.php: Error thrown
+
+[06-May-2026 17:00:03 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-May-2026 03:00:10 Australia/Melbourne] Default exception handler: Exception - Call to undefined function getCourses() Debug: 
+Error code: generalexceptionmessage
+* line 18 of /public/blocks/reporting/report/cron/courseoverview_report_export.php: Error thrown
+
+[07-May-2026 17:00:01 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 03:00:07 Australia/Melbourne] Default exception handler: Exception - Call to undefined function getCourses() Debug: 
+Error code: generalexceptionmessage
+* line 18 of /public/blocks/reporting/report/cron/courseoverview_report_export.php: Error thrown
+
+[08-May-2026 17:00:02 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[09-May-2026 03:00:06 Australia/Melbourne] Default exception handler: Exception - Call to undefined function getCourses() Debug: 
+Error code: generalexceptionmessage
+* line 18 of /public/blocks/reporting/report/cron/courseoverview_report_export.php: Error thrown
+

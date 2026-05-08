@@ -1,0 +1,292 @@
+.theme-mindatlas-template-login {
+    overflow-x: hidden;
+    #page {
+        flex-basis: 0%;
+        flex-grow: 1;
+    }
+
+
+    .login-shadow-layer {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    #page-header {
+        width: 100%;
+        flex: 0 0 auto;
+    }
+
+    #page-footer {
+        width: 100%;
+        background-color: #005d8f;
+        min-height: auto;
+        background-image: none;
+        flex: 0 0 auto;
+        .footer-logo{
+
+        }
+        .social-wrapper {
+            margin-left: 2rem;
+
+            .social-icon {
+                width: 18px;
+                height: 18px;
+                margin-right: 1rem;
+            }
+        }
+    }
+
+    .login-hr{
+      border-top: 1px solid rgba(255, 255, 255, 0.8)  
+    }
+
+    #login-bg-carousel {
+        .carousel-item {
+            background-position: center;
+            background-size: cover;
+        }
+
+        ol.carousel-indicators {
+            background-color: #ccc;
+            height: 30px;
+            li {
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    .login-title {
+        font-size: 48px;
+        .part-1 {
+            font-weight: 600;
+        }
+        .part-2 {
+            font-weight: bold;
+        }
+        @media (min-width: 1439.98px) {
+            & {
+                margin-top: 100px;
+            }
+        }
+    }
+
+
+    #main-overlay {
+        width: 100%;
+        height: 100%;
+        // background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .main-overlay__left {
+        position: relative;
+    }
+
+    #region-main {
+        color: white;
+        border: none;
+        max-width: 600px;
+        width: 100%;
+        background: transparent;
+        padding-bottom: 0;
+    }
+
+    .modal-dialog {
+        color: #444;
+    }
+
+    .login-shadow-layer-none {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+}
+
+// signup
+.theme-mindatlas-template-signup {
+    overflow-x: hidden;
+    .collapsible-actions{
+      display: none;
+    }
+    .ftoggler{
+      display: none;
+    }
+    .mform{
+      background-color: white;
+      padding: 4rem 2rem!important;
+      #id_submitbutton{
+        color: white;
+        font-weight: bold;
+        background-color: #005D8F;
+      }
+      #id_cancel{
+        color: white;
+        font-weight: bold;
+        background-color: #005D8F;
+      }
+    }
+      #page{
+        position: relative;
+      }
+      #page-footer {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        z-index: 1;
+        background-color: #005d8f;
+        min-height: 50px;
+        background-image: none;
+        .footer-logo{
+          
+        }
+        .social-wrapper {
+            margin-left: 2rem;
+
+            .social-icon {
+                width: 18px;
+                height: 18px;
+                margin-right: 1rem;
+            }
+        }
+    }
+    .word-break{
+      color: #004167;
+      font-weight: bold;
+    }
+    .mform{
+      max-width: 1000px;
+      min-width: 400px;
+    }
+    .mform fieldset{
+      border: none;
+    }
+    .main-overlay__left {
+        position: relative;
+        z-index: 5;
+        // background-colbackor: rgba(0, 0, 0, 0.5);
+        background-image: url('../pix/signup-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom right;
+    }
+
+    .main-overlay__right {
+        position: relative;
+        background-color: white;
+    }
+
+    #signup-form-wrapper {
+        max-width: 600px;
+        .card {
+            border: none;
+        }
+    }
+    .chosen-container {
+        font-size: 1rem;
+        min-width: 200px;
+    }
+    .chosen-container-single .chosen-single {
+        padding: .375rem 1.75rem .375rem .75rem;
+        height: auto;
+        border-radius: 0;
+        background: none;
+
+        div {
+            top: 5px;
+            width: 16px;
+        }
+    }
+    .chosen-container-multi .chosen-choices {
+        padding: .375rem 1.75rem .375rem .75rem;
+        background: none;
+    }
+    .form-control {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .theme-mindatlas-template-signup {
+        .col-form-label {
+            flex: 0 0 40%;
+            max-width: 40%;
+        }
+        .felement {
+            flex: 0 0 60%;
+            max-width: 60%;
+        }
+
+        .registration-form {
+            margin-left: 10rem;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+        }
+    }
+}
+
+@media (min-width: 576px) {
+    .theme-mindatlas-template-signup {
+        .mform {
+            > .form-group {
+              margin-left: .5rem;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 767.98px) {
+
+
+    .theme-mindatlas-template-login,.theme-mindatlas-template-signup {
+
+        #page {
+            height: auto;
+            
+            #main-overlay {
+                position: relative;
+                // padding-bottom: 85px;
+
+                #region-main {
+                    position: relative;
+                    transform: none;
+                    width: 100%;
+                    top: auto;
+                    left: auto;
+                }
+            }
+        }
+
+        #page-header {
+            position: relative;
+        }
+
+        #page-header {
+            position: relative;
+        }
+
+        #page-footer {
+            position: relative;
+
+            .social-wrapper {
+                margin-left: 0px;
+                margin-top: .5rem;
+            }
+        }
+    } 
+
+
+
+    .theme-mindatlas-template-signup{
+      .mform{
+        max-width: 100%;
+        min-width: 100px;
+      }
+    }
+    
+} 
+
+

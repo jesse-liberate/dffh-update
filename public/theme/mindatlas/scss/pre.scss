@@ -1,0 +1,101 @@
+// Pre SCSS for the theme.
+
+// variable defination and overwrite
+
+.color-primary {
+    color: $primary;
+}
+
+.color-brand-1 {
+    color: $brandcolor1!important;
+}
+
+.color-brand-2 {
+    color: $brandcolor2!important;
+}
+
+.color-brand-3 {
+    color: $brandcolor3!important;
+}
+
+// .color-brand-4 {
+//     color: $brandcolor4!important;
+// }
+
+
+
+.bg-color-primary {
+    background-color: $primary!important;
+}
+.hover-bg-color-primary {
+    &:hover {
+        background-color: $primary!important;
+    }
+}
+
+.bg-color-brand-1 {
+    background-color: $brandcolor1!important;
+}
+.hover-bg-color-brand-1 {
+    &:hover {
+        background-color: $brandcolor1!important;
+    }
+}
+
+.bg-color-brand-2 {
+    background-color: $brandcolor2!important;
+}
+.hover-bg-color-brand-2 {
+    &:hover {
+        background-color: $brandcolor2!important;
+    }
+}
+
+.bg-color-brand-3 {
+    background-color: $brandcolor3!important;
+}
+.hover-bg-color-brand-3 {
+    &:hover {
+        background-color: $brandcolor3!important;
+    }
+}
+
+// .bg-color-brand-4 {
+//     background-color: $brandcolor4!important;
+// }
+// .hover-bg-color-brand-4 {
+//     &:hover {
+//         background-color: $brandcolor4!important;
+//     }
+// }
+
+.border-primary {
+    border: 2px solid $primary;
+}
+
+.border-color-primary {
+    border-color: $primary;
+}
+
+.border-top-color-primary {
+    border-top-color: $primary;
+}
+
+.border-color-brand-2 {
+    border-color: $brandcolor1;
+}
+
+// https://triangle.designyourcode.io/
+.triangle-bottom-color-brand-2 {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 40px 0 40px;
+    border-color: $brandcolor2 transparent transparent transparent;
+}
+
+#block-welcome .userpicture {
+    border-color: $brandcolor2;
+}
+

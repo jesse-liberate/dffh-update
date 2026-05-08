@@ -1,0 +1,171 @@
+#page-theme-mindatlas-pages-file_library {
+    
+    #input-kewword {
+        float: left;
+        width: calc(100% - 100px);
+        height: 36px;
+        border: none;
+        background-color: #eee;
+        background-image: url('../pix/search.png');
+        background-position: 10px center;
+        background-size: 20px;
+        background-repeat: no-repeat;
+        padding-left: 40px;
+    }
+
+    #btn-search {
+        width: 100px;
+        float: right;
+        color: #fff;
+        // background-color: #000;
+    }
+
+    .section-body {
+        background-color: #eee;
+    }
+
+    #checkbox-lms-only {
+        width: 20px;
+        height: 20px;
+        border-radius: 0px;
+    }
+
+
+    .searchin {
+        &.selected {
+            border-bottom: 2px solid #4d90fa;
+            padding-bottom: 1px;
+        }
+    }
+
+    .category-list {
+        .category {
+            &.top {
+                padding: .5rem 0;
+                margin-bottom: .5rem;
+                border-bottom: 1px solid #444;
+                cursor: pointer;
+            }
+            
+
+            .name-wrapper {
+                font-weight: bold;
+                padding: 2px 0;
+                font-size: 16px;
+                text-transform: capitalize;
+            }
+
+            .arrow {
+                width: 1rem;
+                height: 1rem;
+                background-size: 80%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-image: url('../pix/icons/down-chevron.png');
+                vertical-align: text-top;
+                cursor: pointer;
+            }
+            .arrow.collapsed {
+                background-image: url('../pix/icons/right-thin-chevron.png');
+            }
+
+            &.no-children > .name-wrapper > .arrow {
+                background-image: none;
+            }
+
+        }
+
+
+    }
+
+    .count-msg {
+        border-bottom: 1px solid #aaa;
+    }
+
+    .no-reslut-wrapper {
+        font-size: 2.5rem;
+        line-height: 2.75rem;
+        text-align: center;
+
+        img {
+            max-width: 120px;
+        }
+
+        span {
+            color: #4d90fa;
+        }
+
+        .text-2 {
+            font-size: 1rem;
+            color: #aaa;
+        }
+    }
+
+    .resource-list-item {
+        border-bottom: 1px solid #aaa;
+        cursor: pointer;
+        
+        .file-type-img {
+            img {
+                width: 60px;
+            }
+        }
+
+        .info {
+            width: calc(100% - 80px);
+        }
+
+        .desc {
+            display: block;
+            width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+    }
+}
+
+
+
+
+// view resource page
+#page-theme-mindatlas-pages-view_resource {
+    border-top: 1px solid #707070;
+    .resource-icon{
+        width: 100%;
+    }
+    .back-link-wrapper {
+        border-bottom: 2px solid #707070;
+    }
+
+    .date-uploader {
+        .date {
+            color: grey;
+        }
+
+        .uploader {
+            color: #707070;
+        }        
+    }
+
+    .attachment {
+        background-color: grey;
+
+        .preview {
+            .preview-img {
+                width: 100%;
+            }
+        }
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    #page-theme-mindatlas-pages-view_resource {
+        .resource-icon{
+            max-height: 50px;
+            width: 50px;
+        }
+    }
+}

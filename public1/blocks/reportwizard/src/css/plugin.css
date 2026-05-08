@@ -1,0 +1,161 @@
+form .btn,
+page-buttons .btn {
+	margin: 10px 10px 10px 0px;
+}
+
+.schedule_last_run{
+    display: inline-block;
+}
+
+.float-left{
+	float: left;
+}
+
+.float-right{
+	float: right;
+}
+
+/* @30/07/2018 */
+/* .form_report input,
+.form_report select{
+	margin: 2px;
+} */
+.form_report select[multiple] {
+	height: 120px;
+}
+
+
+.form_report input[type="number"] {
+	width: 80px;
+}
+
+.table-reports .number {
+	width: 40px;
+}
+
+.table-reports .col-view,
+.table-reports .col-edit {
+	text-align: right;
+	width: 100px;
+}
+
+.table-reports td.icons img{
+	width: 16px;
+	height: 16px;
+	margin-right: 5px;
+}
+
+
+/*create/edit report page*/
+#report_activity_course {
+	background-color: #f2f2f2;
+}
+
+.table-view-report td:first-child{
+	width: 200px;
+	font-weight: bold;
+}
+
+
+
+.table-two-cols .col1{
+	width: 50%;
+	text-align: right;
+}
+
+.generaltable input[type="checkbox"] {
+	width: 18px;
+	height: 18px;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    display: inline-block;
+    padding: 4px 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #555;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    vertical-align: middle;
+    width: auto;
+  }
+  textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border linear .2s,box-shadow linear .2s;
+    -moz-transition: border linear .2s,box-shadow linear .2s;
+    -o-transition: border linear .2s,box-shadow linear .2s;
+    transition: border linear .2s,box-shadow linear .2s;
+  }
+  
+  .input-append, .input-prepend {
+    display: inline-block;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    font-size: 0;
+    white-space: nowrap;
+  }
+  
+  .input-append input, .input-prepend input, .input-append select, .input-prepend select, .input-append .uneditable-input, .input-prepend .uneditable-input {
+    position: relative;
+    margin-bottom: 0;
+    *margin-left: 0;
+    vertical-align: top;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+  }
+  
+  .input-append .add-on, .input-prepend .add-on {
+    display: inline-block;
+    width: auto;
+    min-width: 16px;
+    padding: 4px 5px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 0 1px 0 #fff;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    vertical-align: top;
+    border-radius: 0px;
+        margin-right: -1px;
+    }
+    
+    input[type="submit"] + a.btn{
+        margin-bottom: 10px;
+    }
+    
+    .chosen-container-single .chosen-single div b {
+        background-position: 0 5px;
+    }
+    
+    form table > tbody > tr:last-child > td{
+        padding-top: 10px;
+    }
+    
+    /* a.export.btn{
+        background-color: #ccc;
+        color: #000;
+    } */
+    
+    .dataTables_wrapper select{
+        margin-bottom: 0px;
+    }
+    
+    .dataTables_wrapper .dataTables_paginate .paginate_button {
+    min-width: auto !important;
+    padding: 0.5em !important;
+    line-height: 1;
+    font-size: 14px;
+    }
+    
+    .chosen-container-single .chosen-drop,
+    .chosen-container-single .chosen-single{
+        border-radius: 0px;
+    }

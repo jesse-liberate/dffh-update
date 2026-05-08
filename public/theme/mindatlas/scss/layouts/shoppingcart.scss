@@ -1,0 +1,188 @@
+.shopping-cart,
+.shopping-cart-payment {
+    .text-red {
+        color: red;
+    }
+    .back-caret {
+        color: darkgray;
+        font-size: 1.5rem;
+    }
+    .header {
+        .chevron-right {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: grey;
+        }
+        .active-step {
+            color: #0074d6;
+            font-weight: 800;
+        }
+    }
+    .cart {
+        .cart-item {
+            border-bottom: 1px solid lightgrey;
+            &:last-child {
+                border-bottom: none;
+            }
+            .item-img {
+                width: 100%;
+                height: 150px;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            .item-middle {
+                display: flex;
+                flex-direction: column;
+                .course-name {
+                    font-size: 1.25rem;
+                    font-weight: bold;
+                }
+                .item-quantity {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                }
+            }
+            .item-right {
+                display: grid;
+                display: -ms-grid;
+                grid-template-columns: auto 25px;
+                -ms-grid-columns: auto 25px;
+                .item-price {
+                    justify-self: center;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    -ms-grid-column: 1;
+                    .item-subtotal {
+                        text-align: right;
+                    }
+                }
+                .close-icon {
+                    font-size: 25px;
+                    text-align: right;
+                    -ms-grid-column: 2;
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+    .cart-btn {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-size: 11px !important;
+        border-radius: 8px !important;
+        padding: 6px 25px !important;
+        text-transform: unset !important;
+        border: 1px solid transparent !important;
+    }
+    .cart-border {
+        border: 1px solid dimgrey;
+        // border-radius: 16px;
+    }
+    .empty-cart {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .set-quantity-bar {
+        margin-bottom: 0.5rem;
+    }
+}
+.order-summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    .order-summary-up {
+        .summary-item {
+            .quantity {
+                min-width: 40px;
+            }
+            .subtotal {
+                min-width: 70px;
+            }
+        }
+    }
+    .order-summary-down {
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-end;
+        .summary-total {
+            font-size: 15px;
+            font-weight: bold;
+        }
+    }
+}
+.modal-backdrop {
+    opacity: 0.5 !important;
+}
+.partial-border-right {
+    position: absolute;
+    left: 100%;
+    top: 10px;
+    height: 88%;
+    width: 1px;
+    background: #000;
+}
+
+.payment {
+    .form-control {
+        border-radius: 0;
+        border-color: #000;
+    }
+}
+.payment-type-pic {
+    max-height: 80px;
+    max-width: 100%;
+}
+.hr-thick {
+    border-top-width: 3px;
+    border-top-color: #000;
+}
+
+.order-completed-alert {
+    width: 100%;
+    max-width: 950px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 22px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.order-completed-title {
+    img {
+        vertical-align: baseline;
+        margin-bottom: -6px;
+        max-width: 55px;
+    }
+}
+
+.shopping-cart {
+    .purchase-type {
+        input[type="radio"] {
+            width: 1rem;
+            height: 1rem;
+            vertical-align: text-top;
+        }
+
+        .icon-coupon-help {
+            width: 1rem;
+            height: 1rem;
+            cursor: pointer;
+            vertical-align: text-top;
+        }
+
+    }
+}

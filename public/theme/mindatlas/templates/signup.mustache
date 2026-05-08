@@ -1,0 +1,80 @@
+{{> theme_boost/head }}
+
+<body {{{ bodyattributes }}}>
+{{> core/local/toast/wrapper}}
+
+<div id="page-wrapper" class="theme-mindatlas-template-signup">
+
+    {{{ output.standard_top_of_body_html }}}
+
+    <div id="page" class="container-fluid mt-0 px-0"  style="background-image:url('{{theme_brand.loginbackgroundimage}}')">
+        {{! <div id="page-content" class="row h-100">
+
+        </div> }}
+
+        <div id="main-overlay" class="row no-gutters h-100">
+
+            {{! <div class="main-overlay__left col-12 col-md-5">
+
+            </div> }}
+            
+            <div class="main-overlay__left col-sm-12 col-md-9 h-100">
+                <section id="region-main" class="" aria-label="{{#str}}content{{/str}}">
+                    {{{ output.course_content_header }}}
+                    {{{ output.main_content }}}
+                    {{{ output.course_content_footer }}}
+                </section>            
+            
+            </div>
+       
+        </div>
+         <footer id="page-footer" class="footer text-white">
+
+            <div class="container-fluid d-flex  justify-content-between overflow-auto py-3 px-md-5 mx-md-5 text-center">
+             
+              <div class="copy-right-wrapper  ml-md-5 text-left" >
+                  {{! <div class="flag1 d-inline-block"></div>
+                  <div class="flag2 d-inline-block mx-3"></div> }}
+                  {{! <span class="gov-info">The department acknowledges the Traditional Owners of Country throughout Victoria and pays respects to their Elders past and present. The department also acknowledges that Aboriginal self-determination is a human right and recognises the hard work of many generations of Aboriginal people who have fought for this right to be upheld.</span> }}
+                  <hr class="footer-hr"/>
+                  <span class="align-middle text-left"> © Department Family, Fairness and Housing  - Learning Management System {{year}}</span>
+              </div>
+              <div class="row d-inline-block copy-right-wrapper float-left ml-5">
+                 
+              </div>
+               <div class="footer-logo my-auto mr-5">
+                <a class="ml-4" href="{{theme_url.root}}"><img class="h-200r" src="{{theme_url.pix}}/logo-2.png" /></a>
+                {{! <span class='header-subtitle mr-4 float-right font-weight-bold mt-3'>YOUR ONLINE TRANINING </span> }}
+              </div>
+            </div>
+            <!-- end customize -->
+            <div class="container d-none">
+                <div id="course-footer">{{{ output.course_footer }}}</div>
+                {{{ output.standard_footer_html }}}
+                {{{ output.standard_end_of_body_html }}}
+            </div>
+        </footer>  
+
+    </div>
+
+</div>
+<div class="modal" tabindex="-1" role="dialog" id="collection_statement">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" v-html="collection_statement">{{{collection_statement}}}</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+{{#js}}
+M.util.js_pending('theme_boost/loader');
+require(['theme_boost/loader'], function() {
+  M.util.js_complete('theme_boost/loader');
+});
+{{/js}}

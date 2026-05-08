@@ -1,0 +1,178 @@
+// @import "~bootstrap/scss/bootstrap";
+@import "react-dropdown-tree-select/dist/styles.css";
+@import "react-datepicker/dist/react-datepicker.css";
+@import "../packages/Custom-ReactJS-Dropdown-Components/src/styles/global.sass";
+
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+.filter-zone {
+  
+    background-color: #ebebeb;
+
+    .filterPanel {
+        .react-dropdown-tree-select{
+          .tag-list{
+            .tag-item{
+              .tag{
+                max-width: 22rem;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+              }
+            }
+          }
+        }
+        .tag-remove{
+          border-radius: 5px;
+          text-align: center;
+          color: white;
+          font-size: 1.1rem;
+          margin: 0.2rem 0 0.2rem 0.5rem;
+        }
+        .filter {
+            .date-selector-row {
+                // display: flex;
+                // margin-bottom: 0.25rem;
+
+                .date-selector-label {
+                //     display: inline-block;
+                //     width: 50px;
+                //     line-height: 44px;
+                }
+
+                .react-datepicker-wrapper {
+                    width: 100%;
+                }
+            }
+        }
+
+        .dd-wrapper {
+            width: 100%;
+
+            .dd-list {
+                .dd-scroll-list {
+                    .dd-list-item:hover {
+                        background-color: #ccc;
+                        color: black;
+                    }
+                } 
+            }
+        }
+
+        .dd-header:hover {
+            color: black;
+        }
+        .dd-header-title {
+            color: black;
+            font-size: 1rem;
+        }
+        .dd-list-item {
+            font-size: 1rem !important;
+        }
+
+        input[type="text"] {
+            margin-bottom: 0;
+            height: 44px;
+            width: 100%;
+
+            & .tag-item .search {
+                border: none;
+                margin-bottom: 0;
+            }
+        }
+
+        .react-dropdown-tree-select .dropdown {
+            width: 100%;
+            border: none;
+            margin: 0;
+
+            .dropdown-trigger {
+                width: 100%;
+                padding: 0;
+                border: none;
+
+                .tag-list {
+                    .tag-item {
+                        width: 90%;
+                        margin: 0 10px 0 0;
+                        .tag {
+                            background-color: #999;
+                            color: #fff;
+                            padding: 0 0.8rem;
+                            border-radius: 5px;
+                        }
+                        input{
+                          padding-left: 10px;
+                        }
+                    }
+                }
+            }
+
+            .dropdown-content {
+                width: 100%;
+                .toggle:after {
+                    display: inline-block;
+                    text-align: center;
+                    width: 20px;
+                    font-size: 1.5rem;
+                    line-height: 44px;
+                }
+            }
+        }
+    }
+}
+
+
+.report-zone{
+
+  margin-left: 0px!important;
+  margin-right: 0px!important;
+  .resultPanel{ 
+    tbody{
+      overflow: scroll;
+    }
+    .table-header-title{
+      // line-height: 20px;
+    }
+    .table-sort{
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-width: 20px;
+      min-height: 20px;
+      display: inline-block;
+      line-height: 20px;
+      float: right; 
+      &.inactive{
+        background-image: url('../src/image/sort-inactive.svg');
+      }
+      &.order-asc{
+        background-image: url('../src/image/sort-down.svg')!important;
+      }
+      &.order-desc{
+        background-image: url('../src/image/sort-up.svg')!important;
+      }
+    }
+    
+  }  
+  .activePagination a{
+    background-color: skyblue;
+  }
+}
+
+.courseoverview-charts-zone{
+  // height: 350px;
+  .chart-title{
+    height: 30px;
+    line-height: 30px;
+  };
+  .courseoverview-pie{
+    height: 350px;
+  }
+}
+.form-tag{
+  border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}

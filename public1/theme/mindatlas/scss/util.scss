@@ -1,0 +1,139 @@
+.h-100r {
+    height: 1rem;
+}
+
+.h-150r {
+    height: 1.5rem;
+}
+
+.h-200r {
+    height: 2rem;
+}
+
+.h-300r {
+    height: 3rem;
+}
+
+.h-400r {
+    height: 4rem;
+}
+
+.lh-100 {
+    line-height: 1em;
+}
+
+.lh-110 {
+    line-height: 1.1em;
+}
+
+.lh-120 {
+    line-height: 1.2em;
+}
+
+// bg size and position
+.bg-center-cover {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.border-light-blue {
+    border: 3px solid #3587DB;
+}
+
+.max-w-1920 {
+    max-width: 1920px;
+}
+
+.min-h-3 {
+    min-height: 3rem;
+}
+.min-h-5 {
+    min-height: 5rem;
+}
+.min-h-7 {
+    min-height: 7rem;
+}
+
+.xy-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.clear-focus {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.z-0 {
+    z-index: 0;
+}
+
+.z-1 {
+    z-index: 1;
+}
+
+.z-2 {
+    z-index: 2;
+}
+
+.z-3 {
+    z-index: 3;
+}
+
+.font-size-3r {
+    font-size: 3rem;
+}
+
+.font-size-1_25r {
+    font-size: 1.25rem;
+}
+
+.font-size-4r {
+    font-size: 4rem;
+}
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.line-height-1em {
+    line-height: 1em;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.w-1rem {
+    width: 1rem;
+}
+
+.w-4rem {
+    width: 4rem;
+}
+
+.w-8rem {
+    width: 8rem;
+}
+
+.hover-underline {
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.line-though {
+    text-decoration: line-through;
+}
+
+.round {
+    border-radius: 50%;
+}

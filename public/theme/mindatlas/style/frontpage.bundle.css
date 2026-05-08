@@ -1,0 +1,202 @@
+#section-welcome {
+  position: relative;
+  background-size: cover;
+  background-position: center 40%;
+  padding-top: 6rem;
+  padding-bottom: 4rem; }
+  #section-welcome .welcome-wrapper {
+    position: relative;
+    z-index: 1; }
+
+#block-welcome .intro {
+  min-height: 260px;
+  max-width: 600px; }
+  @media (max-width: 767.98px) {
+    #block-welcome .intro {
+      flex-direction: column; } }
+
+#block-welcome .userpicture {
+  border-width: 3px;
+  border-style: solid; }
+
+#block-welcome .progressbar {
+  max-width: 480px;
+  position: relative;
+  border: 1px solid #fff;
+  height: 40px;
+  text-align: center; }
+  #block-welcome .progressbar .bar-inner {
+    height: 38px; }
+  #block-welcome .progressbar .text {
+    position: absolute;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold; }
+
+#block-leaderboard {
+  visibility: hidden; }
+  #block-leaderboard .ranks-table .header {
+    font-size: 0.8rem; }
+  #block-leaderboard .ranks-table .body .rank {
+    border-top: 1px solid rgba(255, 255, 255, 0.5); }
+
+#block-badges .box {
+  width: 70px;
+  height: 70px; }
+
+#section-courses .all-courses-link {
+  min-height: 40px; }
+
+#section-courses .cycleProgress {
+  width: 144px;
+  height: 144px;
+  border-radius: 100%;
+  background-size: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #fff; }
+  #section-courses .cycleProgress .title {
+    max-width: 120px;
+    overflow: hidden; }
+  #section-courses .cycleProgress svg {
+    width: 144px;
+    height: 144px; }
+    #section-courses .cycleProgress svg circle {
+      fill: none;
+      stroke-width: 4; }
+
+#section-courses .rating {
+  position: relative; }
+  #section-courses .rating .rate-text {
+    position: absolute;
+    top: 4px; }
+
+#section-courses .enrolled .cycleProgress {
+  background-image: url("/theme/mindatlas/pix/frontpage/bg-icon-3-2x.png"); }
+
+#section-courses .outstanding .cycleProgress {
+  background-image: url("/theme/mindatlas/pix/frontpage/bg-icon-2-2x.png"); }
+
+#section-courses .completed .cycleProgress {
+  background-image: url("/theme/mindatlas/pix/frontpage/bg-icon-1-2x.png"); }
+
+#section-courses .tabs {
+  margin-bottom: 50px; }
+  #section-courses .tabs .tab {
+    position: relative;
+    cursor: pointer; }
+    @media only screen and (min-width: 768px) {
+      #section-courses .tabs .tab.selected .triangle-bottom {
+        display: inline-block;
+        position: absolute;
+        bottom: -15px;
+        left: 50%;
+        transform: translate(-50%, 0%); } }
+    #section-courses .tabs .tab .triangle-bottom {
+      display: none; }
+
+#section-banner .banner-box {
+  min-height: 20vw; }
+
+#section-resources .title {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#section-resources .video-icon {
+  background-image: url("../pix/icons/icon-video.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 40px;
+  width: 50px;
+  display: inline-block;
+  margin-right: 20px; }
+
+#section-resources .podcast-icon {
+  background-image: url("../pix/icons/icon-podcast.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  margin-right: 20px; }
+
+#section-resources .pdf-icon {
+  background-image: url("../pix/icons/icon-pdf.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 40px;
+  width: 30px;
+  display: inline-block;
+  margin-right: 20px; }
+
+#section-resources .title {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  padding: 3rem 2rem; }
+
+#section-resources .message {
+  height: 352px;
+  background-color: white;
+  padding: 2rem 1rem; }
+
+#section-resources .items {
+  background-color: white;
+  padding: 2rem 1rem;
+  height: 352px; }
+  #section-resources .items .item {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid grey;
+    padding: 15px 5px;
+    font-weight: bold;
+    margin: 0 10px; }
+    #section-resources .items .item .img {
+      width: 5rem; }
+  #section-resources .items .item:hover {
+    text-decoration: none;
+    background-color: #fafafa;
+    box-shadow: 3px 3px 3px #e5e5e5; }
+
+.my-courses-widget .course-tabs .course-tab {
+  cursor: pointer; }
+  .my-courses-widget .course-tabs .course-tab .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); }
+  .my-courses-widget .course-tabs .course-tab.selected .overlay {
+    background-color: rgba(63, 199, 95, 0.7); }
+
+.my-courses-widget .activities {
+  min-height: 244px;
+  padding-left: 1rem;
+  padding-right: 1rem; }
+  .my-courses-widget .activities .activity-box {
+    background-color: #EFEFEF;
+    overflow: hidden; }
+    .my-courses-widget .activities .activity-box .title {
+      background-color: #172031;
+      color: white; }
+    .my-courses-widget .activities .activity-box .body {
+      overflow: hidden;
+      position: relative; }
+  @media (max-width: 767.98px) {
+    .my-courses-widget .activities {
+      padding-left: 0;
+      padding-right: 0; } }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* For portrait layouts only */
+  #block-welcome .message {
+    margin-left: 20px; }
+  #section-courses .cycleProgress {
+    transform: scale(0.8); } }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  #section-courses .cycleProgress {
+    transform: scale(0.9); } }
+

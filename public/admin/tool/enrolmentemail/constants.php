@@ -1,0 +1,38 @@
+<?php
+
+/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+define('ENROLMENTEMAIL_PLUGINNAME', 'tool_enrolmentemail');
+
+define('ENROLMENTEMAIL_STATUS_ARCHIVED', 0);
+define('ENROLMENTEMAIL_STATUS_QUEUED', 1);
+define('ENROLMENTEMAIL_STATUS_SENT', 2);
+define('ENROLMENTEMAIL_STATUS_COURSECOMPLETED', 3);
+
+
+// define('ENROLMENTEMAIL_FAILED', 3);
+// define('ENROLMENTEMAIL_NOTSENT', 4);
+// define('ENROLMENTEMAIL_COURSEHIDDEN', 5);
+// define('ENROLMENTEMAIL_COURSENOTFOUND', 6);
+// define('ENROLMENTEMAIL_COURSECOMPLETED', 7);
+// define('ENROLMENTEMAIL_USERSUSPENDED', 8);
+// define('ENROLMENTEMAIL_USERNOTFOUND', 9);
+// define('ENROLMENTEMAIL_METHODSUSPENDED', 10);
+// define('ENROLMENTEMAIL_METHODNOTFOUND', 11);
+// define('ENROLMENTEMAIL_USERENROLMENTSUSPENDED', 12);
+// define('ENROLMENTEMAIL_USERENROLMENTNOTFOUND', 13);
+// define('ENROLMENTEMAIL_NOTIFICATIONDISABLED', 14);
+
+define('ENROLMENTEMAIL_COURSENOTIFICATION_ENABLED', 1);
+define('ENROLMENTEMAIL_COURSENOTIFICATION_DISABLED', 0);
+
+define('ENROLMENTEMAIL_INITIALCOURSENOTIFICATION', 'email:initialcoursenotification');
+define('ENROLMENTEMAIL_MAXATTEMPTSALLOWED', 'email:maxattemptsallowed');
+define('ENROLMENTEMAIL_EMAILSUBJECTLINE', 'email:subjectline');
+define('ENROLMENTEMAIL_EMAILSIGNATURENAME', 'email:signaturename');
+define('ENROLMENTEMAIL_EMAILCONTACT', 'email:contact');
+define('ENROLMENTEMAIL_EMAILCONTENT', 'email:content');
+define('ENROLMENTEMAIL_MAXATTEMPTS', 10);

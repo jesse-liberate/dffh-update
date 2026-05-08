@@ -1,0 +1,4 @@
+"Full name","Enrolled date","{foreach from=$modules item=modulename}{$modulename}","{/foreach}{foreach from=$filters_array key=filter_name item=is_result_applied}{$is_result_applied->record->name}","{/foreach}{foreach from=$general_filters_array2 key=filtername item=is_result_applied}{$is_result_applied->filterdesc}","{/foreach}"
+{foreach from=$userinfo_row item=row key=result}
+"{$row.firstname} {$row.lastname}","{$row.enrolleddate}",{foreach from = $row.module item=result}"{if $result == 1}Completed{elseif $result == 2}Completed{else}Not Completed{/if}",{/foreach}{foreach from = $row.profile_result item=result}"{if $result.type=='lastaccess'}{if $result.value!=0}{$result.value|date_format:"%d/%m/%Y"}{/if}{else}{$result.value}{/if}",{/foreach},
+{/foreach}

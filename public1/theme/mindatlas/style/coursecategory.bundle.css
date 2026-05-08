@@ -1,0 +1,112 @@
+.learning-progress .title {
+  font-size: 1.3rem;
+}
+.learning-progress .progressbar {
+  position: relative;
+  border: 1px solid #aaa;
+  height: 40px;
+  text-align: center;
+}
+.learning-progress .progressbar .bar-inner {
+  width: 0;
+  height: 38px;
+  background-color: #3fc75f;
+  transition: width 2s;
+}
+.learning-progress .progressbar .text {
+  position: absolute;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+@media only screen and (max-width: 767.9px) {
+  .learning-progress {
+    flex-direction: column;
+  }
+  .learning-progress .progressbar-wrapper {
+    width: 100%;
+  }
+  .learning-progress .progressbar {
+    margin-top: 0.5rem;
+  }
+}
+
+#coursesearch {
+  display: none;
+}
+
+.page-banner {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.page-title {
+  color: white;
+  font-weight: 700;
+  font-size: 4rem;
+  padding-left: 9rem;
+  padding-top: 5rem;
+  margin-bottom: 0;
+  width: 50%;
+}
+
+@media only screen and (max-width: 767.9px) {
+  .page-title {
+    padding-left: 3rem;
+    padding-top: 2rem;
+    width: 80%;
+    font-size: 2rem;
+  }
+}
+#mount-react-course-intro .course-intro .course-image {
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#mount-react-course-intro .course-intro .rate-info {
+  font-size: 0.8rem;
+}
+#mount-react-course-intro .course-intro .star-ratings {
+  bottom: 3px;
+}
+#mount-react-course-intro .course-intro .your-rate {
+  font-size: 0.8rem;
+}
+#mount-react-course-intro .course-intro .fullname {
+  font-size: 1.5rem;
+}
+#mount-react-course-intro .course-intro .summary {
+  color: #707070;
+}
+
+.resourcecontent {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pagelayout-course .course-content ul li.section.main {
+  border: none;
+}
+.pagelayout-course .course-content .sectionname {
+  border-bottom: 3px solid #3587db;
+  font-weight: bold;
+  color: #005d8f;
+  margin-bottom: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.pagelayout-course .course-content .sectionname a {
+  color: #005d8f;
+}
+.pagelayout-course .course-content .sectionname span a {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 767.9px) {
+  .resourcecontent {
+    width: 90%;
+  }
+}

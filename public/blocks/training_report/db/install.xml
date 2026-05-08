@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="blocks/training_report/db" VERSION="20210120" COMMENT="XMLDB file for Moodle blocks/training_report"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd"
+>
+  <TABLES>
+    <TABLE NAME="block_training_report" COMMENT="Default comment for block_training_report, please edit me">
+      <FIELDS>
+        <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true"/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+      </KEYS>
+    </TABLE>
+    <TABLE NAME="report_completion" COMMENT="Default comment for the table, please edit me">
+      <FIELDS>
+        <FIELD NAME="id" TYPE="int" LENGTH="20" NOTNULL="true" SEQUENCE="true"/>
+        <FIELD NAME="user_id" TYPE="int" LENGTH="20" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="course_category_id" TYPE="int" LENGTH="20" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="course_category_name" TYPE="char" LENGTH="255" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="course_id" TYPE="int" LENGTH="20" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="course_name" TYPE="char" LENGTH="255" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="enrolment_types" TYPE="char" LENGTH="255" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="enrolment_startdate" TYPE="int" LENGTH="20" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="enrolment_is_active" TYPE="char" LENGTH="1" NOTNULL="false" DEFAULT="0" SEQUENCE="false" COMMENT="0: inactive or 1: active"/>
+        <FIELD NAME="course_module_id" TYPE="int" LENGTH="20" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="module_name" TYPE="char" LENGTH="255" NOTNULL="false" SEQUENCE="false"/>
+        <FIELD NAME="course_module_instance_id" TYPE="int" LENGTH="20" NOTNULL="false" SEQUENCE="false" COMMENT="Reference to module_name table id, e.g. module_name = 'facetoface', course_module_instance_id = 5, means reference to table facetoface, id 5."/>
+        <FIELD NAME="course_module_instance_name" TYPE="char" LENGTH="255" NOTNULL="false" SEQUENCE="false" COMMENT="e.g. 'Sample offline training 1'"/>
+        <FIELD NAME="completion_id" TYPE="int" LENGTH="20" NOTNULL="false" SEQUENCE="false" COMMENT="Reference to id in course_modules_completion table."/>
+        <FIELD NAME="completion_state" TYPE="int" LENGTH="1" NOTNULL="false" SEQUENCE="false" COMMENT="From course_modules_completion table, column completionstate."/>
+        <FIELD NAME="completion_date" TYPE="int" LENGTH="20" NOTNULL="false" SEQUENCE="false" COMMENT="From course_modules_completion table, column timemodified."/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+      </KEYS>
+      <INDEXES>
+        <INDEX NAME="user_id_ix" UNIQUE="false" FIELDS="user_id"/>
+        <INDEX NAME="course_category_id_ix" UNIQUE="false" FIELDS="course_category_id"/>
+        <INDEX NAME="course_id_ix" UNIQUE="false" FIELDS="course_id"/>
+        <INDEX NAME="enrolment_startdate_ix" UNIQUE="false" FIELDS="enrolment_startdate"/>
+        <INDEX NAME="course_module_id_ix" UNIQUE="false" FIELDS="course_module_id"/>
+        <INDEX NAME="course_module_instance_id_ix" UNIQUE="false" FIELDS="course_module_instance_id"/>
+        <INDEX NAME="completion_id_ix" UNIQUE="false" FIELDS="completion_id"/>
+        <INDEX NAME="completion_date_ix" UNIQUE="false" FIELDS="completion_date"/>
+      </INDEXES>
+    </TABLE>
+  </TABLES>
+</XMLDB>

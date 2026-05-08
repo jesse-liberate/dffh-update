@@ -1,0 +1,287 @@
+// section welcome
+#section-welcome {
+  position: relative;
+  background-size: cover;
+  background-position: center 40%;
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+
+  .welcome-wrapper {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+#block-welcome {
+  .welcome-text-1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .text-dark {
+    font-weight: 600;
+  }
+  .message {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  .intro {
+    min-height: 260px;
+    max-width: 550px;
+    flex-direction: column;
+
+    @media (max-width: 767.98px) {
+      & {
+        flex-direction: column;
+      }
+    }
+  }
+
+  .userpicture {
+    border: none;
+    width: 100px;
+    height: 100px;
+    // border-width: 3px;
+    // border-style: solid;
+  }
+
+  .progressbar {
+    max-width: 350px;
+    position: relative;
+    // border: 1px solid #fff;
+    border: none;
+    height: 40px;
+    text-align: center;
+    background-color: #d9d9d6;
+
+    .bar-inner {
+      height: 40px;
+    }
+
+    .text {
+      position: absolute;
+      line-height: 40px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+}
+
+#block-leaderboard {
+  visibility: hidden;
+  .ranks-table {
+    .header {
+      font-size: 0.8rem;
+    }
+
+    .body {
+      .rank {
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+      }
+    }
+  }
+}
+
+#block-badges {
+  .box {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+// section course
+#section-courses {
+  .course-title {
+    font-size: 1.5rem;
+  }
+  .all-courses-link {
+    min-height: 40px;
+  }
+  .cycleProgress {
+    width: 144px;
+    height: 144px;
+    border-radius: 100%;
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    .title {
+      max-width: 120px;
+      overflow: hidden;
+    }
+    svg {
+      width: 144px;
+      height: 144px;
+
+      circle {
+        fill: none;
+        stroke-width: 4;
+      }
+    }
+  }
+  .rating {
+    position: relative;
+    .rate-text {
+      position: absolute;
+      top: 4px;
+    }
+  }
+
+  .enrolled .cycleProgress {
+    // background-image: url("/theme/mindatlas/pix/frontpage/bg-icon-3-2x.png");
+  }
+  .outstanding .cycleProgress {
+    // background-image: url("/theme/mindatlas/pix/frontpage/bg-icon-2-2x.png");
+  }
+  .completed .cycleProgress {
+    // background-image: url("/theme/mindatlas/pix/frontpage/bg-icon-1-2x.png");
+  }
+
+  .tabs {
+    margin-bottom: 50px;
+
+    .tab {
+      position: relative;
+      cursor: pointer;
+      border: 1px solid white;
+      &.selected {
+        @media only screen and (min-width: 768px) {
+          .triangle-bottom {
+            display: inline-block;
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translate(-50%, 0%);
+          }
+        }
+      }
+      .triangle-bottom {
+        display: none;
+      }
+    }
+  }
+}
+
+#section-my-courses {
+  .activity-name {
+    line-height: 1.4rem;
+    overflow: hidden;
+  }
+}
+
+// section-banner
+#section-banner {
+  .banner-box {
+    min-height: 22.5vw;
+  }
+  .banner-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+// section resources
+#section-resources {
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .video-icon {
+    background-image: url('../pix/icons/icon-video.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 40px;
+    width: 50px;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .podcast-icon {
+    background-image: url('../pix/icons/icon-podcast.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .pdf-icon {
+    background-image: url('../pix/icons/icon-pdf.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 40px;
+    width: 30px;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .title {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding: 3rem 2rem;
+  }
+  .message {
+    height: 352px;
+    background-color: white;
+    padding: 2rem 1rem;
+  }
+  .items {
+    background-color: white;
+    padding: 2rem 1rem;
+    height: 352px;
+    .item {
+      margin-bottom: 1rem;
+      border-bottom: 1px solid grey;
+      padding: 15px 5px;
+      font-weight: bold;
+      margin: 0 10px;
+      .img {
+        width: 5rem;
+      }
+    }
+    .item:hover {
+      text-decoration: none;
+      background-color: #fafafa;
+      box-shadow: 3px 3px 3px #e5e5e5;
+    }
+  }
+}
+@media (max-width: 767.8px) {
+  // #block-welcome {
+  //   .message {
+  //       background-color: rgba(255, 255, 255, 0.6);
+  //   }
+  // }
+  #section-banner {
+    .banner-content {
+      position: relative;
+    }
+  }
+}
+
+// @media only screen and (min-device-width: 481px) and (max-device-width: 1024px){
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* For portrait layouts only */
+  #block-welcome {
+    .message {
+      margin-left: 20px;
+    }
+  }
+  #section-courses {
+    .cycleProgress {
+      transform: scale(0.8);
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  #section-courses {
+    .cycleProgress {
+      transform: scale(0.9);
+    }
+  }
+}

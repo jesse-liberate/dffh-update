@@ -1,0 +1,86 @@
+<section class="section-header">
+    <div class="container pb-5">
+        <div class="page-title font-weight-bold h1 mb-4">Resources Library.</div>
+        <div class="searchbox-wrapper w-100">
+            <input type="text" id="input-kewword" name="input-kewword" value="{{keyword}}">
+            <div class="btn btn-primary" id="btn-search">Search</div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</section>
+
+<section class="section-body py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="d-none">
+                    <input id="checkbox-lms-only" class="styled-checkbox" type="checkbox" name="checkbox-lms-only" value="lms-only" {{#lmsonly}}checked{{/lmsonly}}>
+                    <label for="checkbox-lms-only">Learning Resources only</label> 
+                </div>
+                <div class="category-filter" data-active="{{category_selected}}">
+                    <div class="title mt-5 h5 font-weight-bold py-2 border-bottom-1px-black clearfix">
+                        <span>CATEGORIES</span>
+                        <span id="select-all" class="float-right cursor-pointer searchin" data-id="0">Select All</span>
+                    </div>
+                    <div class="category-list">
+                        {{{categories}}}
+                    </div>
+                </div>
+                {{#isSiteAdmin}}
+        
+        <div class="title h5 mt-5 font-weight-bold py-2 border-bottom-1px-black clearfix">
+            <span>CONFIGURATION</span>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <a href="{{manage_url}}" class="manage-resource">Manage Resources</a>
+
+            </div>
+            <div class="col-md-12">
+                    <a href="{{category_url}}" class="manage-resource">Manage Categories</a>
+            </div>
+            <div class="col-md-12">
+                    <a href="{{permissions_url}}" class="manage-resource">Manage Permissions</a>
+            </div>
+            <div class="col-md-12">
+                <a href="{{tags_url}}" class="manage-resource">Manages Tags</a>
+            </div>
+        </div>
+
+        {{/isSiteAdmin}}
+            </div>
+            <div class="col-md-8">
+                <div class="count-msg font-weight-bold pb-2">{{count_msg}}</div>
+                {{#no_result}}
+                <div class="no-reslut-wrapper p-4">
+                    <img class="mb-3" src="{{wwwroot}}/theme/mindatlas/pix/notfound.png">
+                    <div class="no-result-msg font-weight-bold my-3">{{{no_result_msg_1}}}</div>
+                    <div class="text-2 font-weight-bold">{{{no_result_msg_2}}}</div>
+                </div>
+                {{/no_result}}
+                <div class="resource-list mb-5">
+                    {{#resources}}
+                    <div class="resource-list-item py-3" data-id="{{id}}">
+                        <div class="d-flex flex-row">
+                            <div class="file-type-img mr-3"><img src="{{img_url}}" class=""></div>
+                            <div class="info">
+                                <div class="name font-weight-bold h4 mb-1">{{name}}</div>
+                                <div class="desc">{{{desc_plain}}}</div>
+                            </div>
+                        </div>
+                    </div>
+                    {{/resources}}
+                </div>
+                <div class="pagination-wrapper py-3">
+                    {{{pagination}}}
+                </div>
+            </div>
+        </div>
+        <div>
+        
+        
+       
+        </div>
+    </div>
+    
+</section>

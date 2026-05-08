@@ -1,0 +1,51 @@
+.cls_coursecategory{
+  vertical-align: top !important;
+}
+.verticaltext
+{
+  width:130px;
+  height:50px;
+  -ms-transform:rotate(270deg); /* IE 9 */
+  -moz-transform:rotate(270deg); /* Firefox */
+  -webkit-transform:rotate(270deg); /* Safari and Chrome */
+  -o-transform:rotate(270deg); /* Opera */
+}
+
+#page-report-progress-index #completion-progress th,
+#page-report-progress-index #completion-progress td {padding:2px 4px;font-weight:normal;border-right: 1px solid #EEE;}
+#page-report-progress-index .progress-actions {text-align:center;}
+#page-report-progress-index .completion_pagingbar {margin:1em 0;text-align:center;}
+#page-report-progress-index .completion_prev {display:inline;margin-right:2em;}
+#page-report-progress-index .completion_pagingbar p {display:inline;margin:0;}
+#page-report-progress-index .completion_next {display:inline;margin-left:2em;}
+#page-report-progress-index.dir-rtl #completion-progress th svg {direction:ltr;}
+
+.generaltable td, .generaltable th{
+        padding: 3px;
+}
+.generaltable .cell.c0, .generaltable .header.c0{
+    position: sticky;
+    left: 0;
+    width: 150px;
+    min-width: 100px;
+    background-color: #f2f2f2
+}
+.generaltable.rotate th {
+  height: 140px;
+  white-space: nowrap;
+}
+.generaltable.rotate .header .rotatetext {
+    transform: 
+    /* Magic Numbers */
+    translate(25px, 51px)
+    /* 45 is really 360 - 45 */
+    rotate(315deg);
+    width: 30px;
+    position: relative;
+    top: -60px;
+    left: -20px;
+}
+.generaltable.rotate .header .rotatetext > span {
+  border-bottom: 1px solid #ccc;
+  padding: 5px 10px;
+}
