@@ -11,3 +11,5 @@
 [07-May-2026 23:00:01 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
 [08-May-2026 05:34:59 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
 [08-May-2026 15:35:00 Australia/Melbourne] PHP Deprecated:  ma_insert_or_update_attachment_to_moodle(): Optional parameter $fid declared before required parameter $filearea is implicitly treated as a required parameter in /home/dffhdev/public_html/public/lib/mindatlas/malib.php on line 59
+[08-May-2026 23:00:02 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[09-May-2026 23:00:01 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.

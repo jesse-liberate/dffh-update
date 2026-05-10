@@ -273,3 +273,47 @@ Error code: generalexceptionmessage
 [08-May-2026 17:42:28 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
 [08-May-2026 17:42:41 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
 [08-May-2026 17:42:43 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 20:56:26 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 20:56:30 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[09-May-2026 06:56:30 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[09-May-2026 06:56:30 Australia/Melbourne] Default exception handler: Exception - Non-static method PEAR::getStaticProperty() cannot be called statically Debug: 
+Error code: generalexceptionmessage
+* line 835 of /public/lib/pear/PEAR.php: Error thrown
+* line 2002 of /public/lib/pear/HTML/QuickForm.php: call to PEAR_Error->__construct()
+* line 534 of /public/lib/pear/PEAR.php: call to HTML_QuickForm_Error->__construct()
+* line 110 of /public/lib/pear/HTML/Common.php: call to PEAR->raiseError()
+* line 1052 of /public/lib/pear/HTML/QuickForm.php: call to HTML_Common::raiseError()
+* line 2507 of /public/lib/formslib.php: call to HTML_QuickForm->addRule()
+* line 39 of /public/auth/ma_email/classes/form/login_signup_form.php: call to MoodleQuickForm->addRule()
+* line 218 of /public/lib/formslib.php: call to auth_ma_email\form\login_signup_form->definition()
+* line 280 of /public/auth/ma_email/auth.php: call to moodleform->__construct()
+* line 80 of /public/login/signup.php: call to auth_plugin_ma_email->signup_form()
+
+[08-May-2026 20:57:15 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 20:57:19 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[09-May-2026 06:57:20 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[09-May-2026 06:57:20 Australia/Melbourne] Default exception handler: Exception - Non-static method PEAR::getStaticProperty() cannot be called statically Debug: 
+Error code: generalexceptionmessage
+* line 835 of /public/lib/pear/PEAR.php: Error thrown
+* line 2002 of /public/lib/pear/HTML/QuickForm.php: call to PEAR_Error->__construct()
+* line 534 of /public/lib/pear/PEAR.php: call to HTML_QuickForm_Error->__construct()
+* line 110 of /public/lib/pear/HTML/Common.php: call to PEAR->raiseError()
+* line 1052 of /public/lib/pear/HTML/QuickForm.php: call to HTML_Common::raiseError()
+* line 2507 of /public/lib/formslib.php: call to HTML_QuickForm->addRule()
+* line 39 of /public/auth/ma_email/classes/form/login_signup_form.php: call to MoodleQuickForm->addRule()
+* line 218 of /public/lib/formslib.php: call to auth_ma_email\form\login_signup_form->definition()
+* line 280 of /public/auth/ma_email/auth.php: call to moodleform->__construct()
+* line 80 of /public/login/signup.php: call to auth_plugin_ma_email->signup_form()
+
+[08-May-2026 21:10:03 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-May-2026 21:10:07 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[09-May-2026 07:10:08 Australia/Melbourne] PHP Deprecated:  Creation of dynamic property theme_mindatlas_theme_helper::$plugins is deprecated in /home/dffhdev/public_html/public/theme/mindatlas/classes/theme_helper_base.php on line 88
+[08-May-2026 21:12:36 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[09-May-2026 12:48:22 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[09-May-2026 12:48:23 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[09-May-2026 12:48:35 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[09-May-2026 12:48:36 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[10-May-2026 14:47:43 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[10-May-2026 14:47:43 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[10-May-2026 14:47:48 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[10-May-2026 14:47:49 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.

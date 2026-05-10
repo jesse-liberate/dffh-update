@@ -14,3 +14,646 @@ Error code: generalexceptionmessage
 * line 34 of /public/blocks/training_report/api/report.php: call to ajax_controller_base->process()
 * line 1629 of /public/blocks/training_report/api/report.php: call to API->__construct()
 
+[09-May-2026 12:49:23 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[09-May-2026 12:49:23 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[09-May-2026 22:49:23 Australia/Melbourne] Default exception handler: Exception - Attempt to assign property "action" on null Debug: 
+Error code: generalexceptionmessage
+* line 41 of /public/blocks/training_report/classes/ajax_controller.php: Error thrown
+* line 56 of /public/blocks/training_report/classes/ajax_controller.php: call to ajax_controller_base->validate_action()
+* line 34 of /public/blocks/training_report/api/report.php: call to ajax_controller_base->process()
+* line 1629 of /public/blocks/training_report/api/report.php: call to API->__construct()
+
+[09-May-2026 22:49:23 Australia/Melbourne] Default exception handler: Exception - Attempt to assign property "action" on null Debug: 
+Error code: generalexceptionmessage
+* line 41 of /public/blocks/training_report/classes/ajax_controller.php: Error thrown
+* line 56 of /public/blocks/training_report/classes/ajax_controller.php: call to ajax_controller_base->validate_action()
+* line 34 of /public/blocks/training_report/api/report.php: call to ajax_controller_base->process()
+* line 1629 of /public/blocks/training_report/api/report.php: call to API->__construct()
+
+[09-May-2026 15:42:14 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[10-May-2026 01:42:15 Australia/Melbourne] Default exception handler: Exception - Attempt to assign property "action" on null Debug: 
+Error code: generalexceptionmessage
+* line 35 of /public/blocks/training_report/classes/ajax_controller.php: Error thrown
+* line 50 of /public/blocks/training_report/classes/ajax_controller.php: call to ajax_controller_base->validate_action()
+* line 34 of /public/blocks/training_report/api/report.php: call to ajax_controller_base->process()
+* line 1629 of /public/blocks/training_report/api/report.php: call to API->__construct()
+
+[09-May-2026 15:46:13 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[10-May-2026 01:46:14 Australia/Melbourne] Default exception handler: Exception - Attempt to assign property "action" on null Debug: 
+Error code: generalexceptionmessage
+* line 35 of /public/blocks/training_report/classes/ajax_controller.php: Error thrown
+* line 50 of /public/blocks/training_report/classes/ajax_controller.php: call to ajax_controller_base->validate_action()
+* line 34 of /public/blocks/training_report/api/report.php: call to ajax_controller_base->process()
+* line 1629 of /public/blocks/training_report/api/report.php: call to API->__construct()
+
+[09-May-2026 15:48:48 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[10-May-2026 01:48:49 Australia/Melbourne] Default exception handler: Exception - Undefined constant "Object" Debug: 
+Error code: generalexceptionmessage
+* line 1629 of /public/blocks/training_report/api/report.php: Error thrown
+
+[09-May-2026 15:50:07 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[10-May-2026 01:50:08 Australia/Melbourne] PHP Fatal error:  New expressions are not supported in this context in /home/dffhdev/public_html/public/blocks/training_report/classes/ajax_controller.php on line 17
+[09-May-2026 15:54:15 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[09-May-2026 15:58:51 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[09-May-2026 15:58:51 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[09-May-2026 18:46:09 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[09-May-2026 18:46:09 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[09-May-2026 18:46:35 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_percentage" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "enrolment_startdate" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1378
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "enrolment_startdate" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1379
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_percentage" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1389
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_percentage" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "enrolment_startdate" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1378
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "enrolment_startdate" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1379
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_percentage" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1389
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_percentage" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "enrolment_startdate" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1378
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "enrolment_startdate" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1379
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_percentage" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1389
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_percentage" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "enrolment_startdate" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1378
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "enrolment_startdate" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1379
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_percentage" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1389
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_percentage" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "enrolment_startdate" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1378
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "enrolment_startdate" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1379
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_percentage" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1389
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_percentage" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "enrolment_startdate" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1378
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "enrolment_startdate" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1379
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_percentage" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1389
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_percentage" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "enrolment_startdate" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1378
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "enrolment_startdate" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1379
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_percentage" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1389
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_percentage" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "enrolment_startdate" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1378
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "enrolment_startdate" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1379
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_percentage" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1389
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_percentage" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "enrolment_startdate" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1378
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "enrolment_startdate" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1379
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_percentage" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1389
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_percentage" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "enrolment_startdate" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1378
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "enrolment_startdate" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1379
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_percentage" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1389
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_percentage" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "enrolment_startdate" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1378
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "enrolment_startdate" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1379
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_percentage" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1389
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_percentage" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "enrolment_startdate" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1378
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "enrolment_startdate" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1379
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_percentage" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1389
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_percentage" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "enrolment_startdate" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1378
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "enrolment_startdate" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1379
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_percentage" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1389
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_percentage" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "enrolment_startdate" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1378
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "enrolment_startdate" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1379
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_percentage" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1389
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_percentage" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "enrolment_startdate" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1378
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "enrolment_startdate" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1379
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_percentage" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1389
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_percentage" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "enrolment_startdate" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1378
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "enrolment_startdate" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1379
+[10-May-2026 04:46:36 Australia/Melbourne] PHP Warning:  Undefined array key "completion_percentage" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1389
+[09-May-2026 19:02:10 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[09-May-2026 19:02:10 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[09-May-2026 19:02:53 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[09-May-2026 19:02:53 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[09-May-2026 19:03:03 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[09-May-2026 19:03:03 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[09-May-2026 19:05:34 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[09-May-2026 19:06:42 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1367
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "lastaccess" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1368
+[10-May-2026 05:06:45 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1370
+[10-May-2026 01:02:58 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[10-May-2026 01:02:58 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[10-May-2026 01:03:39 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 11:03:42 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 15:11:21 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[10-May-2026 15:11:21 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[10-May-2026 15:12:09 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[10-May-2026 15:14:33 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[10-May-2026 15:15:15 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[10-May-2026 15:15:43 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[10-May-2026 15:16:54 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[11-May-2026 01:16:56 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:16:56 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:16:56 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 15:17:21 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[11-May-2026 01:17:22 Australia/Melbourne] PHP Warning:  Undefined array key "completion_state" in /home/dffhdev/public_html/public/blocks/training_report/api/report.php on line 1372
+[10-May-2026 15:18:10 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.

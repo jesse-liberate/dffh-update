@@ -2,28 +2,24 @@
 
 global $CFG, $DB;
 
-class ajax_controller extends ajax_controller_base{
-
-
-
-}
-
 
 class ajax_controller_base {
     // 'action name' => 'description'
-    var $actions = [
+    public $actions = [
 
     ];
 
     // input
-    var $action;
-    var $payload;
+    public $action;
+    public $payload;
 
     // output
-    var $result;
+    public $result;
 
     public function __construct()
     {
+        $this->result = new \stdClass();
+        
         if(empty($_POST)){
             $post_data = json_decode(file_get_contents("php://input"), true);
             $this->action = $post_data['action'];
@@ -81,5 +77,11 @@ class ajax_controller_base {
         // $methods = get_class_methods(get_class($this));
         return $ajax_actions;
     }
+
+}
+
+class ajax_controller extends ajax_controller_base{
+
+
 
 }

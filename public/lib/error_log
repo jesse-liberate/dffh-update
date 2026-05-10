@@ -18,3 +18,4 @@
 [07-May-2026 17:02:24 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
 [07-May-2026 17:12:19 UTC] PHP Warning:  Undefined array key 2 in /home/dffhdev/public_html/public/lib/requirejs.php on line 53
 [07-May-2026 17:12:19 UTC] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /home/dffhdev/public_html/public/lib/requirejs.php on line 98
+[08-May-2026 20:32:47 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.

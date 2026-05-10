@@ -58,3 +58,8 @@ Error code: generalexceptionmessage
 Error code: generalexceptionmessage
 * line 18 of /public/blocks/reporting/report/cron/courseoverview_report_export.php: Error thrown
 
+[09-May-2026 17:00:04 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[10-May-2026 03:00:10 Australia/Melbourne] Default exception handler: Exception - Call to undefined function getCourses() Debug: 
+Error code: generalexceptionmessage
+* line 18 of /public/blocks/reporting/report/cron/courseoverview_report_export.php: Error thrown
+

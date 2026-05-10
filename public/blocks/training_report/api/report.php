@@ -1364,10 +1364,12 @@ class API extends ajax_controller {
                 $e->getMessage();
             }
         }
-        if ($record['lastaccess'] == 0 || $record['lastaccess'] == "" || !empty($record['lastaccess'])) {
-            $record['lastaccess'] = ($record['lastaccess'] == 0 || $record['lastaccess'] == "" || is_null($record['lastaccess'])) ? "" : date('d/m/Y', $record['lastaccess']);
+        if(!isset($record['lastaccess']) || empty($record['lastaccess'])) {
+            $record['lastaccess'] = "";
+        } else {
+            $record['lastaccess'] = date('d/m/Y', $record['lastaccess']);
         }
-        if ($record['completion_state'] == 'Completed' || $record['completion_percentage'] == 1) {
+        if((isset($record['completion_state']) && $record['completion_state'] == 'Completed') || (isset($record['completion_percentage']) && $record['completion_percentage'] == 1)) {
             if ($record['completion_date'] == 0 || $record['completion_date'] == "" || !empty($record['completion_date'])) {
                 $record['completion_date'] = ($record['completion_date'] == 0 || $record['completion_date'] == "" || is_null($record['completion_date'])) ? "" : date('d/m/Y', $record['completion_date']);
             }
@@ -1626,5 +1628,5 @@ class API extends ajax_controller {
         });
     }
 };
-new API();
+$api_instance = new API();
 exit;
