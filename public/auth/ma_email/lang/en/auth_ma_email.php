@@ -134,3 +134,11 @@ $string['auth_emailadmin_userconfirmed_noadmin'] = 'The user have been approved 
 $string['auth_emailadmin_actionsheader'] = 'Actions history';
 $string['auth_emailadmin_approveduser'] = 'Approved user';
 $string['auth_emailadmin_updateregistration'] = 'Update Registration';
+
+
+//Adding back deprecated language strings for Moodle 5.1 compatibility
+$string['createuserandpass'] = 'Choose your username and password';
+$string['casesensitiveerror'] = 'Case sensitive error';
+$string['confirmpassword'] = 'Confirm password';
+$string['passwords_must_match'] = 'Passwords must match';
+$string['supplyinfo'] = 'More details';

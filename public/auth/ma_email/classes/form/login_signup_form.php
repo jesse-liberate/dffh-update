@@ -13,18 +13,18 @@ class login_signup_form extends base_login_signup_form {
 
         $mform = $this->_form;
 
-        $mform->addElement('header', 'createuserandpass', get_string('createuserandpass'), '');
+        $mform->addElement('header', 'createuserandpass', new \lang_string('createuserandpass', 'auth_ma_email'), '');
 
         $mform->addElement('text', 'email', get_string('email'), 'maxlength="100" size="25"');
         $mform->setType('email', core_user::get_property_type('email'));
         $mform->addRule('email', get_string('missingemail'), 'required', null, 'client');
-        $mform->addRule('email', get_string('casesensitiveerror'), 'regex', '/^[^A-Z]+$/', 'client');
+        $mform->addRule('email', new \lang_string('casesensitiveerror', 'auth_ma_email'), 'regex', '/^[^A-Z]+$/', 'client');
         $mform->setForceLtr('email');
 
         $mform->addElement('text', 'email2', get_string('emailagain'), 'maxlength="100" size="25" autocomplete="off"');
         $mform->setType('email2', core_user::get_property_type('email'));
         $mform->addRule('email2', get_string('missingemail'), 'required', null, 'client');
-        $mform->addRule('email2', get_string('casesensitiveerror'), 'regex', '/^[^A-Z]+$/', 'client');
+        $mform->addRule('email2', new \lang_string('casesensitiveerror', 'auth_ma_email'), 'regex', '/^[^A-Z]+$/', 'client');
         $mform->setForceLtr('email2');
 
         $this->user_field = $mform->addElement('hidden', 'username', '');
@@ -36,12 +36,19 @@ class login_signup_form extends base_login_signup_form {
         $mform->addElement('password', 'password', get_string('password'), 'maxlength="32" size="12"');
         $mform->setType('password', core_user::get_property_type('password'));
         $mform->addRule('password', get_string('missingpassword'), 'required', null, 'client');
-        $mform->addRule(array('password', 'confirmPassword'), get_string('passwords_must_match'), 'compare', 'eq', 'client');
-        $mform->addElement('password', 'confirmPassword', get_string('confirmpassword'), 'maxlength="32" size="12"');
+        
+        $mform->addElement('password', 'confirmPassword', new \lang_string('confirmpassword', 'auth_ma_email'), 'maxlength="32" size="12"');
         $mform->setType('password', core_user::get_property_type('password'));
         //        $mform->addRule('confirmPassword', get_string('passwordsdiffer'), 'required', null, 'client');
         $mform->addRule('confirmPassword', get_string('missingpassword'), 'required', null, 'client');
-        $mform->addElement('header', 'supplyinfo', get_string('supplyinfo'),'');
+        
+        $mform->addRule(array('password', 'confirmPassword'), new \lang_string('passwords_must_match', 'auth_ma_email'), 'compare', 'eq', 'client');
+        
+        //Liberate: Moved rule to after element definitions
+        //Expected arguments from parent class
+        //parent::addRule($element, $message, $type, $format, $validation, $reset, $force);          
+        
+        $mform->addElement('header', 'supplyinfo', new \lang_string('supplyinfo', 'auth_ma_email'),'');
 
         $namefields = useredit_get_required_name_fields();
         foreach ($namefields as $field) {
