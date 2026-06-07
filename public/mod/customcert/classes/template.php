@@ -253,7 +253,7 @@ class template {
      * @param bool $return Do we want to return the contents of the PDF?
      * @return string|void Can return the PDF in string format if specified.
      */
-    public function generate_pdf(bool $preview = false, int $userid = null, bool $return = false) {
+    public function generate_pdf(bool $preview = false, $userid = null, bool $return = false) {
         global $CFG, $DB, $USER;
 
         if (empty($userid)) {

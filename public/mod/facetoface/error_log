@@ -13,3 +13,120 @@
 [08-May-2026 15:35:00 Australia/Melbourne] PHP Deprecated:  ma_insert_or_update_attachment_to_moodle(): Optional parameter $fid declared before required parameter $filearea is implicitly treated as a required parameter in /home/dffhdev/public_html/public/lib/mindatlas/malib.php on line 59
 [08-May-2026 23:00:02 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
 [09-May-2026 23:00:01 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[10-May-2026 15:47:30 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[10-May-2026 15:47:45 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[10-May-2026 15:47:51 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[11-May-2026 01:47:52 Australia/Melbourne] PHP Warning:  compact(): Undefined variable $offset in /home/dffhdev/public_html/public/mod/facetoface/sessions.php on line 153
+[11-May-2026 01:47:52 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[11-May-2026 01:47:52 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[11-May-2026 01:47:52 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[10-May-2026 15:49:15 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[11-May-2026 01:49:16 Australia/Melbourne] PHP Warning:  compact(): Undefined variable $offset in /home/dffhdev/public_html/public/mod/facetoface/sessions.php on line 153
+[11-May-2026 01:49:16 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[11-May-2026 01:49:16 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[11-May-2026 01:49:16 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[10-May-2026 15:49:29 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[10-May-2026 15:49:56 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[11-May-2026 01:49:57 Australia/Melbourne] PHP Warning:  compact(): Undefined variable $offset in /home/dffhdev/public_html/public/mod/facetoface/sessions.php on line 153
+[11-May-2026 01:49:57 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[11-May-2026 01:49:57 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[11-May-2026 01:49:57 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[10-May-2026 15:50:21 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[11-May-2026 01:50:21 Australia/Melbourne] PHP Warning:  compact(): Undefined variable $offset in /home/dffhdev/public_html/public/mod/facetoface/sessions.php on line 153
+[11-May-2026 01:50:21 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[11-May-2026 01:50:21 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[11-May-2026 01:50:21 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[11-May-2026 01:50:21 Australia/Melbourne] Database transaction aborted automatically in /home/dffhdev/public_html/public/mod/facetoface/sessions.php
+[11-May-2026 01:50:21 Australia/Melbourne] Default exception handler: Exception - Call to undefined function get_all_user_name_fields() Debug: 
+Error code: generalexceptionmessage
+* line 1375 of /public/mod/facetoface/lib.php: Error thrown
+* line 652 of /public/mod/facetoface/lib.php: call to facetoface_get_attendees()
+* line 585 of /public/mod/facetoface/lib.php: call to facetoface_update_attendees()
+* line 243 of /public/mod/facetoface/sessions.php: call to facetoface_update_session()
+
+[10-May-2026 15:50:29 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[11-May-2026 01:50:30 Australia/Melbourne] PHP Warning:  compact(): Undefined variable $offset in /home/dffhdev/public_html/public/mod/facetoface/sessions.php on line 153
+[11-May-2026 01:50:30 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[11-May-2026 01:50:30 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[11-May-2026 01:50:30 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[10-May-2026 15:55:15 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[10-May-2026 15:55:21 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[11-May-2026 01:55:22 Australia/Melbourne] PHP Warning:  compact(): Undefined variable $offset in /home/dffhdev/public_html/public/mod/facetoface/sessions.php on line 153
+[11-May-2026 01:55:22 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[11-May-2026 01:55:22 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[11-May-2026 01:55:22 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[10-May-2026 15:56:13 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[11-May-2026 01:56:14 Australia/Melbourne] PHP Warning:  compact(): Undefined variable $offset in /home/dffhdev/public_html/public/mod/facetoface/sessions.php on line 153
+[11-May-2026 01:56:14 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[11-May-2026 01:56:14 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[11-May-2026 01:56:14 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[10-May-2026 15:56:17 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[10-May-2026 23:00:02 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[11-May-2026 23:00:02 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[12-May-2026 23:00:01 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[13-May-2026 23:00:01 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[14-May-2026 23:00:02 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[15-May-2026 23:00:04 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[16-May-2026 23:00:03 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[17-May-2026 23:00:02 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[18-May-2026 23:00:03 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[19-May-2026 23:00:03 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[20-May-2026 23:00:01 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[21-May-2026 23:00:03 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[22-May-2026 23:00:02 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[23-May-2026 23:00:05 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[24-May-2026 23:00:01 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[24-May-2026 23:01:12 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[24-May-2026 23:01:14 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[24-May-2026 23:01:14 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[24-May-2026 23:01:15 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[24-May-2026 23:01:15 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[24-May-2026 23:01:18 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[24-May-2026 23:01:53 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[25-May-2026 23:00:01 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[25-May-2026 23:01:43 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[25-May-2026 23:01:43 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[25-May-2026 23:01:45 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[25-May-2026 23:01:46 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[26-May-2026 23:00:02 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[27-May-2026 03:32:48 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[27-May-2026 03:34:27 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[27-May-2026 03:35:28 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[27-May-2026 23:00:02 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-May-2026 04:25:47 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-May-2026 12:58:52 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-May-2026 12:58:54 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[28-May-2026 23:00:03 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[29-May-2026 02:40:15 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[29-May-2026 11:39:58 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[29-May-2026 23:00:03 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[30-May-2026 23:00:02 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[31-May-2026 23:00:01 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[01-Jun-2026 10:01:22 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[01-Jun-2026 10:01:39 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[01-Jun-2026 20:01:40 Australia/Melbourne] PHP Warning:  compact(): Undefined variable $offset in /home/dffhdev/public_html/public/mod/facetoface/sessions.php on line 153
+[01-Jun-2026 20:01:40 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[01-Jun-2026 20:01:40 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[01-Jun-2026 20:01:40 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[01-Jun-2026 10:11:29 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[01-Jun-2026 20:11:30 Australia/Melbourne] PHP Warning:  compact(): Undefined variable $offset in /home/dffhdev/public_html/public/mod/facetoface/sessions.php on line 153
+[01-Jun-2026 20:11:30 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[01-Jun-2026 20:11:30 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[01-Jun-2026 20:11:30 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[01-Jun-2026 10:11:45 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[01-Jun-2026 10:14:41 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[01-Jun-2026 20:14:42 Australia/Melbourne] PHP Warning:  compact(): Undefined variable $offset in /home/dffhdev/public_html/public/mod/facetoface/sessions.php on line 153
+[01-Jun-2026 20:14:42 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[01-Jun-2026 20:14:42 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[01-Jun-2026 20:14:42 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[01-Jun-2026 10:14:54 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[01-Jun-2026 20:14:54 Australia/Melbourne] PHP Warning:  compact(): Undefined variable $offset in /home/dffhdev/public_html/public/mod/facetoface/sessions.php on line 153
+[01-Jun-2026 20:14:54 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[01-Jun-2026 20:14:54 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[01-Jun-2026 20:14:54 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[01-Jun-2026 23:00:01 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[02-Jun-2026 23:00:03 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[03-Jun-2026 23:00:01 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[04-Jun-2026 23:00:03 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[05-Jun-2026 23:00:02 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[06-Jun-2026 23:00:02 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
