@@ -101,6 +101,39 @@ class theme_mindatlas_theme_helper_base
         global $PAGE;
         $PAGE->requires->data_for_js('M.user', $this->get_user(), true);
     }
+    
+    /**
+     * PHP7.0, Moodle 3.7
+     * require js file on page
+     *
+     * @param string $file, relative path to dirroot and filename, example 'theme/mindatlas/javascript/_theme.js' 
+     * @return bool $inhead, require before <header>
+     */
+    function require_js(string $file, $inhead = false)
+    {
+        global $PAGE, $CFG;
+        if (file_exists($CFG->dirroot . $file)) {
+            $PAGE->requires->js($file . '?' . filemtime($CFG->dirroot . $file), $inhead);
+        } else {
+            print_error('filenotfound', 'error', '', null, $CFG->dirroot . $file);
+        }
+    }
+    
+    /**
+     * PHP7.0, Moodle 3.7
+     * require css file on page
+     *
+     * @param string $file, 
+     */
+    function require_css(string $file)
+    {
+        global $PAGE, $CFG;
+        if (file_exists($CFG->dirroot . $file)) {
+            $PAGE->requires->css($file . '?' . filemtime($CFG->dirroot . $file));
+        } else {
+            print_error('filenotfound', 'error', '', null, $CFG->dirroot . $file);
+        }
+    }    
 
     /**
      * PHP7.0, Moodle 3.7
@@ -117,10 +150,10 @@ class theme_mindatlas_theme_helper_base
 
         if ($filetype == 'js') {
             $file = '/theme/mindatlas/javascript/' . $filename;
-            theme_mindatlas_require_js($file, $inhead);
+            $this->require_js($file, $inhead);
         } elseif ($filetype == 'css') {
             $file = '/theme/mindatlas/style/' . $filename;
-            theme_mindatlas_require_css($file);
+            $this->require_css($file);
         }
     }
 

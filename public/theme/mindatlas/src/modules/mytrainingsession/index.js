@@ -27,7 +27,7 @@ class MyTrainingSessionsPage extends React.Component {
     })
   }
   render() {  
-   
+   window.top.alert(this.state.data);
     if (this.state.data != []) {
       var trainingComponent =  <TrainingSessionTable data={this.state.data}></TrainingSessionTable>
     } else {
