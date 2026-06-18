@@ -17,14 +17,16 @@
 use core\analytics\indicator\read_actions;
 
 require_once(__DIR__ . '../../../../config.php');
-require_once(__DIR__ . '../../lib.php');
-require_once($CFG->dirroot . '/blocks/theme_support/classes/mindatlas_theme_library.php');
+require_once(__DIR__ . '/lib/lib.php');
+require_once(__DIR__.'/lib/mindatlas_plugin_library.php');
+
+$plugin_f2f_lib = true;
+
 require_once($CFG->dirroot . '/mod/facetoface/lib.php');
-require_once($CFG->dirroot . '/mod/facetoface/lib_mindatlas.php');
-global $THEME, $USER;
+require_once(__DIR__ . '/lib/lib_facetoface.php');
+global $MA_PLUGIN, $USER;
 use core_course\external\course_summary_exporter;
 
-$THEME->requires('training_session.js');
 $sessionid = optional_param('id', 0, PARAM_INT);
 
 if ($sessionid) {
@@ -52,9 +54,9 @@ if ($sessionid) {
 
 require_login();
 
-$theme_lib = new mindatlas_theme_library();
+$theme_lib = new mindatlas_plugin_library();
 
-$url = new moodle_url('/theme/mindatlas/pages/sessions_details.php');
+$url = new moodle_url('/mod/ma_facetoface_ext/sessions_details.php');
 $PAGE->set_url($url);
 
 $context = context_course::instance($course->id);
@@ -66,7 +68,7 @@ $sessionfull = false;
  // Capacity.
  $signupcount = facetoface_get_num_attendees($session->id, MDL_F2F_STATUS_APPROVED);
  $stats = $session->capacity - $signupcount;
- if ($viewattendees) {
+ if (isset($viewattendees) && $viewattendees) {
      $stats = $signupcount . ' / ' . $session->capacity;
  } else {
      $stats = max(0, $stats);
@@ -81,13 +83,16 @@ $sessionfull = false;
     if(!$bookedsession){
     unset($signup);
     }
+    
+$timenow = time();   
+    
  if ($session->datetimeknown && facetoface_has_session_started($session, $timenow) && facetoface_is_session_in_progress($session, $timenow)) {
      $status = get_string('sessioninprogress', 'facetoface');
      $sessionstarted = true;
  } else if ($session->datetimeknown && facetoface_has_session_started($session, $timenow)) {
      $status = get_string('sessionover', 'facetoface');
      $sessionstarted = true;
- } else if ($signup && $bookedsession) {    // MA-MODIFIED
+ } else if (isset($signup) && !empty($signup) && $bookedsession) {    // MA-MODIFIED
      $signupstatus = facetoface_get_status($bookedsession->statuscode);
      $status = get_string('status_' . $signupstatus, 'facetoface');
      $isbookedsession = true;
@@ -131,25 +136,30 @@ $PAGE->navbar->ignore_active();
 $PAGE->navbar->add('Session details', $url);
 
 $output = $PAGE->get_renderer('core', 'course');
-$imageurl= $THEME->brand["mycourses_banner"];
+//$imageurl= $THEME->brand["mycourses_banner"];
 $content = '
-    <section id="section-banner" class=" page-banner" style="background-image: url('.$imageurl.')">
+    <section id="section-banner" class=" page-banner" style="background-image: url(img/banner.jpg)">
         <div class="banner-box">
             <h1 class="page-title">FP&R Response Facilitated Training Booking</h1>
         </div>
     </section>';
-$text1 = $THEME->brand["training_text"];
-$text2 = $THEME->brand["training_textt"];
+$text1 = get_config('theme_mindatlas', 'training_text');
+$text2 = get_config('theme_mindatlas', 'training_textt');
 
 echo $OUTPUT->header();
 echo $content;
+
+$secondRow = false;
+
 $fs = get_file_storage();
 // $files = $fs->get_area_files($context->id, 'mod_facetoface', 'sessionimage',$session->id);
 $timestart  = ma_facetoface_get_date_format(null, $session->sessiondates[0]->timestart , 'd-m-Y');
 $timefinish = ma_facetoface_get_date_format(null, $session->sessiondates[0]->timefinish, 'd-m-Y');
 $timestartt  = ma_facetoface_get_date_format(null, $session->sessiondates[0]->timestart , 'g:i a ');
 $timefinishh = ma_facetoface_get_date_format(null, $session->sessiondates[0]->timefinish, 'g:i a ');
-if($session->sessiondates[1]){
+if(count($session->sessiondates) > 1){
+    
+    $secondRow = true;
     $timestart2  = ma_facetoface_get_date_format(null, $session->sessiondates[1]->timestart , 'd-m-Y');
     $timefinish2 = ma_facetoface_get_date_format(null, $session->sessiondates[1]->timefinish, 'd-m-Y');
     $timestartt2  = ma_facetoface_get_date_format(null, $session->sessiondates[1]->timestart , 'g:i a ');
@@ -165,7 +175,8 @@ $course_image = course_summary_exporter::get_course_image($course);
 //         $fileurl['url'] = moodle_url::make_pluginfile_url($file->get_contextid(), $file->get_component(), $file->get_filearea(),$file->get_itemid(), $file->get_filepath(), $filename);
 //             }
 //         }
-        $target_user = $THEME->get_user($USER->id);
+        $target_user = \core_user::get_user($USER->id);
+        profile_load_data($target_user);
     $session->details = strip_tags( $session->details, '<p><a><ul><li><div><h1><h2><h3><h4><h5><span>');
 $content = '<div class="training-wrapper">';
     $content .= '<div class="row mb-5">';
@@ -176,11 +187,19 @@ $content = '<div class="training-wrapper">';
     $content .= '<div class="time-details-container p-5">';
         $content .= '<div class="row">';
             $content .= '<div class="col-lg-4"><h3 class="time-details">Start date</h3>
-            <p class="session-details">'.$timestart.'</p>  <p class="session-details"> '.$timestart2.'</p></div>';
+            <p class="session-details">'.$timestart.'</p>';  
+            
+            if($secondRow) $content .= '<p class="session-details"> '.$timestart2.'</p>';
+            $content .= '</div>';
             $content .= '<div class="col-lg-4"><h3 class="time-details">End date</h3>
-            <p class="session-details">'.$timefinish.'</p>  <p class="session-details">'.$timefinish2.'</p></div>';
-            $content .= '<div class="col-lg-4"><h3 class="time-details">Time</h3>
-            <p class="session-details">'.$timestartt.' - '.$timefinishh.'</p>  <p class="session-details">'.$timestartt2.' - '.$timefinishh2.' </p></div>';
+            <p class="session-details">'.$timefinish.'</p>';  
+            
+            if($secondRow) $content .= '<p class="session-details">'.$timefinish2.'</p>';
+            $content .= '</div>';
+            $content .= '<div class="col-lg-4"><h3 class="time-details">Time</h3><p class="session-details">'.$timestartt.' - '.$timefinishh.'</p>';
+            
+            if($secondRow) $content .= '<p class="session-details">'.$timestartt2.' - '.$timefinishh2.' </p>';
+            $content .= '</div>';
         $content .= '</div>';
     $content .= '</div>';
     $content .= '<div class="time-details-container mt-3 p-5">';
@@ -202,15 +221,15 @@ $content .= '<div class="user-details-container mt-3 p-5">';
         $content .= '<div class="col-lg-4"><p class="user-details">Full name</p>
         <p class="session-details">'.$target_user->firstname.' '.$target_user->lastname.'</p></div>';
         $content .= '<div class="col-lg-4"><p class="user-details">Profession</p>
-        <p class="session-details">'.$target_user->profile['RoleOrPosition'].'</p></div>';
+        <p class="session-details">'.$target_user->profile_field_RoleOrPosition.'</p></div>';
         $content .= '<div class="col-lg-4"><p class="user-details">Company</p>
-        <p class="session-details">'.$target_user->profile['OrganisationOrAgency'].'</p></div>';
+        <p class="session-details">'.$target_user->profile_field_OrganisationOrAgency.'</p></div>';
     $content .= '</div>';
         $content .= '</div>';
     $content .= '</div>';
 $content .= '</div>';
 
-if($signup->dietary_requirements == '1'){
+if(isset($signup) && $signup->dietary_requirements == '1'){
     $diet_requirements = '  <label class="form-check-label session-details mr-2" for="diet1">Yes</label>
     <input onclick="javascript:yesnoCheck1();" class="form-check-input" type="radio" checked name="dietOptions" id="diet1" value="yes">
   </div>
@@ -227,19 +246,19 @@ if($signup->dietary_requirements == '1'){
     <input onclick="javascript:yesnoCheck1();" class="form-check-input" checked type="radio" name="dietOptions" id="diet2" value="no">
   </div>';
 }
-if($signup->dietary_details){
+if(isset($signup) && ($signup->dietary_details)) {
     $diet_details = '<textarea class="form-control" name="diettext" form="confirmationForm" id="dietarea" rows="6">'.$signup->dietary_details.'</textarea> ';
 }else{
     $diet_details = '<textarea style="display:none" class="form-control" name="diettext" form="confirmationForm" id="dietarea" rows="6"></textarea> ';
 }
 
-if($signup->access_details){
+if(isset($signup) && $signup->access_details){
     $access_details = '   <textarea class="form-control" name="accesstext" form="confirmationForm" id="accessarea" rows="6">'.$signup->access_details.'</textarea>';
 }else{
     $access_details = '<textarea style="display:none" class="form-control" name="accesstext" form="confirmationForm"  id="accessarea" rows="6"></textarea>';
 }
 
-if($signup->access_requirements == '1'){
+if(isset($signup) && $signup->access_requirements == '1'){
     
     $access_requirements = '  <div class="form-check form-check-inline">
     <label class="form-check-label session-details mr-2" for="access1">Yes</label>
@@ -295,6 +314,32 @@ if($bookedsession){
 
 $content .= '</div>';
 $content .= '</form>';
+$content .= "<script type='text/javascript'>
+function yesnoCheck1() {
+    if (document.getElementById('diet1').checked) {
+        document.getElementById('dietarea').style.display = 'block';
+        document.getElementById('diet_question').style.display = 'block';
+    }
+    else {
+        document.getElementById('dietarea').style.display = 'none';
+        document.getElementById('diet_question').style.display = 'none';
+    }
+
+}
+
+function yesnoCheck2() {
+    if (document.getElementById('access1').checked) {
+        document.getElementById('accessarea').style.display = 'block';
+        document.getElementById('access_question').style.display = 'block';
+    }else {
+        document.getElementById('accessarea').style.display = 'none';
+        document.getElementById('access_question').style.display = 'none';
+        
+    }
+
+}
+
+</script>";
 
 echo $content;
 echo $OUTPUT->footer();

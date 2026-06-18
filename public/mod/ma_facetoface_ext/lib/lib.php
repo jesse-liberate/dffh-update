@@ -30,10 +30,10 @@ include_once(__DIR__ . '/mindatlas_plugin_helper.php');
 
 // Liberate 30/05 - plugin not installed, and we are NOT manually overwriting the theme global with the MA one
 
-/*use block_most_viewed_liked_course\model\UserCourseRating;
+/*use block_most_viewed_liked_course\model\UserCourseRating; */
 
-global $THEME;
-$THEME = new theme_mindatlas_theme_helper();*/
+global $MA_PLUGIN;
+$MA_PLUGIN = new mindatlas_plugin_helper();
 
 /**
  * Returns the main SCSS content.

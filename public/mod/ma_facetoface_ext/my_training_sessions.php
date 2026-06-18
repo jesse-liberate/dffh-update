@@ -20,13 +20,18 @@ require_once(__DIR__ . '../../../../config.php');
 require_once(__DIR__ . '/lib/lib.php');
 require_once(__DIR__.'/lib/mindatlas_plugin_library.php');
 
+$plugin_f2f_lib = true;
+
+require_once($CFG->dirroot . '/mod/facetoface/lib.php');
+require_once(__DIR__ . '/lib/lib_facetoface.php');
+
 global $THEME, $USER;
 
 require_login();
 
 $plugin_lib = new mindatlas_plugin_library();
 
-$url = new moodle_url('/theme/mindatlas/pages/my_training_sessions.php');
+$url = new moodle_url('/mod/ma_facetoface_ext/my_training_sessions.php');
 $PAGE->set_url($url);
 
 
@@ -136,10 +141,66 @@ echo $content;
 <?php
 $back_url = $CFG->wwwroot;
 
+$user_sessions = dffh_get_user_sessions($USER->id);
+
+$sessionsTable = "";
+
+if(!empty($user_sessions)) {
+    
+    $sessionsTable .= "<table className='training-table w-100'>
+                <tbody>
+                    <tr className='training-table-header'>
+                        <td>TRAINING MODULE</td>
+                        <td>SHORT DESCRIPTION</td>
+                        <td>LOCATION</td>
+                        <td>START DATE</td>
+                        <td>END DATE</td>
+                        <td>TIME</td>
+                        <td className='button-head'>REGISTER/WAITLIST</td>
+                    </tr>";
+                    
+                    foreach($user_sessions as $item) {
+                       $sessionsTable .= "<tr key='".$item->id."' className=''>
+                        <td>".$item->name."</td>
+                        <td>".$item->details."</td>
+                        <td>".$item->location."</td>
+                        <td>";
+                        
+                        if($item->timestart) $sessionsTable .= "<p>".$item->timestart."</p>";
+                        if($item->timestart2) $sessionsTable .= "<p>".$item->timestart2."</p>";
+                        if($item->timestart3) $sessionsTable .= "<p>".$item->timestart3."</p>";
+                    
+                        $sessionsTable .= "</td><td>";
+                        if($item->timefinish) $sessionsTable .= "<p>".$item->timefinish."</p>";
+                        if($item->timefinish2) $sessionsTable .= "<p>".$item->timefinish2."</p>";
+                        if($item->timefinish3) $sessionsTable .= "<p>".$item->timefinish3."</p>";
+                        
+                        $sessionsTable .= "</td><td>";
+                        if($item->time) $sessionsTable .= "<p>".$item->time."</p>";
+                        if($item->time2) $sessionsTable .= "<p>".$item->time2."</p>";
+                        if($item->time3) $sessionsTable .= "<p>".$item->time3."</p>";
+                        $sessionsTable .= "</td><td className='button-td mt-2'>";
+                        
+                        if($item->status != null) {
+                            $sessionsTable .= "<a href='/mod/ma_facetoface_ext/sessions_details.php?id=".$item->id."' className='btn-custom bg-color-brand-2 hover-bg-color-brand-2 float-left text-white font-weight-bold mb-2'>".$item->status."</a>";
+                        } else {
+                          $sessionsTable .= "<a className='btn p-3 btn-primary'>Book</a>";
+                        }
+                        
+                        if($item->statuscancel != null) {
+                            $sessionsTable .= "<a href='/mod/ma_facetoface_ext/sessions_details.php?id=".$item->id."' className='btn-custom bg-color-brand-2 hover-bg-color-brand-2 float-left text-white font-weight-bold mb-2'>".$item->statuscancel."</a>";
+                        }
+                    
+                        $sessionsTable .= "</td>
+                      </tr>";
+                        
+                    }
+                $sessionsTable .= "</tbody></table>";
+    }
+    
+    echo $sessionsTable;
+
 ?>
-
-<div class="pb-5" id="mount-react-trainingsessionpage"></div>
-
 </div>
 <?php
 $content = '<div class="training-wrapper"><h3 class="mt-5">Available Practice Modules</h3><p>Below is the full list of available training sessions as part of the Response.</p>';

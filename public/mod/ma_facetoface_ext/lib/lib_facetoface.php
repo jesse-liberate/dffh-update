@@ -507,4 +507,230 @@ function ma_facetoface_coursef2f_options($selected = "",
   return $html;
 }
 
+function dffh_get_user_sessions($userid) {
+        global $DB, $USER;
+        
+        //$userid = $payload['userid'];
+        //$limit = $payload['limit'];
+        //$extrafields = $payload['extrafields']; 
+        $include_past = false;
+        $fields = array(
+            'fsess.id', 'f.course','fsess.additonal_details','f.name','fsess_dates.timestart', 'fsess_dates.timefinish');
+       
+        /*foreach ($extrafields as $field) {
+            if (!in_array($field, $fields)) {
+                $fields[] = $field;
+            }
+        }*/
+        $condition1="";
+        $condition2="";
+        
+        $timenow = time();
+        
+         $params = array();
+        if(!is_siteadmin($userid)){
+            $condition1="INNER JOIN (SELECT e.courseid from mdl_enrol e INNER JOIN mdl_user_enrolments ue on e.id=ue.enrolid group by e.courseid) u_enrolled on u_enrolled.courseid=f.course";
+            $condition2="and fsign.userid = ?";
+           
+            // We need two userid variables as the parameters for condititions in SQL query
+        }
+        $fields = implode(', ', $fields);
+    
+        $query = "SELECT $fields
+            FROM mdl_facetoface f
+             ".$condition1."
+            JOIN mdl_facetoface_sessions fsess
+            ON fsess.facetoface = f.id
+             JOIN mdl_facetoface_sessions_dates fsess_dates
+            ON fsess_dates.sessionid = fsess.id
+            WHERE fsess.id IS NOT NULL ";
+        if (!$include_past) {
+            $query .= 'AND fsess_dates.timestart > ?';
+            $params[] = time();
+        }
+        $query .= ' ORDER BY fsess_dates.timestart ASC ';
+    
+        
+        // print_object($params);
+        // print_object($query);die();
+      
+        $session = $DB->get_records_sql($query, $params);
+       
+        foreach($session as $s){
+            $paramss [] = $userid;
+            $paramss [] = $s->id;
+            $sessionstatus = $DB->get_record_sql('SELECT sign_status.statuscode as status, sign_status.id as id FROM  mdl_facetoface_signups fsign
+            LEFT JOIN mdl_facetoface_signups_status sign_status
+            ON sign_status.signupid = fsign.id WHERE fsign.userid = ? AND fsign.sessionid = ? ORDER BY sign_status.timecreated DESC LIMIT 1   ', $paramss);
+            if($sessionstatus){
+            $s->status = $sessionstatus->status;
+            }
+        }
+      
+        $locationfieldid = $DB->get_field_sql('SELECT id from {facetoface_session_field} where shortname=?',array('location'));
+      
+        $venuefieldid = $DB->get_field_sql('SELECT id from {facetoface_session_field} where shortname=?',array('venue'));
+
+      $varsessions = [];
+      foreach($session as $s){
+        if ($s) {
+            if (!$session = facetoface_get_session($s->id)) {
+                print_error('error:incorrectcoursemodulesession', 'facetoface');
+            }
+            if (!$facetoface = $DB->get_record('facetoface', array('id' => $session->facetoface))) {
+                print_error('error:incorrectfacetofaceid', 'facetoface');
+            }
+            if (!$course = $DB->get_record('course', array('id' => $facetoface->course))) {
+                print_error('error:coursemisconfigured', 'facetoface');
+            }
+            if (!$cm = get_coursemodule_from_instance('facetoface', $facetoface->id, $course->id)) {
+                print_error('error:incorrectcoursemoduleid', 'facetoface');
+            }
+            if (!$signup = $DB->get_record('facetoface_signups', array('sessionid' => $s->id,'userid' => $USER->id))) {
+            }
+            if (!$locationfield = $DB->get_record('facetoface_session_field', array('shortname' => 'location'))) {
+            }
+            if (!$location = $DB->get_record('facetoface_session_data', array('sessionid' => $s->id , 'fieldid' => $locationfield->id))) {
+            }
+            
+            $nbdays = count($session->sessiondates);
+        }
+        $timestart = null;
+        $timefinish = null;
+        $timestartt = null;
+        $timefinishh = null;
+        $isbookedsession = false;
+        //$bookedsession = $session->bookedsession;
+        $sessionstarted = false;
+        $sessionfull = false;
+        // Capacity.
+        $signupcount = facetoface_get_num_attendees($session->id, MDL_F2F_STATUS_APPROVED);
+        $stats = $session->capacity - $signupcount;
+        /*if ($viewattendees) {
+            $stats = $signupcount . ' / ' . $session->capacity;
+        } else {*/
+            $stats = max(0, $stats);
+        //}
+        $status  = get_string('bookingopen', 'facetoface');
+        $statuscancel = null;
+        $bookedsession = null;
+            if ($submissions = facetoface_get_user_submissions($facetoface->id, $USER->id)) {
+                $submissions = array_filter($submissions, function($submission) use ($s) {
+                    return $submission->sessionid == $s->id;
+                });
+                $submission = array_shift($submissions);
+                $bookedsession = $submission;
+            }
+        if ($session->datetimeknown && facetoface_has_session_started($session, $timenow) && facetoface_is_session_in_progress($session, $timenow)) {
+            $status = get_string('sessioninprogress', 'facetoface');
+            $sessionstarted = true;
+        } else if ($session->datetimeknown && facetoface_has_session_started($session, $timenow)) {
+            $status = get_string('sessionover', 'facetoface');
+            $sessionstarted = true;
+        } else if ($signup && $bookedsession) {    // MA-MODIFIED
+            $signupstatus = facetoface_get_status($bookedsession->statuscode);
+            if($signupstatus == 'waitlisted' || $signupstatus == 'booked' ){
+            $statuscancel = get_string('status_' . $signupstatus .'_cancel', 'facetoface');
+            }
+            $status = get_string('status_' . $signupstatus, 'facetoface');
+            $isbookedsession = true;
+        } else if ($signupcount >= $session->capacity) {
+            $status = 'Waitlist';
+            $sessionfull = true;
+        }
+        $button = '';
+        $link = '';
+
+        if ($isbookedsession) {
+            // Hide More Info link as requested by client
+            //$options .= html_writer::link('signup.php?s='.$session->id.'&backtoallsessions='.$session->facetoface, get_string('moreinfo', 'facetoface'), array('title' => get_string('moreinfo', 'facetoface'))) . html_writer::empty_tag('br');
+        if ($session->allowcancellations) {
+        $button = get_string('cancelbooking', 'facetoface');
+        $link = 'cancelsignup.php?s=' . $session->id . '&backtoallsessions=' . $session->facetoface ;
+        }
+        } else if (!$sessionstarted and !$bookedsession) {  // MA-MODIFIED
+        if ($signupcount >= $session->capacity) { // fully booked
+        $button = get_string('joinwaitlist', 'facetoface');
+        $link = 'signup.php?s='.$session->id.'&backtoallsessions='.$session->facetoface;
+        }else{
+        $button = 'Register';
+        $link = 'signup.php?s='.$session->id.'&backtoallsessions='.$session->facetoface;
+        }
+    }
+        $venue = $DB->get_record_sql('SELECT * FROM {facetoface_session_data} WHERE sessionid = ? AND fieldid = ?',array($s->id,$venuefieldid));
+        $location = $DB->get_record_sql('SELECT * FROM {facetoface_session_data} WHERE sessionid = ? AND fieldid = ?',array($s->id,$locationfieldid));
+        $s->timestart = $timestart;
+        $s->timefinish = $timefinish;
+        $s->venue = !empty($venue) ? $venue->data:null;
+        $s->location = $location->data;
+        $course = get_course($s->course);
+        $multipledates = $DB->get_records_sql('SELECT * FROM  {facetoface_sessions_dates} WHERE sessionid = ? ',array($s->id));
+        $timestart2 = null;
+        $timefinish2 = null;
+        $timestartt2 = null;
+        $timefinishh2 = null;
+        $timestart3 = null;
+        $timefinish3 = null;
+        $timestartt3 = null;
+        $timefinishh3 = null;
+        
+    
+        $counter = 1;
+        foreach ($multipledates as $index => $date) {
+            if ($counter == 1) {
+              
+                $timestart  = ma_facetoface_get_date_format(null, $date->timestart , 'd-m-Y');
+                $timefinish = ma_facetoface_get_date_format(null, $date->timefinish, 'd-m-Y');
+                $timestartt  = ma_facetoface_get_date_format(null, $date->timestart , 'g:i a ');
+                $timefinishh = ma_facetoface_get_date_format(null, $date->timefinish, 'g:i a ');
+            }
+            if ($counter == 2) {
+              
+                $timestart2 = ma_facetoface_get_date_format(null, $date->timestart , 'd-m-Y');
+                $timefinish2 = ma_facetoface_get_date_format(null, $date->timefinish, 'd-m-Y');
+                $timestartt2 = ma_facetoface_get_date_format(null, $date->timestart , 'g:i a ');
+                $timefinishh2 = ma_facetoface_get_date_format(null, $date->timefinish, 'g:i a ');
+            }
+            if ($counter == 3) {
+                $timestart3 = ma_facetoface_get_date_format(null, $date->timestart , 'd-m-Y');
+                $timefinish3 = ma_facetoface_get_date_format(null, $date->timefinish, 'd-m-Y');
+                $timestartt3 = ma_facetoface_get_date_format(null, $date->timestart , 'g:i a ');
+                $timefinishh3 = ma_facetoface_get_date_format(null, $date->timefinish, 'g:i a ');
+            }
+            $counter++;
+        }
+    
+   
+    $category = $DB->get_record_sql('SELECT * FROM  {course_categories} WHERE id = ?   ',array($course->category));
+    if($category->idnumber != 'coaching'){
+        if($course->visible == 1){
+            $object = (object)[
+                'id'=> $s->id,
+                'name'=>$s->name,
+                'details'=>strip_tags($s->additonal_details),
+                'timestart'=> $timestart,
+                'timefinish'=> $timefinish,
+                'time'=>$timestartt.''.$timefinishh,
+                'timestart2'=> $timestart2,
+                'timefinish2'=> $timefinish2,
+                'time2'=>$timestartt2.''.$timefinishh2,
+                'timestart3'=> $timestart3,
+                'timefinish3'=> $timefinish3,
+                'time3'=>$timestartt3.''.$timefinishh3,
+                'status'=>$status,
+                'statuscancel' => $statuscancel,
+                'venue'=>$s->venue,
+                'location'=> $s->location];
+            $varsessions[] = $object;
+        }
+    }
+   
+  }
+  
+  return $varsessions;
+     
+    //$data[0] = $varsessions;
+    //$this->result = $data;
+}
+
 
