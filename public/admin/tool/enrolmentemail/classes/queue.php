@@ -285,7 +285,7 @@ EOT;
    *
    * @return  array  notification records
    */
-  public function get_notifications(array $conditions = null) {
+  public function get_notifications(array $conditions) {
     global $DB;
     return $DB->get_records('enrolmentemail_queue', $conditions);
   }
