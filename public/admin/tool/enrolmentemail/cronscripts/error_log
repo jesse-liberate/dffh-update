@@ -142,3 +142,5 @@
 [17-Jun-2026 03:00:22 Australia/Melbourne] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/dffhdev/public_html/public/lib/dml/mysqli_native_moodle_database.php on line 1369
 [17-Jun-2026 17:00:06 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
 [18-Jun-2026 03:00:23 Australia/Melbourne] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/dffhdev/public_html/public/lib/dml/mysqli_native_moodle_database.php on line 1369
+[18-Jun-2026 17:00:03 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[19-Jun-2026 03:00:19 Australia/Melbourne] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/dffhdev/public_html/public/lib/dml/mysqli_native_moodle_database.php on line 1369

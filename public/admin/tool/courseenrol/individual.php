@@ -312,7 +312,7 @@ if ($editcontrols = courseenrol_edit_controls($context, $baseurl)) {
    //  $extracolumns = get_extra_user_fields($context);
 
     // Get all user name fields as an array.
-    $allusernamefields = get_all_user_name_fields(false, null, null, null, true);
+    $allusernamefields = \core_user\fields::get_name_fields(false, null, null, null, true);
     // echo "<pre>".print_r($allusernamefields,true)."</pre>";
     // echo "<pre>".print_r($extracolumns,true)."</pre>";
     

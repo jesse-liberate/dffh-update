@@ -16,3 +16,25 @@ Error code: generalexceptionmessage
 Error code: generalexceptionmessage
 * line 37 of /public/admin/tool/setdeadline/pages/edit_setting.php: Error thrown
 
+[18-Jun-2026 17:16:29 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[19-Jun-2026 03:16:32 Australia/Melbourne] Default exception handler: Exception - Call to undefined function get_all_user_name_fields() Debug: 
+Error code: generalexceptionmessage
+* line 37 of /public/admin/tool/setdeadline/pages/edit_setting.php: Error thrown
+
+[18-Jun-2026 17:20:53 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[19-Jun-2026 03:20:55 Australia/Melbourne] PHP Warning:  Array to string conversion in /home/dffhdev/public_html/public/admin/tool/setdeadline/pages/edit_setting.php on line 37
+[19-Jun-2026 03:20:55 Australia/Melbourne] Default exception handler: Error reading from database Debug: Unknown column 'Array' in 'SELECT'
+SELECT id,email,Array FROM mdl_user WHERE id <> ? AND confirmed = 1 AND deleted = 0 AND suspended = 0  ORDER BY firstname ASC, lastname ASC
+[array (
+  0 => '1',
+)]
+Error code: dmlreadexception
+* line 497 of /public/lib/dml/moodle_database.php: dml_read_exception thrown
+* line 346 of /public/lib/dml/moodle_read_replica_trait.php: call to moodle_database->query_end()
+* line 1364 of /public/lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->query_end()
+* line 1507 of /public/lib/dml/moodle_database.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 16 of /public/admin/tool/setdeadline/classes/utils.php: call to moodle_database->get_records_select()
+* line 37 of /public/admin/tool/setdeadline/pages/edit_setting.php: call to tool_setdeadline\utils::get_all_users()
+
+[18-Jun-2026 17:27:10 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[19-Jun-2026 03:27:13 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/admin/tool/setdeadline/classes/form/reminder_form.php on line 183

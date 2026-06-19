@@ -34,7 +34,12 @@ $all_courses = utils::get_all_courses('id, fullname');
 foreach ($all_courses as $courseid => $course) {
     $all_courses[$courseid] = $course->fullname;
 }
-$all_users = utils::get_all_users('id,email,' . get_all_user_name_fields(true));
+
+
+$userfieldsapi = \core_user\fields::for_name();
+$namefields = $userfieldsapi->get_sql('', false, '', '', false)->selects;
+
+$all_users = utils::get_all_users('id,email,' . $namefields);
 foreach ($all_users as $userid => $user) {
     $all_users[$userid] = fullname($user) . " ($user->email)";
 }
