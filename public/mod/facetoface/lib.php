@@ -32,13 +32,13 @@ defined('MOODLE_INTERNAL') || die();
 
 require_once($CFG->libdir . '/gradelib.php');
 require_once($CFG->dirroot . '/grade/lib.php');
-//require_once($CFG->dirroot."/lib/mindatlas/malib.php");
+require_once($CFG->dirroot."/lib/mindatlas/malib.php");
 require_once($CFG->dirroot . '/lib/adminlib.php');
 require_once($CFG->dirroot . '/user/selector/lib.php');
 require_once($CFG->libdir . '/completionlib.php');
 require_once($CFG->dirroot . '/lib/enrollib.php');
 require_once($CFG->dirroot . '/lib/datalib.php');
-require_once('lib_mindatlas.php');  // MA-MODIFIED
+if(!isset($plugin_f2f_lib)) require_once('lib_mindatlas.php');  // MA-MODIFIED
 require_once('classes/timezone_class.php');
 /*
  * Definitions for setting notification types.
@@ -302,7 +302,7 @@ function facetoface_fix_settings($facetoface)
 {
 
   
-        $facetoface->requestmessage = $facetoface->requestmessage['text'];
+        $facetoface->requestmessage = isset($facetoface->requestmessage['text']) ? $facetoface->requestmessage['text']:'';
     
    
         $facetoface->confirmationmessage = $facetoface->confirmationmessage['text'];
@@ -2742,7 +2742,7 @@ function facetoface_send_notice_original($postsubject, $posttext, $posttextmgrhe
 
                 return 'error:cannotsendconfirmationuser';
             }
-            unlink($CFG->dataroot . '/' . $attachment['filename']);
+            unlink($CFG->dataroot . '/' . $attachment['filename'][0]);
         }
     }
 
@@ -5115,10 +5115,12 @@ function facetoface_add_customfields_to_form(&$mform, $customfields, $alloptiona
         if (!$field->required) {
             $options[''] = get_string('none');
         }
-        foreach (explode(CUSTOMFIELD_DELIMITER, $field->possiblevalues) as $value) {
-            $v = trim($value);
-            if (!empty($v)) {
-                $options[$v] = $v;
+        if(!empty($field->possiblevalues)) {
+            foreach (explode(CUSTOMFIELD_DELIMITER, $field->possiblevalues) as $value) {
+                $v = trim($value);
+                if (!empty($v)) {
+                    $options[$v] = $v;
+                }
             }
         }
 

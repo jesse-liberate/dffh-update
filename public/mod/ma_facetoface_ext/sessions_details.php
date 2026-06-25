@@ -31,16 +31,16 @@ $sessionid = optional_param('id', 0, PARAM_INT);
 
 if ($sessionid) {
     if (!$session = facetoface_get_session($sessionid)) {
-        print_error('error:incorrectcoursemodulesession', 'facetoface');
+        throw new moodle_exception('error:incorrectcoursemodulesession', 'facetoface');
     }
     if (!$facetoface = $DB->get_record('facetoface', array('id' => $session->facetoface))) {
-        print_error('error:incorrectfacetofaceid', 'facetoface');
+        throw new moodle_exception('error:incorrectfacetofaceid', 'facetoface');
     }
     if (!$course = $DB->get_record('course', array('id' => $facetoface->course))) {
-        print_error('error:coursemisconfigured', 'facetoface');
+        throw new moodle_exception('error:coursemisconfigured', 'facetoface');
     }
     if (!$cm = get_coursemodule_from_instance('facetoface', $facetoface->id, $course->id)) {
-        print_error('error:incorrectcoursemoduleid', 'facetoface');
+        throw new moodle_exception('error:incorrectcoursemoduleid', 'facetoface');
     }
     if (!$signup = $DB->get_record('facetoface_signups', array('sessionid' => $sessionid,'userid' => $USER->id))) {
     }
@@ -59,10 +59,12 @@ $theme_lib = new mindatlas_plugin_library();
 $url = new moodle_url('/mod/ma_facetoface_ext/sessions_details.php');
 $PAGE->set_url($url);
 
+$PAGE->requires->css(new moodle_url('/mod/ma_facetoface_ext/src/sessions.css'));
+
 $context = context_course::instance($course->id);
 
 $isbookedsession = false;
-$bookedsession = $session->bookedsession;
+//$bookedsession = $session->bookedsession; Liberate - this is only made null 10 lines later??!
 $sessionstarted = false;
 $sessionfull = false;
  // Capacity.
@@ -229,7 +231,7 @@ $content .= '<div class="user-details-container mt-3 p-5">';
     $content .= '</div>';
 $content .= '</div>';
 
-if(isset($signup) && $signup->dietary_requirements == '1'){
+if(isset($signup) && isset($signup->dietary_requirements) && $signup->dietary_requirements == '1'){
     $diet_requirements = '  <label class="form-check-label session-details mr-2" for="diet1">Yes</label>
     <input onclick="javascript:yesnoCheck1();" class="form-check-input" type="radio" checked name="dietOptions" id="diet1" value="yes">
   </div>
@@ -246,19 +248,19 @@ if(isset($signup) && $signup->dietary_requirements == '1'){
     <input onclick="javascript:yesnoCheck1();" class="form-check-input" checked type="radio" name="dietOptions" id="diet2" value="no">
   </div>';
 }
-if(isset($signup) && ($signup->dietary_details)) {
+if(isset($signup) && isset($signup->dietary_details) && !empty($signup->dietary_details)) {
     $diet_details = '<textarea class="form-control" name="diettext" form="confirmationForm" id="dietarea" rows="6">'.$signup->dietary_details.'</textarea> ';
 }else{
     $diet_details = '<textarea style="display:none" class="form-control" name="diettext" form="confirmationForm" id="dietarea" rows="6"></textarea> ';
 }
 
-if(isset($signup) && $signup->access_details){
+if(isset($signup) && isset($signup->access_details) && !empty($signup->access_details)){
     $access_details = '   <textarea class="form-control" name="accesstext" form="confirmationForm" id="accessarea" rows="6">'.$signup->access_details.'</textarea>';
 }else{
     $access_details = '<textarea style="display:none" class="form-control" name="accesstext" form="confirmationForm"  id="accessarea" rows="6"></textarea>';
 }
 
-if(isset($signup) && $signup->access_requirements == '1'){
+if(isset($signup) && isset($signup->access_requirements) && $signup->access_requirements == '1'){
     
     $access_requirements = '  <div class="form-check form-check-inline">
     <label class="form-check-label session-details mr-2" for="access1">Yes</label>

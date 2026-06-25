@@ -84,10 +84,11 @@ class signup_success extends \core\event\base {
      *
      * @return array|null
      */
-    protected function get_legacy_logdata() {
+    /*protected function get_legacy_logdata() {
         return array($this->courseid, $this->objecttable, 'signup', 'signup.php?s=' . $this->objectid,
             $this->objectid, $this->contextinstanceid);
-    }
+    }*/
+    // Liberate - Removing 'legacy' functions on Gemini's recommendation (deprecated)
 
     /**
      * Custom validation.

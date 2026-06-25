@@ -130,3 +130,141 @@ Error code: generalexceptionmessage
 [04-Jun-2026 23:00:03 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
 [05-Jun-2026 23:00:02 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
 [06-Jun-2026 23:00:02 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[07-Jun-2026 23:00:02 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[08-Jun-2026 23:00:03 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[10-Jun-2026 18:09:21 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[10-Jun-2026 23:00:05 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[11-Jun-2026 23:00:01 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[12-Jun-2026 23:00:02 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[13-Jun-2026 23:00:02 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[14-Jun-2026 23:00:01 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[15-Jun-2026 09:46:59 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[15-Jun-2026 23:00:01 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[16-Jun-2026 23:00:02 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[17-Jun-2026 02:29:39 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[17-Jun-2026 23:00:01 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[18-Jun-2026 12:07:18 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[18-Jun-2026 23:00:03 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[19-Jun-2026 06:15:03 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[19-Jun-2026 23:00:03 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[20-Jun-2026 23:00:01 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[21-Jun-2026 16:48:34 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[21-Jun-2026 23:00:03 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[22-Jun-2026 23:00:04 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[23-Jun-2026 00:33:58 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[23-Jun-2026 10:33:59 Australia/Melbourne] PHP Warning:  compact(): Undefined variable $managersemail in /home/dffhdev/public_html/public/mod/facetoface/signup.php on line 202
+[23-Jun-2026 10:33:59 Australia/Melbourne] PHP Warning:  Undefined array key "facetoface" in /home/dffhdev/public_html/public/mod/facetoface/classes/signup_form.php on line 46
+[23-Jun-2026 10:33:59 Australia/Melbourne] PHP Warning:  Attempt to read property "approvalreqd" on null in /home/dffhdev/public_html/public/mod/facetoface/classes/signup_form.php on line 47
+[23-Jun-2026 10:33:59 Australia/Melbourne] Default exception handler: Exception - Call to undefined function ma_email_to_user() Debug: 
+Error code: generalexceptionmessage
+* line 2740 of /public/mod/facetoface/lib.php: Error thrown
+* line 3171 of /public/mod/facetoface/lib.php: call to facetoface_send_notice_original()
+* line 2240 of /public/mod/facetoface/lib.php: call to facetoface_send_confirmation_notice()
+* line 270 of /public/mod/facetoface/signup.php: call to facetoface_user_signup()
+
+[23-Jun-2026 09:45:18 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[23-Jun-2026 09:45:48 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[23-Jun-2026 19:45:49 Australia/Melbourne] PHP Warning:  Undefined array key "facetoface" in /home/dffhdev/public_html/public/mod/facetoface/classes/signup_form.php on line 46
+[23-Jun-2026 19:45:49 Australia/Melbourne] PHP Warning:  Attempt to read property "approvalreqd" on null in /home/dffhdev/public_html/public/mod/facetoface/classes/signup_form.php on line 47
+[23-Jun-2026 19:45:49 Australia/Melbourne] Default exception handler: Exception - Call to undefined function ma_email_to_user() Debug: 
+Error code: generalexceptionmessage
+* line 2740 of /public/mod/facetoface/lib.php: Error thrown
+* line 3171 of /public/mod/facetoface/lib.php: call to facetoface_send_notice_original()
+* line 2240 of /public/mod/facetoface/lib.php: call to facetoface_send_confirmation_notice()
+* line 270 of /public/mod/facetoface/signup.php: call to facetoface_user_signup()
+
+[23-Jun-2026 09:56:55 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[23-Jun-2026 19:56:56 Australia/Melbourne] PHP Warning:  Undefined array key "facetoface" in /home/dffhdev/public_html/public/mod/facetoface/classes/signup_form.php on line 46
+[23-Jun-2026 19:56:56 Australia/Melbourne] PHP Warning:  Attempt to read property "approvalreqd" on null in /home/dffhdev/public_html/public/mod/facetoface/classes/signup_form.php on line 47
+[23-Jun-2026 19:56:56 Australia/Melbourne] Default exception handler: Exception - Call to undefined function ma_email_to_user() Debug: 
+Error code: generalexceptionmessage
+* line 2740 of /public/mod/facetoface/lib.php: Error thrown
+* line 3171 of /public/mod/facetoface/lib.php: call to facetoface_send_notice_original()
+* line 2240 of /public/mod/facetoface/lib.php: call to facetoface_send_confirmation_notice()
+* line 276 of /public/mod/facetoface/signup.php: call to facetoface_user_signup()
+
+[23-Jun-2026 09:58:48 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[23-Jun-2026 19:58:49 Australia/Melbourne] PHP Warning:  Undefined array key "facetoface" in /home/dffhdev/public_html/public/mod/facetoface/classes/signup_form.php on line 46
+[23-Jun-2026 19:58:49 Australia/Melbourne] PHP Warning:  Attempt to read property "approvalreqd" on null in /home/dffhdev/public_html/public/mod/facetoface/classes/signup_form.php on line 47
+[23-Jun-2026 19:58:50 Australia/Melbourne] Default exception handler: Exception - Call to undefined function ma_email_to_user() Debug: 
+Error code: generalexceptionmessage
+* line 2740 of /public/mod/facetoface/lib.php: Error thrown
+* line 3171 of /public/mod/facetoface/lib.php: call to facetoface_send_notice_original()
+* line 2240 of /public/mod/facetoface/lib.php: call to facetoface_send_confirmation_notice()
+* line 279 of /public/mod/facetoface/signup.php: call to facetoface_user_signup()
+
+[23-Jun-2026 10:36:52 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[23-Jun-2026 20:36:53 Australia/Melbourne] PHP Warning:  Undefined array key "manageremail" in /home/dffhdev/public_html/public/mod/facetoface/classes/signup_form.php on line 103
+[23-Jun-2026 20:36:53 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$manageremail in /home/dffhdev/public_html/public/mod/facetoface/signup.php on line 214
+[23-Jun-2026 20:36:53 Australia/Melbourne] Default exception handler: Exception - Call to undefined function ma_email_to_user() Debug: 
+Error code: generalexceptionmessage
+* line 2740 of /public/mod/facetoface/lib.php: Error thrown
+* line 3171 of /public/mod/facetoface/lib.php: call to facetoface_send_notice_original()
+* line 2240 of /public/mod/facetoface/lib.php: call to facetoface_send_confirmation_notice()
+* line 270 of /public/mod/facetoface/signup.php: call to facetoface_user_signup()
+
+[23-Jun-2026 10:45:15 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[23-Jun-2026 10:45:26 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[23-Jun-2026 20:45:27 Australia/Melbourne] PHP Warning:  compact(): Undefined variable $offset in /home/dffhdev/public_html/public/mod/facetoface/sessions.php on line 153
+[23-Jun-2026 20:45:27 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[23-Jun-2026 20:45:27 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[23-Jun-2026 20:45:27 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 5118
+[23-Jun-2026 10:50:50 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[23-Jun-2026 20:50:51 Australia/Melbourne] PHP Warning:  compact(): Undefined variable $offset in /home/dffhdev/public_html/public/mod/facetoface/sessions.php on line 153
+[23-Jun-2026 10:53:44 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[23-Jun-2026 20:53:45 Australia/Melbourne] PHP Warning:  compact(): Undefined variable $offset in /home/dffhdev/public_html/public/mod/facetoface/sessions.php on line 153
+[23-Jun-2026 11:09:50 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[23-Jun-2026 11:29:07 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[23-Jun-2026 11:42:34 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[23-Jun-2026 11:42:36 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[23-Jun-2026 11:48:07 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[23-Jun-2026 11:49:29 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[23-Jun-2026 11:49:34 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[23-Jun-2026 12:02:28 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[23-Jun-2026 22:02:29 Australia/Melbourne] Default exception handler: Exception - Call to undefined function print_error() Debug: 
+Error code: generalexceptionmessage
+* line 59 of /public/mod/facetoface/sessions.php: Error thrown
+
+[23-Jun-2026 12:05:44 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[23-Jun-2026 22:05:45 Australia/Melbourne] Default exception handler: Course Module Face-to-Face Session was incorrect Debug: 
+Error code: error:incorrectcoursemodulesession
+* line 59 of /public/mod/facetoface/sessions.php: core\exception\moodle_exception thrown
+
+[23-Jun-2026 12:07:19 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[23-Jun-2026 12:07:38 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[23-Jun-2026 12:07:43 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[23-Jun-2026 12:07:44 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[23-Jun-2026 12:15:10 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[23-Jun-2026 22:15:11 Australia/Melbourne] PHP Warning:  Undefined array key "manageremail" in /home/dffhdev/public_html/public/mod/facetoface/classes/signup_form.php on line 103
+[23-Jun-2026 22:15:11 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$manageremail in /home/dffhdev/public_html/public/mod/facetoface/signup.php on line 214
+[23-Jun-2026 22:15:12 Australia/Melbourne] Default exception handler: Exception - Call to undefined function ma_email_to_user() Debug: 
+Error code: generalexceptionmessage
+* line 2740 of /public/mod/facetoface/lib.php: Error thrown
+* line 3171 of /public/mod/facetoface/lib.php: call to facetoface_send_notice_original()
+* line 2240 of /public/mod/facetoface/lib.php: call to facetoface_send_confirmation_notice()
+* line 270 of /public/mod/facetoface/signup.php: call to facetoface_user_signup()
+
+[23-Jun-2026 12:33:44 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[23-Jun-2026 22:33:45 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$manageremail in /home/dffhdev/public_html/public/mod/facetoface/signup.php on line 214
+[23-Jun-2026 22:33:45 Australia/Melbourne] Default exception handler: Exception - Call to undefined function ma_email_to_user() Debug: 
+Error code: generalexceptionmessage
+* line 2740 of /public/mod/facetoface/lib.php: Error thrown
+* line 3171 of /public/mod/facetoface/lib.php: call to facetoface_send_notice_original()
+* line 2240 of /public/mod/facetoface/lib.php: call to facetoface_send_confirmation_notice()
+* line 259 of /public/mod/facetoface/signup.php: call to facetoface_user_signup()
+
+[23-Jun-2026 13:48:53 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[23-Jun-2026 23:48:54 Australia/Melbourne] PHP Warning:  Undefined variable $counter in /home/dffhdev/public_html/public/lib/mindatlas/malib.php on line 437
+[23-Jun-2026 23:48:55 Australia/Melbourne] PHP Warning:  Array to string conversion in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 2745
+[23-Jun-2026 23:48:55 Australia/Melbourne] PHP Warning:  unlink(/home/dffhdev/moodledata/Array): No such file or directory in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 2745
+[23-Jun-2026 14:35:17 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[24-Jun-2026 00:35:18 Australia/Melbourne] PHP Warning:  Undefined variable $counter in /home/dffhdev/public_html/public/lib/mindatlas/malib.php on line 437
+[24-Jun-2026 00:35:19 Australia/Melbourne] PHP Warning:  Attempt to read property "filename" on array in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 2745
+[24-Jun-2026 00:35:19 Australia/Melbourne] PHP Warning:  unlink(/home/dffhdev/moodledata/): Is a directory in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 2745
+[23-Jun-2026 15:04:17 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[24-Jun-2026 01:04:19 Australia/Melbourne] PHP Warning:  Array to string conversion in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 2746
+[24-Jun-2026 01:04:19 Australia/Melbourne] PHP Warning:  unlink(/home/dffhdev/moodledata/Array): No such file or directory in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 2746
+[23-Jun-2026 23:00:03 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[24-Jun-2026 13:18:00 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[24-Jun-2026 18:29:05 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[24-Jun-2026 23:00:04 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.

@@ -83,8 +83,9 @@ class course_module_viewed extends \core\event\course_module_viewed {
      *
      * @return array|null
      */
-    protected function get_legacy_logdata() {
+    /*protected function get_legacy_logdata() {
         return array($this->courseid, 'facetoface', 'view facetoface', 'view.php?f=' . $this->objectid,
             $this->objectid, $this->contextinstanceid);
-    }
+    }*/
+    //Liberate - removing this at Gemini's recommendation (deprecated)
 }

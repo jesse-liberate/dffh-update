@@ -56,7 +56,7 @@ function datepicker_to_timestamp($dmy) {
  * @return $newfile_id
  * @Nan last updated: 01/06/2018
  */
-function ma_insert_or_update_attachment_to_moodle($file, $fid = null,$component,$filearea,$filepath='/') {
+function ma_insert_or_update_attachment_to_moodle($file,$fid = null,$component='',$filearea='',$filepath='/') {
     $tmp_name = $file["tmp_name"];
     // basename() may prevent filesystem traversal attacks;
     // further validation/sanitation of the filename may be appropriate
@@ -434,9 +434,9 @@ function ma_email_to_user($user, $from, $subject, $messagetext, $messagehtml = '
     }
 
     for ($i=0; $i < count($arr_attachments) ; $i++) { 
-        $counter++;
+        //$counter++;
         $attachment = $arr_attachments[$i];
-        $attachname = 'day '. $counter .' ';
+        $attachname = 'day '. ($i+1) .' ';
         
         // Get the attachment name or use a default with proper extension
         if (!empty($arr_attachmentnames[$i])) {

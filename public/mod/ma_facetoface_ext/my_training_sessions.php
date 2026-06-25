@@ -39,6 +39,19 @@ $context = context_system::instance();
 
 $PAGE->set_context($context);
 
+$css_url = new moodle_url('/mod/ma_facetoface_ext/src/sessions.css');
+$PAGE->requires->css($css_url, array('rev' => time()));
+
+
+// $PAGE->add_body_classes(['full-width']);
+//$text1 = get_config('theme_mindatlas', 'training_text');
+//$text2 = get_config('theme_mindatlas', 'training_textt');
+
+/*echo $OUTPUT->header();
+echo $content; */
+
+
+
 $title = 'My training sessions';
 $PAGE->set_title($title);
 $PAGE->set_heading($title);
@@ -64,7 +77,7 @@ $content .= '<div class="training-wrapper">
         '.$text2.'
         </div>
         <div class="col-lg-3">
-        <button type="button" class="btn-custom bg-color-brand-2 hover-bg-color-brand-2 float-left text-white font-weight-bold mb-2 w-100" data-toggle="modal" data-target="#exampleModal">
+        <button type="button" class="btn-custom bg-color-brand-2 hover-bg-color-brand-2 float-left text-white font-weight-bold mb-2 w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">
         Link to data collection
 </button>
 
@@ -74,7 +87,7 @@ $content .= '<div class="training-wrapper">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">Facilitated training data collection - information for participants</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -82,7 +95,7 @@ $content .= '<div class="training-wrapper">
         ';
 
        
-    $content .= '<div class=""><p> This document outlines what training data are collected from practitioners and agencies who are participating in the Family Preservation and Reunification Response (the Response) and what the data are used for.</p>';
+    $content .= '<div class=""><p>This document outlines what training data are collected from practitioners and agencies who are participating in the Family Preservation and Reunification Response (the Response) and what the data are used for.</p>';
     
     $content .= "<h4>   What training data are collected?</h4>";
     
@@ -123,9 +136,10 @@ $content .= '<div class="training-wrapper">
       
     $content .='  </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
     </div>
+                
   </div>
 </div>
         </div>
@@ -147,20 +161,20 @@ $sessionsTable = "";
 
 if(!empty($user_sessions)) {
     
-    $sessionsTable .= "<table className='training-table w-100'>
+    $sessionsTable .= "<table class='training-table w-100'>
                 <tbody>
-                    <tr className='training-table-header'>
+                    <tr class='training-table-header'>
                         <td>TRAINING MODULE</td>
                         <td>SHORT DESCRIPTION</td>
                         <td>LOCATION</td>
                         <td>START DATE</td>
                         <td>END DATE</td>
                         <td>TIME</td>
-                        <td className='button-head'>REGISTER/WAITLIST</td>
+                        <td class='button-head'>REGISTER/WAITLIST</td>
                     </tr>";
                     
                     foreach($user_sessions as $item) {
-                       $sessionsTable .= "<tr key='".$item->id."' className=''>
+                       $sessionsTable .= "<tr key='".$item->id."' class=''>
                         <td>".$item->name."</td>
                         <td>".$item->details."</td>
                         <td>".$item->location."</td>
@@ -179,16 +193,16 @@ if(!empty($user_sessions)) {
                         if($item->time) $sessionsTable .= "<p>".$item->time."</p>";
                         if($item->time2) $sessionsTable .= "<p>".$item->time2."</p>";
                         if($item->time3) $sessionsTable .= "<p>".$item->time3."</p>";
-                        $sessionsTable .= "</td><td className='button-td mt-2'>";
+                        $sessionsTable .= "</td><td class='button-td mt-2'>";
                         
                         if($item->status != null) {
-                            $sessionsTable .= "<a href='/mod/ma_facetoface_ext/sessions_details.php?id=".$item->id."' className='btn-custom bg-color-brand-2 hover-bg-color-brand-2 float-left text-white font-weight-bold mb-2'>".$item->status."</a>";
+                            $sessionsTable .= "<a href='/mod/ma_facetoface_ext/sessions_details.php?id=".$item->id."' class='btn-custom bg-color-brand-2 hover-bg-color-brand-2 float-left text-white font-weight-bold mb-2'>".$item->status."</a>";
                         } else {
-                          $sessionsTable .= "<a className='btn p-3 btn-primary'>Book</a>";
+                          $sessionsTable .= "<a class='btn p-3 btn-primary'>Book</a>";
                         }
                         
                         if($item->statuscancel != null) {
-                            $sessionsTable .= "<a href='/mod/ma_facetoface_ext/sessions_details.php?id=".$item->id."' className='btn-custom bg-color-brand-2 hover-bg-color-brand-2 float-left text-white font-weight-bold mb-2'>".$item->statuscancel."</a>";
+                            $sessionsTable .= "<a href='/mod/ma_facetoface_ext/sessions_details.php?id=".$item->id."' class='btn-custom bg-color-brand-2 hover-bg-color-brand-2 float-left text-white font-weight-bold mb-2'>".$item->statuscancel."</a>";
                         }
                     
                         $sessionsTable .= "</td>

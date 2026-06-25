@@ -84,10 +84,11 @@ class add_session extends \core\event\base {
      *
      * @return array|null
      */
-    protected function get_legacy_logdata() {
+    /*protected function get_legacy_logdata() {
         return array($this->courseid, $this->objecttable, 'add session', 'sessions.php?s=' . $this->objectid,
             $this->objectid, $this->contextinstanceid);
-    }
+    } */
+    //Liberate - removing this function on Gemini's recommendation (deprecated)
 
     /**
      * Custom validation.

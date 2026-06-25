@@ -84,10 +84,11 @@ class cancel_booking_failed extends \core\event\base {
      *
      * @return array|null
      */
-    protected function get_legacy_logdata() {
+    /*protected function get_legacy_logdata() {
         return array($this->courseid, $this->objecttable, 'cancel booking (FAILED)', 'cancelsignup.php?s=' . $this->objectid,
             $this->objectid, $this->contextinstanceid);
-    }
+    }*/
+    // Liberate - Removing 'legacy' functions on Gemi's recommendation (deprecated)
 
     /**
      * Custom validation.

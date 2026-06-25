@@ -83,7 +83,8 @@ class course_viewed extends \core\event\course_viewed {
      *
      * @return array|null
      */
-    protected function get_legacy_logdata() {
+    /*protected function get_legacy_logdata() {
         return array($this->courseid, 'facetoface', 'view all', 'index.php?id=' . $this->courseid);
-    }
+    }*/
+    // Liberate - Removing 'legacy' functions on Gemini's recommendation (deprecated)
 }

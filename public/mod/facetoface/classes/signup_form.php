@@ -38,8 +38,8 @@ class mod_facetoface_signup_form extends moodleform {
         $mform =& $this->_form;
         // MA-MODIFIED ===>
         $manageremail = '';
-        if (!empty($this->_customdata['managersemail'])) {
-            $manageremail = $this->_customdata['managersemail'];    // Get Manager's email from user's data
+        if (!empty($this->_customdata['manageremail'])) {
+            $manageremail = $this->_customdata['manageremail'];    // Get Manager's email from user's data
         }
         // <=== MA-MODIFIED 
         $showdiscountcode = $this->_customdata['showdiscountcode'];
@@ -100,10 +100,10 @@ class mod_facetoface_signup_form extends moodleform {
 
     public function validation($data, $files) {
         $errors = parent::validation($data, $files);
-        if($data['manageremail']){
+        if(isset($data['manageremail'])){
             $manageremail = $data['manageremail'];
         }
-        if (!empty($manageremail)) {
+        if (isset($manageremail)) {
             if (!facetoface_check_manageremail($manageremail)) {
                 $errors['manageremail'] = facetoface_get_manageremailformat();
             }

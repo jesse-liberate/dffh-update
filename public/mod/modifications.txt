@@ -1,0 +1,306 @@
+interest_report.php:4:	require_once('lib_mindatlas.php');
+interest_report.php:36:		$PAGE->requires->js('/lib/mindatlas/jquery/jquery.min.js', true);
+signup_team.php:31:// MA-MODIFIED 
+lib_mindatlas.php:2:// MA-MODIFIED 
+lib_mindatlas.php:59: *  MA-MODIFIED based on facetoface_get_attendees($sessionid)
+lib_mindatlas.php:69:    // MA-MODIFIED: in sql add 'ss.note,' between ss.statuscode, and sign.timecreated
+db/install.xml:39:        <FIELD NAME="streamlinedaccess" TYPE="int" LENGTH="1" NOTNULL="false" DEFAULT="1" SEQUENCE="false" COMMENT="MA-MODIFIED"/>
+db/install.xml:43:        <FIELD NAME="booking_change_notification" TYPE="int" LENGTH="1" NOTNULL="true" DEFAULT="0" SEQUENCE="false" COMMENT="MA-MODIFIED"/>
+db/install.xml:78:        <FIELD NAME="timezone" TYPE="char" LENGTH="50" NOTNULL="false" SEQUENCE="false" COMMENT="MA-MODIFIED"/>
+db/install.xml:192:    <TABLE NAME="facetoface_interest" COMMENT="MA-MODIFIED user show interest on facetoface">
+db/install.php:28:// MA-MODIFIED 
+db/upgrade.php:750:    // MA-MODIFIED ===>
+db/upgrade.php:783:    // <=== MA-MODIFIED 
+db/upgrade.php:785:    // MA-MODIFIED ===>
+db/upgrade.php:800:    // <=== MA-MODIFIED 
+db/upgrade.php:802:    // MA-MODIFIED ===>
+db/upgrade.php:842:    // <=== MA-MODIFIED 
+signup.php:59:    $returnurl = "$CFG->wwwroot/theme/mindatlas/pages/my_training_sessions.php";
+signup.php:64:$currentpage = $_SERVER['HTTP_REFERER'];    // MA-MODIFIED 
+signup.php:91:// MA-MODIFIED ===>
+signup.php:161:// Add manager's email automatically. So, the feature can be run without required configuration {eric@mindatlas.com}
+signup.php:180:// }else{ // Update the email in case of moving user to another node, then email is not up to date {eric@mindatlas.com}
+signup.php:191:// <=== MA-MODIFIED 
+signup.php:198:// MA-MODIFIED ===>
+signup.php:205:// <=== MA-MODIFIED 
+signup.php:213:    // MA-MODIFIED ===>
+signup.php:221:    // <=== MA-MODIFIED 
+signup.php:268:    } else if (!is_siteadmin() && facetoface_manager_needed($facetoface)) {  // MA-MODIFIED
+signup.php:328:                                               : get_string('bookingcompleted_approvalnotreqd', 'facetoface');   // MA-MODIFIED
+signup.php:332:            // $message .= html_writer::empty_tag('br') . html_writer::empty_tag('br') . get_string('confirmationsent', 'facetoface'); // MA-MODIFIED
+signup.php:336:        redirect($returnurl, $message, $timemessage); // MA-MODIFIED
+signup.php:358:    // MA-MODIFIED ===>
+signup.php:362:    // <=== MA-MODIFIED 
+view_all.php:31:// MA-MODIFIED 
+renderer.php:50:        // $tableheader[] = get_string('timezone', 'facetoface');; // column for timezone // MA-MODIFIED
+renderer.php:98:                // MA-MODIFIED ===>
+renderer.php:143:                $timezone = ''; //MA-MODIFIED
+renderer.php:147:            // $sessionrow[] = $timezone;  // MA-MODIFIED
+renderer.php:167:            } else if ($bookedsession && $session->id == $bookedsession->sessionid && isset($bookedsession->statuscode)&&!is_null($bookedsession->statuscode)) {    // MA-MODIFIED
+renderer.php:195:            } else if (!$sessionstarted and !$bookedsession) {  // MA-MODIFIED
+classes/signup_team_form.php:31:// MA-MODIFIED 
+classes/signup_noform.php:3:// MA-MODIFIED 
+classes/signup_form.php:39:        // MA-MODIFIED ===>
+classes/signup_form.php:44:        // <=== MA-MODIFIED 
+classes/signup_form.php:61:            // MA-MODIFIED ===>
+classes/signup_form.php:74:            // <=== MA-MODIFIED 
+classes/signup_form.php:86:        // MA-MODIFIED ===>
+classes/signup_form.php:96:        // <=== MA-MODIFIED 
+classes/waitlist_class.php:12: * @author Mindatlas
+classes/waitlist_class.php:16:require_once($CFG->dirroot . '/mod/facetoface/lib_mindatlas.php');
+classes/session_form.php:95:        // MA-MODIFIED ===>
+classes/session_form.php:113:        // <=== MA-MODIFIED 
+classes/session_form.php:118:        $mform->setDefault('datetimeknown', true);  // MA-MODIFIED
+classes/session_form.php:169:        $mform->setDefault('allowoverbook', true);  // MA-MODIFIED
+manage_waitlist.php:31:// MA-MODIFIED 
+manage_waitlist.php:35:require_once('lib_mindatlas.php');
+view.php:33:require_once('lib_mindatlas.php'); // MA-MODIFIED
+view.php:74:// MA-MODIFIED ===>
+view.php:81:// <=== MA-MODIFIED 
+view.php:140:// MA-MODIFIED ===>
+view.php:148:// <=== MA-MODIFIED 
+view.php:174:    // MA-MODIFIED ===>
+view.php:182:    // <=== MA-MODIFIED 
+view.php:242:        echo ma_html_interest_btn($facetofaceid, $USER->id); // MA-MODIFIED
+facetoface_requests.php:31:// MA-MODIFIED 
+facetoface_requests.php:35:require_once('lib_mindatlas.php');
+editattendees.php:76:// MA-MODIFIED ===>
+editattendees.php:79:// <=== MA-MODIFIED
+editattendees.php:96:                    $studentroleid = $DB->get_field('role','id',array('shortname'=>'student','archetype'=>'student'));  // MA-MODIFIED 
+editattendees.php:97:                    if (!enrol_try_internal_enrol($course->id, $user->id, $studentroleid)) {    // MA-MODIFIED 
+editattendees.php:168:// MA-MODIFIED ===>
+editattendees.php:171:// <=== MA-MODIFIED 
+editattendees.php:278:// MA-MODIFIED ===>
+editattendees.php:283:// <=== MA-MODIFIED 
+view_interested.php:2:// MA-MODIFIED 
+view_interested.php:6:require_once('lib_mindatlas.php');
+sessions.php:33:require_once('lib_mindatlas.php');  // MA-MODIFIED
+sessions.php:179:    // MA-MODIFIED ===>
+sessions.php:184:    // <=== MA-MODIFIED 
+sessions.php:198:    // MA-MODIFIED ===>
+sessions.php:212:    // <=== MA-MODIFIED 
+sessions.php:222:    $todb->timezone = $fromform->sessiontimezone;   // MA-MODIFIED 
+sessions.php:223:    $todb->additonal_details = $fromform->additional_details;   // MA-MODIFIED
+sessions.php:393:    $toform->sessiontimezone = $session->timezone;  // MA-MODIFIED
+sessions.php:401:        // MA-MODIFIED ===>
+sessions.php:404:        // <=== MA-MODIFIED 
+sessions.php:412:            //MA-MODIFIED ===>
+sessions.php:415:            //<=== MA-MODIFIED 
+coachingdata.php:33:require_once($CFG->dirroot . '/mod/facetoface/lib_mindatlas.php');  // MA-MODIFIED
+coachingdata.php:80:// MA-MODIFIED ===>
+coachingdata.php:93:// <=== MA-MODIFIED 
+coachingdata.php:145:// MA-MODIFIED ===>
+coachingdata.php:153:// <=== MA-MODIFIED 
+coachingdata.php:154:$PAGE->requires->css('/mod/facetoface/css/table-styles.css');   // MA-MODIFIED
+coachingdata.php:179:// MA-MODIFIED: Formbuilder ===>
+coachingdata.php:181:// <=== MA-MODIFIED 
+coachingdata.php:247:<!-- MA-MODIFIED ===> -->
+coachingdata.php:253:<!-- <=== MA-MODIFIED  -->
+cron_email_interested_facetoface.php:2:// MA-MODIFIED 
+cron_email_interested_facetoface.php:10:require_once('lib_mindatlas.php');
+cancelsignup.php:59:$returnurl = "$CFG->wwwroot/theme/mindatlas/pages/my_training_sessions.php";
+cancelsignup.php:94:                   // $message .= html_writer::empty_tag('br') . html_writer::empty_tag('br') . get_string('cancellationsent', 'facetoface');   // MA-MODIFIED
+cancelsignup.php:100:            // MA-MODIFIED ===>
+cancelsignup.php:139:            // <=== MA-MODIFIED 
+api/move_attendee.php:3:// MA-MODIFIED 
+api/move_attendee.php:7:require_once(__DIR__ . '/../lib_mindatlas.php');
+api/get_user_session.php:3:// MA-MODIFIED 
+enrolmentregistration.php:5://require_once('lib_mindatlas.php');
+enrolmentregistration.php:45:  $PAGE->requires->js('/lib/mindatlas/jquery/jquery.min.js', true);
+enrolmentregistration.php:48:  $PAGE->requires->js('/lib/mindatlas/jquery/ui/jquery-ui.min.js', true);
+enrolmentregistration.php:49:  $PAGE->requires->css('/lib/mindatlas/jquery/ui/jquery-ui.min.css');
+enrolmentregistration.php:339:  $libPath = '/lib/mindatlas';
+attendees.php:33:require_once($CFG->dirroot . '/mod/facetoface/lib_mindatlas.php');  // MA-MODIFIED
+attendees.php:41:// MA-MODIFIED ===>
+attendees.php:45:// <=== MA-MODIFIED 
+attendees.php:84:// MA-MODIFIED ===>
+attendees.php:98:// <=== MA-MODIFIED 
+attendees.php:142:// MA-MODIFIED ===>
+attendees.php:155:// <=== MA-MODIFIED 
+attendees.php:163:    // MA-MODIFIED ===>
+attendees.php:166:    // <=== MA-MODIFIED 
+attendees.php:169:        // MA-MODIFIED ===>
+attendees.php:172:        // <=== MA-MODIFIED 
+attendees.php:188:        // MA-MODIFIED ===>
+attendees.php:191:        // <=== MA-MODIFIED 
+attendees.php:234:$PAGE->requires->css('/mod/facetoface/css/table-styles.css');   // MA-MODIFIED
+attendees.php:263:// MA-MODIFIED ===>
+attendees.php:283:// <=== MA-MODIFIED 
+attendees.php:284:// MA-MODIFIED: Formbuilder ===>
+attendees.php:286:// <=== MA-MODIFIED 
+attendees.php:305:            // echo html_writer::tag('p', get_string('attendanceinstructions', 'facetoface'));  // MA-MODIFIED
+attendees.php:306:            echo html_writer::start_tag('div', array('class'=>'checkall')); // MA-MODIFIED
+attendees.php:307:            echo get_string('attendanceinstructions', 'facetoface');    // MA-MODIFIED
+attendees.php:308:            echo html_writer::end_tag('div');   // MA-MODIFIED
+attendees.php:311:            echo html_writer::empty_tag('input', array('type' => 'hidden', ' name' => 'backtoallsessions', 'value' => $backtoallsessions)); // MA-MODIFIED
+attendees.php:328:        $table->size = array('50%', '15%', '20%', '5%');    // MA-MODIFIED
+attendees.php:333:            // MA-MODIFIED ===>
+attendees.php:341:            // <=== MA-MODIFIED 
+attendees.php:342:            // MA-MODIFIED ===>
+attendees.php:345:            // <=== MA-MODIFIED 
+attendees.php:360:            // MA-MODIFIED ===>
+attendees.php:365:            // <=== MA-MODIFIED 
+attendees.php:378:                // MA-MODIFIED ===>
+attendees.php:408:                // <=== MA-MODIFIED  
+attendees.php:417:                $data[] = isset($attendance_options[$attendee->note]) ? $attendance_options[$attendee->note] : '';  // MA-MODIFIED
+attendees.php:451:            // MA-MODIFIED ===>
+attendees.php:454:            // <=== MA-MODIFIED 
+attendees.php:461:// MA-MODIFIED ===>
+attendees.php:465:// <=== MA-MODIFIED 
+attendees.php:476:// MA-MODIFIED ===>
+attendees.php:485:// <=== MA-MODIFIED 
+attendees.php:507:        echo html_writer::empty_tag('input', array('type' => 'hidden', 'name' => 'notify', 'value' => $notify));    // MA-MODIFIED
+attendees.php:527:        // echo html_writer::checkbox('suppressemail', 1, $suppressemail, get_string('suppressemail', 'facetoface'), array('id' => 'suppressemail'));  // MA-MODIFIED
+attendees.php:528:        // echo $OUTPUT->help_icon('suppressemail', 'facetoface'); // MA-MODIFIED
+attendees.php:567:<!-- MA-MODIFIED ===> -->
+attendees.php:580:<!-- <=== MA-MODIFIED  -->
+css/chosen.css:452:/* MindAtlas Additional Changes */
+error_log:13:[08-May-2026 15:35:00 Australia/Melbourne] PHP Deprecated:  ma_insert_or_update_attachment_to_moodle(): Optional parameter $fid declared before required parameter $filearea is implicitly treated as a required parameter in /home/dffhdev/public_html/public/lib/mindatlas/malib.php on line 59
+lib.php:35://require_once($CFG->dirroot."/lib/mindatlas/malib.php");
+lib.php:41:if(!isset($plugin_f2f_lib)) require_once('lib_mindatlas.php');  // MA-MODIFIED
+lib.php:73:define('CALENDAR_MAX_NAME_LENGTH', 150);  // MA-MODIFIED
+lib.php:92:// MA-MODIFIED ===>
+lib.php:99:// <=== MA-MODIFIED 
+lib.php:322:    // MA-MODIFIED ===>
+lib.php:341:    // MA-MODIFIED ===>
+lib.php:348:    // <=== MA-MODIFIED 
+lib.php:523:    // MA-MODIFIED ===>
+lib.php:526:    // <=== MA-MODIFIED 
+lib.php:580:    // MA-MODIFIED ===>
+lib.php:583:    // <=== MA-MODIFIED 
+lib.php:654:    // MA-MODIFIED ===>
+lib.php:659:    // <=== MA-MODIFIED 
+lib.php:834: function facetoface_email_substitutions($msg, $facetofacename, $reminderperiod, $user, $data, $sessionid,$coursename) {// MA-MODIFIED
+lib.php:843:        //Mindatlas
+lib.php:850:        //End of Mindatlas
+lib.php:897:            // mindatlas changes start        
+lib.php:938:            // mindatlas changes end
+lib.php:942:            //            //MindAtlas
+lib.php:949:            //MindAtlas
+lib.php:960:    $facetofacename = get_string('course_module_name', 'facetoface', (object)['modulename' => $facetofacename, 'coursename' => $coursename]); // MA-MODIFIED
+lib.php:971:    // MA-MODIFIED ===>
+lib.php:983:    // <=== MA-MODIFIED 
+lib.php:1044:        // MA-MODIFIED ===>
+lib.php:1045:        //MINDATLAS - if the session detail is not showing, the intro will be used
+lib.php:1049:        // <=== MA-MODIFIED 
+lib.php:1116:        // MA-MODIFIED ===>
+lib.php:1144:        // <=== MA-MODIFIED 
+lib.php:1146:        $posthtml = $posttext; // FIXME.// MA-MODIFIED
+lib.php:1155:        // MA-MODIFIED ===>
+lib.php:1157:        //MINDATLAS
+lib.php:1165:        // <=== MA-MODIFIED 
+lib.php:1167:        if (email_to_user_delay($user, $from, strip_tags($postsubject), strip_tags($posttext), nl2br($posthtml))) { // MA-MODIFIED
+lib.php:1189:            // MA-MODIFIED ===>
+lib.php:1190:            //MINDATLAS
+lib.php:1199:            // <=== MA-MODIFIED 
+lib.php:1201:            if (email_to_user_delay($manager, $from, strip_tags($postsubject), strip_tags($managertext), nl2br($posthtml))) { // MA-MODIFIED
+lib.php:1376:    // MA-MODIFIED: in sql add 'ss.note,' between ss.statuscode, and sign.timecreated
+lib.php:1377:    // MA-MODIFIED: in sql add 'ss.waitlist_priority'
+lib.php:1505:            // MA-MODIFIED ===>
+lib.php:1507:            //MindAtlas - Only show relevant profile fields in Export Attendance.
+lib.php:1510:            // <=== MA-MODIFIED 
+lib.php:1515:            //MindAtlas - Add Position Title to Export Attendance
+lib.php:1516:            // $userfields['PositionTitle'] = 'Position Title';    // MA-MODIFIED
+lib.php:1517:            //MindAtlas 20250428 - Add following to Export Attendance
+lib.php:2035:    // MA-MODIFIED: add f.intro as intro, between f.name as facetofacename, and f.reminderperiod,
+lib.php:2113:) {    // MA-MODIFIED
+lib.php:2115:    global $CFG, $DB, $FACE_TYPE;    // MA-MODIFIED
+lib.php:2194:            $FACE_TYPE = FACE_TYPE_CONFIRMED;   // MA-MODIFIED
+lib.php:2197:            $FACE_TYPE = FACE_TYPE_REQUEST; // MA-MODIFIED
+lib.php:2248:                $error = facetoface_send_request_notice($facetoface, $session, $userid, $chosen_manageremail);  // MA-MODIFIED
+lib.php:2266:// MA-MODIFIED ===>
+lib.php:2378:// <=== MA-MODIFIED 
+lib.php:2389:{ // MA-MODIFIED
+lib.php:2390:    global $DB, $CFG, $FACE_TYPE; // MA-MODIFIED
+lib.php:2392:    // MA-MODIFIED ===>
+lib.php:2396:    // <=== MA-MODIFIED 
+lib.php:2412:        $manager = get_first_manager($user->id);    // MA-MODIFIED
+lib.php:2419:    $coursename = $DB->get_field('course', 'shortname', array('id' => $facetoface->course));    // MA-MODIFIED
+lib.php:2426:        $session->id,   // MA-MODIFIED
+lib.php:2427:        $coursename     // MA-MODIFIED
+lib.php:2436:        $session->id,   // MA-MODIFIED
+lib.php:2437:        $coursename     // MA-MODIFIED
+lib.php:2446:        $session->id,   // MA-MODIFIED
+lib.php:2447:        $coursename     // MA-MODIFIED
+lib.php:2449:    require_once($CFG->dirroot . '/admin/tool/delayemail/lib.php');   // MA-MODIFIED
+lib.php:2451:    if (!email_to_user_delay($user, $from, strip_tags($postsubject), strip_tags($posttext), nl2br($posttext))) {    // MA-MODIFIED
+lib.php:2456:    $user = $manager;    // MA-MODIFIED
+lib.php:2458:    // MA-MODIFIED ===>
+lib.php:2512:    // <=== MA-MODIFIED 
+lib.php:2516:// MA-MODIFIED ===>
+lib.php:2547:// <=== MA-MODIFIED 
+lib.php:2659:    $coursename = $DB->get_field('course', 'shortname', array('id' => $facetoface->course));    // MA-MODIFIED 
+lib.php:2808:) { // MA-MODIFIED
+lib.php:2809:    global $CFG, $DB, $FACE_TYPE;    // MA-MODIFIED
+lib.php:2810:    // MA-MODIFIED ===>
+lib.php:2811:    //MINDATLAS - if the session detail is not showing, the intro will be used
+lib.php:2815:    // <=== MA-MODIFIED 
+lib.php:2849:    $coursename = $DB->get_field('course', 'shortname', array('id' => $facetoface->course));    // MA-MODIFIED 
+lib.php:2870:                );   // MA-MODIFIED 
+lib.php:2879:                );  // MA-MODIFIED 
+lib.php:2880:                $htmlbody = nl2br($body); // TODO.  // MA-MODIFIED 
+lib.php:2899:            );   // MA-MODIFIED 
+lib.php:2908:            );  // MA-MODIFIED 
+lib.php:2909:            $htmlbody = nl2br($body); // FIXME. // MA-MODIFIED 
+lib.php:2926:    );   // MA-MODIFIED 
+lib.php:2935:    );  // MA-MODIFIED 
+lib.php:2945:    );    // MA-MODIFIED 
+lib.php:2947:    $posthtml = nl2br($posttext); // FIXME. // MA-MODIFIED 
+lib.php:2957:    require_once($CFG->dirroot . '/admin/tool/delayemail/lib.php');   // MA-MODIFIED 
+lib.php:2962:            //MA-MODIFIED
+lib.php:2973:                    strip_tags($attachment['body']), // MA-MODIFIED
+lib.php:2977:                )) { // MA-MODIFIED
+lib.php:2983:    } elseif ($notificationtype & MDL_F2F_TEXT) { // Send plain text email.  // MA-MODIFIED
+lib.php:2984:        if (!email_to_user_delay($user, $from, strip_tags($postsubject), strip_tags($posttext), $posthtml)) {   // MA-MODIFIED
+lib.php:2990:    $manageremail = $chosen_manageremail;   // MA-MODIFIED
+lib.php:2997:        if (!email_to_user_delay($manager, $from, strip_tags($postsubject), strip_tags($managertext), $posthtml)) { // MA-MODIFIED
+lib.php:3002:    // MA-MODIFIED ===>
+lib.php:3059:    // <=== MA-MODIFIED 
+lib.php:3073:            if (!email_to_user_delay($thirdparty, $from, strip_tags($postsubject), strip_tags($posttext), $posthtml)) { // MA-MODIFIED
+lib.php:3082:// MA-MODIFIED ===>
+lib.php:3103:    global $FACE_TYPE;  // MA-MODIFIED
+lib.php:3137:// <=== MA-MODIFIED 
+lib.php:3151:    global $FACE_TYPE;  // MA-MODIFIED
+lib.php:3155:        $FACE_TYPE = FACE_TYPE_REQUEST_APPROVED;    // MA-MODIFIED
+lib.php:3159:        $FACE_TYPE = FACE_TYPE_WAITLISTED;  // MA-MODIFIED
+lib.php:3193:    global $DB, $FACE_TYPE;  // MA-MODIFIED
+lib.php:3198:    $FACE_TYPE = 0; // MA-MODIFIED
+lib.php:3244://MINDATLAS: using hierarchy is the feature is installed
+lib.php:3322:    global $USER, $CFG;  // MA-MODIFIED 
+lib.php:3352:        // MA-MODIFIED ===>        
+lib.php:3384:        // <=== MA-MODIFIED 
+lib.php:3390:// MA-MODIFIED ===>
+lib.php:3417:// <=== MA-MODIFIED 
+lib.php:3453:    $suppressemail = (!isset($data->suppressemail)) ? false : $data->suppressemail; // MA-MODIFIED
+lib.php:3475:                // MA-MODIFIED ===>
+lib.php:3481:                // <=== MA-MODIFIED 
+lib.php:3515:                    $attendee->id,      // MA-MODIFIED
+lib.php:3516:                    true,    // MA-MODIFIED
+lib.php:3517:                    $chosen_manageremail = null   // MA-MODIFIED
+lib.php:3885:    // MA-MODIFIED ===>
+lib.php:3934:        // <=== MA-MODIFIED 
+lib.php:3937:        $customfielddata_sensitive = facetoface_get_customfielddata($session->id);      // MA-MODIFIED
+lib.php:3938:        $customfielddata = array_change_key_case($customfielddata_sensitive, CASE_LOWER); // MA-MODIFIED
+lib.php:4066:    if (!$converthtml) $text = wordwrap($text, 75, "\n ", true); // MA-MODIFIED 
+lib.php:4627:    // MA-MODIFIED ===>
+lib.php:4637:    // <=== MA-MODIFIED 
+lib.php:4654:        // MA-MODIFIED ===>
+lib.php:4690:        // <=== MA-MODIFIED 
+lib.php:4696:    // MA-MODIFIED:delete
+lib.php:4704:        // MA-MODIFIED:delete
+lib.php:4708:    // MA-MODIFIED:delete
+lib.php:5467:// MA-MODIFIED ===>
+lib.php:5468:// ************** created by mindatlas *******************
+lib.php:6025:    $formbuilder_block = $DB->get_record('block', array('name' => 'mindatlas_formbuilder'));
+lib.php:6040:// <=== MA-MODIFIED 
+mod_form.php:79:        $mform->setDefault('approvalreqd', false);   // MA-MODIFIED
+mod_form.php:82:        // MA-MODIFIED ===>
+mod_form.php:84:        $mform->setDefault('streamlinedaccess', true);  // MA-MODIFIED
+mod_form.php:86:        // <=== MA-MODIFIED 
+mod_form.php:95:        //MindAtlas - apply for course level only
+mod_form.php:204:        $mform->setDefault('reminderperiod', 7);    // MA-MODIFIED
+lang/en/facetoface.php:526:$string['setting:fromaddressdefault'] = 'support@mindatlas.com';
+lang/en/facetoface.php:796:// MA-MODIFIED ===>
+lang/en/facetoface.php:863:// <=== MA-MODIFIED 
+facetoface_sessions.php:4:require_once('lib_mindatlas.php');
+facetoface_sessions.php:7:$libPath = '/lib/mindatlas';
