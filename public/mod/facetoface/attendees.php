@@ -235,7 +235,7 @@ $PAGE->requires->css('/mod/facetoface/css/table-styles.css');   // MA-MODIFIED
 $pagetitle = format_string($facetoface->name);
 
 $PAGE->set_url('/mod/facetoface/attendees.php', array('s' => $s));
-$PAGE->set_context($context);
+$PAGE->set_context($params['context']);
 $PAGE->set_cm($cm);
 
 $PAGE->set_title($pagetitle);
@@ -418,7 +418,7 @@ if ($canviewattendees || $cantakeattendance) {
                    //dffh formbuilder 
                    $formbuilderurl = new moodle_url('coachingdata.php', array('s' => $s, 'takeattendance' => $takeattendance,'backtoallsessions'=> $backtoallsessions,'attendeeid'=>$attendee->id, 'edit'=>0));
                    $data[] = html_writer::link($formbuilderurl, "view data");
-                   $data[] = $hidden;
+                   //$data[] = $hidden; Not defined in this block
             }
             $table->data[] = $data;
         }

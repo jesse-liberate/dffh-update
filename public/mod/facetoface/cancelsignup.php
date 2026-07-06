@@ -56,7 +56,7 @@ $context = context_course::instance($course->id);
 $contextmodule = context_module::instance($cm->id);
 require_capability('mod/facetoface:view', $context);
 
-$returnurl = "$CFG->wwwroot/theme/mindatlas/pages/my_training_sessions.php";
+$returnurl = "$CFG->wwwroot/mod/ma_facetoface_ext/my_training_sessions.php";
 $mform = new mod_facetoface_cancelsignup_form(null, compact('s', 'backtoallsessions'));
 if ($mform->is_cancelled()) {
     redirect($returnurl);

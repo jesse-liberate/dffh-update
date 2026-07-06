@@ -56,7 +56,7 @@ $context = context_course::instance($course->id);
 $contextmodule = context_module::instance($cm->id);
 require_capability('mod/facetoface:view', $context);
 
-    $returnurl = "$CFG->wwwroot/theme/mindatlas/pages/my_training_sessions.php";
+    $returnurl = "$CFG->wwwroot/mod/ma_facetoface_ext/my_training_sessions.php";
 
 // if ($backtoallsessions) {
 //     $returnurl = "$CFG->wwwroot/mod/facetoface/view.php?f=$backtoallsessions";
@@ -273,45 +273,51 @@ if ($fromform = $mform->get_data()) { // Form submitted.
         unset($session->dietOptions);
         unset($session->accessOptions);
         unset($session->accesstext);
-        $toEmail = $DB->get_record('user',array('username'=> $fromform->manageremail,'suspended'=> 0, 'deleted'=> 0 ) ) ;
-        $support_user = core_user::get_support_user();
-        $url = $CFG->wwwroot."/mod/facetoface/attendees.php?notify=1&s=".$session->id;
-        $customfields = facetoface_get_session_customfields();
-        $customdata = $DB->get_records('facetoface_session_data', array('sessionid' => $session->id), '', 'fieldid, data');
-        $location="";
-        $venue="";
-        $room="";
-        foreach ($customfields as $field) {
-            $customdata[$field->id];
-            switch (strtolower($field->shortname)) {
-                case 'location': 
-                    $location = $customdata[$field->id]->data; break;
-                case 'venue': 
-                    $venue = $customdata[$field->id]->data; break;
-                case 'room': 
-                    $room = $customdata[$field->id]->data; break;
+        
+        if(isset($chosen_manageremail)) {
+        
+            $toEmail = $DB->get_record('user',array('username'=> $chosen_manageremail,'suspended'=> 0, 'deleted'=> 0 ) ) ;
+            
+            
+            $support_user = core_user::get_support_user();
+            $url = $CFG->wwwroot."/mod/facetoface/attendees.php?notify=1&s=".$session->id;
+            $customfields = facetoface_get_session_customfields();
+            $customdata = $DB->get_records('facetoface_session_data', array('sessionid' => $session->id), '', 'fieldid, data');
+            $location="";
+            $venue="";
+            $room="";
+            foreach ($customfields as $field) {
+                $customdata[$field->id];
+                switch (strtolower($field->shortname)) {
+                    case 'location': 
+                        $location = $customdata[$field->id]->data; break;
+                    case 'venue': 
+                        $venue = $customdata[$field->id]->data; break;
+                    case 'room': 
+                        $room = $customdata[$field->id]->data; break;
+                }
             }
+            $a= (object)[
+                'managerfirstname'=>$toEmail->firstname,
+                'stafffirstname'=>$USER->firstname,
+                'stafflastname'=>$USER->lastname,
+                'staffname'=>$USER->firstname . " " .$USER->lastname ,
+                'supportcontactname'=>$support_user->firstname,
+                'supportcontactemail'=>$support_user->email,
+                'date'=>date('m/d/Y', intval(current($session->sessiondates)->timestart)),
+                'url'=>$url,
+                'duration'=>$session->duration,
+                'venue'=>$venue,
+                'location'=>$location,
+                'room'=>$room,
+                'activityname'=>$facetoface->name
+            ];
+           
+            $notification_confirmmanager = nl2br(get_string('session:approvalmanagercontent','facetoface', $a));
+            $notification_confirmmanager_text = html_to_text($notification_confirmmanager);
+            $notification_confirmmanager_subject = get_string('session:approvalmanagersubject','facetoface',  $a);
+            email_to_user($toEmail,$support_user,$notification_confirmmanager_subject,$notification_confirmmanager_text, $notification_confirmmanager);
         }
-        $a= (object)[
-            'managerfirstname'=>$toEmail->firstname,
-            'stafffirstname'=>$USER->firstname,
-            'stafflastname'=>$USER->lastname,
-            'staffname'=>$USER->firstname . " " .$USER->lastname ,
-            'supportcontactname'=>$support_user->firstname,
-            'supportcontactemail'=>$support_user->email,
-            'date'=>date('m/d/Y', intval(current($session->sessiondates)->timestart)),
-            'url'=>$url,
-            'duration'=>$session->duration,
-            'venue'=>$venue,
-            'location'=>$location,
-            'room'=>$room,
-            'activityname'=>$facetoface->name
-        ];
-       
-        $notification_confirmmanager = nl2br(get_string('session:approvalmanagercontent','facetoface', $a));
-        $notification_confirmmanager_text = html_to_text($notification_confirmmanager);
-        $notification_confirmmanager_subject = get_string('session:approvalmanagersubject','facetoface',  $a);
-        email_to_user($toEmail,$support_user,$notification_confirmmanager_subject,$notification_confirmmanager_text, $notification_confirmmanager);
         //MA==>end
         // Logging and events trigger.
         $params = array(

@@ -1372,7 +1372,12 @@ function facetoface_get_attendees($sessionid)
 {
     global $CFG, $DB;
 
-    $usernamefields = get_all_user_name_fields(true, 'u');
+    $usernamefields = 'u.'.implode(',u.',\core_user\fields::for_name()->get_required_fields());
+
+    //$userfields = \core_user\fields::for_name();
+    //$usernamefields = $userfields->get_selectdata('u')->selects;
+
+    //$usernamefields = get_all_user_name_fields(true, 'u');
     // MA-MODIFIED: in sql add 'ss.note,' between ss.statuscode, and sign.timecreated
     // MA-MODIFIED: in sql add 'ss.waitlist_priority'
     $records = $DB->get_records_sql("
@@ -1551,12 +1556,12 @@ function facetoface_download_attendance($facetofacename, $facetofaceid, $locatio
         require_once($CFG->dirroot . '/lib/excellib.class.php');
         $downloadfilename .= '.xls';
         $workbook = new MoodleExcelWorkbook('-');
-        $dateformat = &$workbook->add_format();
+        $dateformat = $workbook->add_format();
         $dateformat->set_num_format('d mmm yy'); // TODO: use format specified in language pack.
     }
 
     $workbook->send($downloadfilename);
-    $worksheet = &$workbook->add_worksheet('attendance');
+    $worksheet = $workbook->add_worksheet('attendance');
     facetoface_write_worksheet_header($worksheet);
     facetoface_write_activity_attendance($worksheet, 1, $facetofaceid, $location, '', '', $dateformat);
     $workbook->close();
@@ -5011,7 +5016,7 @@ function facetoface_get_trainers($sessionid, $roleid = null)
 {
     global $CFG, $DB;
 
-    $usernamefields = get_all_user_name_fields(true, 'u');
+    $usernamefields = 'u.'.implode(',u.',\core_user\fields::for_name()->get_required_fields());
     $sql = "
         SELECT
             u.id,
@@ -5161,7 +5166,8 @@ function facetoface_get_cancellations($sessionid)
     global $CFG, $DB;
 
     $fullname = $DB->sql_fullname('u.firstname', 'u.lastname');
-    $usernamefields = get_all_user_name_fields(true, 'u');
+    //$usernamefields = get_all_user_name_fields(true, 'u');
+    $usernamefields = 'u.'.implode(',u.',\core_user\fields::for_name()->get_required_fields());
     $instatus = array(MDL_F2F_STATUS_BOOKED, MDL_F2F_STATUS_WAITLISTED, MDL_F2F_STATUS_REQUESTED);
     list($insql, $inparams) = $DB->get_in_or_equal($instatus);
 
@@ -5219,8 +5225,8 @@ function facetoface_get_requests($sessionid)
     global $CFG, $DB;
     $requests = '';
     $fullname = $DB->sql_fullname('u.firstname', 'u.lastname');
-    $usernamefields = get_all_user_name_fields(true);
-
+    //$usernamefields = get_all_user_name_fields(true);
+    $usernamefields = 'u.'.implode(',u.',\core_user\fields::for_name()->get_required_fields());
     $params = array($sessionid, MDL_F2F_STATUS_REQUESTED);
 
     $sql = "SELECT u.id, su.id AS signupid, {$usernamefields},

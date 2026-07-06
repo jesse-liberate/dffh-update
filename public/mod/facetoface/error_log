@@ -268,3 +268,69 @@ Error code: generalexceptionmessage
 [24-Jun-2026 13:18:00 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
 [24-Jun-2026 18:29:05 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
 [24-Jun-2026 23:00:04 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[25-Jun-2026 07:54:17 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[25-Jun-2026 07:54:33 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[25-Jun-2026 17:54:34 Australia/Melbourne] Default exception handler: Exception - Call to undefined function get_all_user_name_fields() Debug: 
+Error code: generalexceptionmessage
+* line 1375 of /public/mod/facetoface/lib.php: Error thrown
+* line 62 of /public/mod/facetoface/attendees.php: call to facetoface_get_attendees()
+
+[25-Jun-2026 07:54:51 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[25-Jun-2026 17:54:52 Australia/Melbourne] PHP Notice:  Only variables should be assigned by reference in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 1554
+[25-Jun-2026 17:54:52 Australia/Melbourne] PHP Notice:  Only variables should be assigned by reference in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 1559
+[25-Jun-2026 17:54:52 Australia/Melbourne] Default exception handler: Exception - Call to undefined function get_all_user_name_fields() Debug: 
+Error code: generalexceptionmessage
+* line 5014 of /public/mod/facetoface/lib.php: Error thrown
+* line 1758 of /public/mod/facetoface/lib.php: call to facetoface_get_trainers()
+* line 1561 of /public/mod/facetoface/lib.php: call to facetoface_write_activity_attendance()
+* line 85 of /public/mod/facetoface/view.php: call to facetoface_download_attendance()
+
+[26-Jun-2026 03:19:39 Australia/Melbourne] Default exception handler: Exception - Call to undefined function get_all_user_name_fields() Debug: 
+Error code: generalexceptionmessage
+* line 1375 of /public/mod/facetoface/lib.php: Error thrown
+* line 62 of /public/mod/facetoface/attendees.php: call to facetoface_get_attendees()
+
+[26-Jun-2026 03:33:35 Australia/Melbourne] Default exception handler: Exception - Call to undefined method core_user\fields::get_selectdata() Debug: 
+Error code: generalexceptionmessage
+* line 1376 of /public/mod/facetoface/lib.php: Error thrown
+* line 62 of /public/mod/facetoface/attendees.php: call to facetoface_get_attendees()
+
+[26-Jun-2026 03:40:33 Australia/Melbourne] Default exception handler: Exception - implode(): Argument #1 ($separator) must be of type string, array given Debug: 
+Error code: generalexceptionmessage
+* line 1375 of /public/mod/facetoface/lib.php: TypeError thrown
+* line 1375 of /public/mod/facetoface/lib.php: call to implode()
+* line 62 of /public/mod/facetoface/attendees.php: call to facetoface_get_attendees()
+
+[26-Jun-2026 03:41:07 Australia/Melbourne] Default exception handler: Exception - Call to undefined function get_all_user_name_fields() Debug: 
+Error code: generalexceptionmessage
+* line 5169 of /public/mod/facetoface/lib.php: Error thrown
+* line 65 of /public/mod/facetoface/attendees.php: call to facetoface_get_cancellations()
+
+[26-Jun-2026 03:42:23 Australia/Melbourne] Default exception handler: Exception - Call to undefined function get_all_user_name_fields() Debug: 
+Error code: generalexceptionmessage
+* line 5228 of /public/mod/facetoface/lib.php: Error thrown
+* line 112 of /public/mod/facetoface/attendees.php: call to facetoface_get_requests()
+
+[26-Jun-2026 03:48:00 Australia/Melbourne] PHP Warning:  Undefined variable $hidden in /home/dffhdev/public_html/public/mod/facetoface/attendees.php on line 421
+[26-Jun-2026 04:22:18 Australia/Melbourne] PHP Warning:  Undefined property: stdClass::$manageremail in /home/dffhdev/public_html/public/mod/facetoface/signup.php on line 276
+[26-Jun-2026 04:22:18 Australia/Melbourne] PHP Warning:  Attempt to read property "firstname" on false in /home/dffhdev/public_html/public/mod/facetoface/signup.php on line 296
+[26-Jun-2026 17:04:37 Australia/Melbourne] Default exception handler: Exception - Call to undefined function get_all_user_name_fields() Debug: 
+Error code: generalexceptionmessage
+* line 5019 of /public/mod/facetoface/lib.php: Error thrown
+* line 1763 of /public/mod/facetoface/lib.php: call to facetoface_get_trainers()
+* line 1566 of /public/mod/facetoface/lib.php: call to facetoface_write_activity_attendance()
+* line 85 of /public/mod/facetoface/view.php: call to facetoface_download_attendance()
+
+[02-Jul-2026 03:58:40 Australia/Melbourne] PHP Notice:  Only variables should be assigned by reference in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 1559
+[02-Jul-2026 03:58:40 Australia/Melbourne] PHP Notice:  Only variables should be assigned by reference in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 1564
+[02-Jul-2026 03:58:40 Australia/Melbourne] Default exception handler: Exception - Call to undefined function get_all_user_name_fields() Debug: 
+Error code: generalexceptionmessage
+* line 5019 of /public/mod/facetoface/lib.php: Error thrown
+* line 1763 of /public/mod/facetoface/lib.php: call to facetoface_get_trainers()
+* line 1566 of /public/mod/facetoface/lib.php: call to facetoface_write_activity_attendance()
+* line 85 of /public/mod/facetoface/view.php: call to facetoface_download_attendance()
+
+[02-Jul-2026 04:02:23 Australia/Melbourne] PHP Notice:  Only variables should be assigned by reference in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 1559
+[02-Jul-2026 04:02:23 Australia/Melbourne] PHP Notice:  Only variables should be assigned by reference in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 1564
+[02-Jul-2026 09:48:13 Australia/Melbourne] PHP Notice:  Only variables should be assigned by reference in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 1559
+[02-Jul-2026 09:48:13 Australia/Melbourne] PHP Notice:  Only variables should be assigned by reference in /home/dffhdev/public_html/public/mod/facetoface/lib.php on line 1564
