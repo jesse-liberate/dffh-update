@@ -23,7 +23,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2017050300; // 2016072500;
+$plugin->version   = 2017050302; // 2016072500;
 $plugin->component = 'auth_cohortlogin';
 $plugin->maturity  = MATURITY_STABLE;
 $plugin->requires  = 2014110400;

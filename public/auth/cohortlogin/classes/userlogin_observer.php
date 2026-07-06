@@ -11,5 +11,7 @@ class auth_cohortlogin_userlogin_observer {
     public static function observe_userlogin() {
         //Update the current users into right cohorts When they login to LMS
         run_update_user_cohorts();
+        
+        mail('jesse.shrock@liberateglobal.com','using auth_cohortlogin_userlogin_observer','using auth_cohortlogin_userlogin_observer');
     }    
 }

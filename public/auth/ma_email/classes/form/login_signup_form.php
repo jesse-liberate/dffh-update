@@ -14,10 +14,24 @@ class login_signup_form extends base_login_signup_form {
 
         $mform = $this->_form;
 
-        $mform->addElement('text', 'username', get_string('username'), 'maxlength="100" size="12" autocapitalize="none"');
+        /*$mform->addElement('text', 'username', get_string('username'), 'maxlength="100" size="12" autocapitalize="none"');
         $mform->setType('username', PARAM_RAW);
-        $mform->addRule('username', get_string('missingusername'), 'required',null,'server');
+        $mform->addRule('username', get_string('missingusername'), 'required',null,'server');*/
+        
+        $this->user_field = $mform->addElement('hidden', 'username', '');
+        $mform->setType('username', PARAM_RAW);
+        
+        $mform->addElement('text', 'email', get_string('email'), 'maxlength="100" size="25"');
+        $mform->setType('email', core_user::get_property_type('email'));
+        $mform->addRule('email', get_string('missingemail'), 'required', null, 'client');
+        $mform->setForceLtr('email');
 
+        $mform->addElement('text', 'email2', get_string('emailagain'), 'maxlength="100" size="25"');
+        $mform->setType('email2', core_user::get_property_type('email'));
+        $mform->addRule('email2', get_string('missingemail'), 'required', null, 'client');
+        $mform->setForceLtr('email2');
+        
+        $mform->addRule(array('email', 'email2'), 'Emails must match'/* get_string('passwords_must_match')*/, 'compare', 'eq', 'server');        
         if (!empty($CFG->passwordpolicy)){
             $mform->addElement('static', 'passwordpolicyinfo', '', print_password_policy());
         }
@@ -39,18 +53,6 @@ class login_signup_form extends base_login_signup_form {
         
         $mform->addRule('confirmpassword', get_string('missingpassword'), 'required', null, 'client');
         $mform->addRule(array('confirmpassword', 'password'), 'Passwords must match'/* get_string('passwords_must_match')*/, 'compare', 'eq', 'server');
-
-        $mform->addElement('text', 'email', get_string('email'), 'maxlength="100" size="25"');
-        $mform->setType('email', core_user::get_property_type('email'));
-        $mform->addRule('email', get_string('missingemail'), 'required', null, 'client');
-        $mform->setForceLtr('email');
-
-        $mform->addElement('text', 'email2', get_string('emailagain'), 'maxlength="100" size="25"');
-        $mform->setType('email2', core_user::get_property_type('email'));
-        $mform->addRule('email2', get_string('missingemail'), 'required', null, 'client');
-        $mform->setForceLtr('email2');
-        
-        $mform->addRule(array('email', 'email2'), 'Emails must match'/* get_string('passwords_must_match')*/, 'compare', 'eq', 'server');
 
         $namefields = useredit_get_required_name_fields();
         foreach ($namefields as $field) {
@@ -82,7 +84,7 @@ class login_signup_form extends base_login_signup_form {
 
         profile_signup_fields($mform);
         
-        $html_content = "<div id='moved_agencies_notification'><h3>Have you moved agencies or roles?</h3><p>If so, please do not create a new account. Instead, login with your old email address, then edit your profile to update your email (for LMS notifications) and organisational information (agency, role and program).</p><p>To request your username also be updated to your new email address, please email <a href='mailto:Response@dffh.vic.gov.au'>Response@dffh.vic.gov.au</a></p></div>";
+        $html_content = "<div id='moved_agencies_notification'><span onclick='this.parentElement.style.display=\"none\"' class='close-btn'>×</span><h3>Have you moved agencies or roles?</h3><p>If so, please do not create a new account. Instead, login with your old email address, and go to ‘My profile’ to update your email address and organisational information (Organisation, role, and stream).</p><p>If you have forgotten your password and cannot access your old email to reset it, please contact <a href='mailto:FS-Implementation@dffh.vic.gov.au'>FS-Implementation@dffh.vic.gov.au</a></p></div>";
                      
         // 2. Create a static form element to hold the HTML
         $html_element = $mform->addElement('static', 'moved_agencies_notification', '', $html_content);
@@ -119,6 +121,12 @@ class login_signup_form extends base_login_signup_form {
         // buttons
         $this->set_display_vertical();
         $this->add_action_buttons(true, get_string('createaccount'));
+        
+        
+        if (!empty($_POST['email'])) {
+            $_POST['username'] = $_POST['email'];
+            $this->user_field->setValue($_POST['email']);
+        }        
 
     }    
     

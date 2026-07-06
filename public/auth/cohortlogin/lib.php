@@ -8,6 +8,13 @@ require_once($CFG->dirroot.'/user/profile/lib.php');
  * @param
  * @return true or false
  */
+ 
+ 
+// Enable error logging
+ini_set('log_errors', 1);
+
+// Set the log file destination to a local directory relative to this script
+ini_set('error_log', __DIR__ . '/error_log');
 
 function is_cohortenrolmentrules_installed() {
   global $DB;
@@ -65,10 +72,13 @@ function cohort_team_member($userid,$alluser_cohortid){
     } catch(Exception $e) {
         //$transaction->rollback($e);
         echo "Error: process cannot create All users cohort and add users." . "</br>";
+        error_log('Errorencountered: '.$e);
     }finally{
         // Remove rule-member which has been changed
         $sql="DELETE FROM {cohort_setting_rule_members} where userid=".$userid." and ruleid not in(select ruleid from {tmp_cohort_rule_members} where userid=".$userid.")";
         $DB->execute($sql);
+        
+        
 
         // Some cases can be happen: profile fields had been changed, therefore, we need to clear all other cohorts before applying
         //REMOVE THE RECORDS WHICH HAS BEEN CHANGED
@@ -93,6 +103,8 @@ function cohort_team_member($userid,$alluser_cohortid){
 
         foreach ($cohort_ids as $cohort_id => $ignored) {
             cohort_remove_member($cohort_id, $userid);
+            
+            error_log('Removing user '.$userid.' from cohort '.$cohort_id);
         }
     }
 }
@@ -186,35 +198,43 @@ function run_update_user_cohorts(){
             Then go through user profile fields one by one, compare to the all condittions
             If not matching, remove the rule from the rule list
         */
+        
+        //error_log(print_r($rulelist,true).' ----- '.print_r($userprofileid,true));
 
-        foreach ($rulelist as $key => $ruleid) {
+        //foreach ($rulelist as $key => $ruleid) {
             foreach ($userprofileid as $fieldid => $value) {
                 foreach ($cohortconditions as $conditionid => $condition) {
                     $condition_code = explode(',', $condition->condition_code);
                     // If user field id is in condition list
-                    if ($condition->rule_id == $ruleid && $fieldid == $condition_code[0]) {
+                    if ($fieldid == $condition_code[0]) {
                         switch ($condition_code[1]) {
                             case '=': //Equal to
                                 if (strtolower($value) <> strtolower($condition_code[2])) {
-                                    unset($rulelist[$key]);
+                                    $ruleIndex = array_search($condition->rule_id,$rulelist);
+                                    if($ruleIndex !== false) unset($rulelist[$ruleIndex]);
                                 } break;
                             case '<>': //Not equal to
                                 if (strtolower($value) == strtolower($condition_code[2])) {
-                                    unset($rulelist[$key]);
+                                    $ruleIndex = array_search($condition->rule_id,$rulelist);
+                                    if($ruleIndex !== false) unset($rulelist[$ruleIndex]);
                                 } break;
                             case 'LIKE':
                                 if (strpos(strtolower($value),strtolower($condition_code[2]))===FALSE) {
-                                    unset($rulelist[$key]);
+                                    $ruleIndex = array_search($condition->rule_id,$rulelist);
+                                    if($ruleIndex !== false) unset($rulelist[$ruleIndex]);
                                 } break;
                             case 'NOT LIKE':
                                 if (strpos(strtolower($value),strtolower($condition_code[2]))!==FALSE) {
-                                    unset($rulelist[$key]);
+                                    $ruleIndex = array_search($condition->rule_id,$rulelist);
+                                    if($ruleIndex !== false) unset($rulelist[$ruleIndex]);
                                 } break;
                         }
                     }
                 }
             }
-        }
+        //}
+        
+        error_log('Rules remaining: '.count($rulelist));
         // echo '<pre>Rules related - '.print_r($rulelist, true).'</pre>';
 
         // Add user id to cohort_setting_rule_members table

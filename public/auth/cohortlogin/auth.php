@@ -32,6 +32,8 @@ require_once($CFG->dirroot.'/auth/manual/auth.php');
 class auth_plugin_cohortlogin extends auth_plugin_manual {
 
     const COMPONENT_NAME = 'auth_cohortlogin';
+    
+    public $mustache;
 
     /**
      * Constructor.
@@ -56,6 +58,9 @@ class auth_plugin_cohortlogin extends auth_plugin_manual {
      * @param string $password plain text password (with system magic quotes)
      */
     public function user_authenticated_hook(&$user, $username, $password) {
+        
+        
+        mail('jesse.shrock@liberateglobal.com','cohort adjustment method','user_authenticated_hook');
 
         $uid = $user->id;
 
