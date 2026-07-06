@@ -4,6 +4,7 @@ require('lib.php');
 require($CFG->dirroot.'/cohort/lib.php');
 require($CFG->dirroot.'/enrol/cohort/locallib.php');
 require_once($CFG->libdir.'/adminlib.php');
+require_once($CFG->dirroot.'/blocks/training_report/api/helper.php');
 global $DB;
 
 $cohort_page_size = 15;

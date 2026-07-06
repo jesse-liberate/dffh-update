@@ -149,7 +149,7 @@ $rules = $DB->get_records('cohort_setting_rules');
 $rulelist = array();
 
 foreach ($rules as $ruleid=>$ruleobject) {
-	$rulelist[$ruleid] = (trim($ruleobject->description)!='') ? $ruleobject->rule_name.' - '.$ruleobject->description : $ruleobject->rule_name;
+	$rulelist[$ruleid] = (isset($ruleobject->description) && trim($ruleobject->description) != '') ? $ruleobject->rule_name.' - '.$ruleobject->description : $ruleobject->rule_name;
 }
 
 echo get_string('cohortsettingeditheader','tool_cohortenrolmentrules');
@@ -179,7 +179,7 @@ if ($isSettingExisted) {
 	 	$rule_name = $DB->get_field('cohort_setting_rules', 'rule_name', array('id'=>$ruleid));
 		$rule_description = $DB->get_field('cohort_setting_rules', 'description', array('id'=>$ruleid));
 		$or = ($i<count($current_rules)) ? '; OR ' : '';
-		$rule_description_concat = ($i<count($current_rules) && trim($rule_description) != '') ? ' - '.$rule_description : '';
+		$rule_description_concat = ($i<count($current_rules) && !empty($rule_description) && trim($rule_description) != '') ? ' - '.$rule_description : '';
 		$table .= $rule_name.$rule_description_concat.$or.'<br>';
 	}
 	$table .= '</td></tr>';

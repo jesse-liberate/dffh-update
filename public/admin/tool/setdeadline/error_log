@@ -308,3 +308,28 @@
 [18-Jun-2026 17:16:09 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
 [18-Jun-2026 19:10:04 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
 [19-Jun-2026 05:13:29 Australia/Melbourne] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/dffhdev/public_html/public/lib/dml/mysqli_native_moodle_database.php on line 1234
+[19-Jun-2026 19:10:01 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[20-Jun-2026 05:13:11 Australia/Melbourne] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/dffhdev/public_html/public/lib/dml/moodle_database.php on line 852
+[20-Jun-2026 19:10:03 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[21-Jun-2026 05:13:24 Australia/Melbourne] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/dffhdev/public_html/public/lib/dml/mysqli_native_moodle_database.php on line 1363
+[21-Jun-2026 19:10:01 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[22-Jun-2026 05:13:16 Australia/Melbourne] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/dffhdev/public_html/public/lib/dml/mysqli_native_moodle_database.php on line 1363
+[22-Jun-2026 19:10:01 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[23-Jun-2026 05:13:19 Australia/Melbourne] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/dffhdev/public_html/public/lib/dml/mysqli_native_moodle_database.php on line 1363
+[23-Jun-2026 19:10:05 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[24-Jun-2026 05:13:24 Australia/Melbourne] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/dffhdev/public_html/public/lib/dml/mysqli_native_moodle_database.php on line 1363
+[24-Jun-2026 17:48:43 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[24-Jun-2026 18:40:49 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[24-Jun-2026 19:10:01 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[25-Jun-2026 05:13:13 Australia/Melbourne] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/dffhdev/public_html/public/lib/dml/moodle_database.php on line 825
+[26-Jun-2026 05:13:19 Australia/Melbourne] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/dffhdev/public_html/public/lib/dml/moodle_database.php on line 575
+[27-Jun-2026 05:13:23 Australia/Melbourne] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/dffhdev/public_html/public/lib/dml/mysqli_native_moodle_database.php on line 2236
+[28-Jun-2026 05:13:21 Australia/Melbourne] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/dffhdev/public_html/public/lib/dml/mysqli_native_moodle_database.php on line 1363
+[29-Jun-2026 05:13:17 Australia/Melbourne] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/dffhdev/public_html/public/lib/dml/mysqli_native_moodle_database.php on line 1363
+[30-Jun-2026 05:13:11 Australia/Melbourne] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/dffhdev/public_html/public/lib/completionlib.php on line 271
+[01-Jul-2026 05:13:23 Australia/Melbourne] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/dffhdev/public_html/public/user/classes/fields.php on line 549
+[02-Jul-2026 05:13:12 Australia/Melbourne] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/dffhdev/public_html/public/lib/dml/moodle_database.php on line 686
+[03-Jul-2026 05:13:16 Australia/Melbourne] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/dffhdev/public_html/public/admin/tool/setdeadline/send_emails.php on line 64
+[04-Jul-2026 05:13:34 Australia/Melbourne] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/dffhdev/public_html/public/lib/dml/moodle_database.php on line 1064
+[05-Jul-2026 05:13:32 Australia/Melbourne] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/dffhdev/public_html/public/lib/dml/moodle_database.php on line 925
+[06-Jul-2026 05:13:29 Australia/Melbourne] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/dffhdev/public_html/public/lib/dml/moodle_database.php on line 1671

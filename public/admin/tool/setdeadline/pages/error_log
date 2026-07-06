@@ -38,3 +38,6 @@ Error code: dmlreadexception
 
 [18-Jun-2026 17:27:10 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
 [19-Jun-2026 03:27:13 Australia/Melbourne] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/dffhdev/public_html/public/admin/tool/setdeadline/classes/form/reminder_form.php on line 183
+[24-Jun-2026 17:51:16 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[24-Jun-2026 18:40:24 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
+[24-Jun-2026 18:40:46 UTC] No subplugintypes defined in /home/dffhdev/public_html/public/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.

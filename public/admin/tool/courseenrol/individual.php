@@ -7,7 +7,8 @@ require_once($CFG->libdir.'/authlib.php');
 require_once($CFG->libdir.'/enrollib.php');
 require_once($CFG->dirroot.'/user/filters/lib.php');
 require_once($CFG->dirroot.'/user/lib.php');
-require_once($CFG->dirroot.'/blocks/reporting/report/lib.php');
+//require_once($CFG->dirroot.'/blocks/reporting/report/lib.php');
+require_once($CFG->dirroot.'/blocks/training_report/api/helper.php');
 global $DB;
 
 
@@ -557,9 +558,11 @@ on (e.courseid=c.id and e.enrol='manual') where c.category<>0 and (e.status<>0||
     $list_category_original = flatten_course_categories(getCourses_Category());
     $list_category [""] = "";
     foreach ($list_category_original as $key => $value) {
+        //print_r($value);
         if ($value->type !== 'category') {
             continue;
         }
+        //$list_category[$key] = $value;
         $list_category[$value->value] = $value->label;
     }
 
