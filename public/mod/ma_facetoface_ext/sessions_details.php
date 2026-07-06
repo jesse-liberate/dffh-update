@@ -61,7 +61,9 @@ $PAGE->set_url($url);
 
 $PAGE->requires->css(new moodle_url('/mod/ma_facetoface_ext/src/sessions.css'));
 
-$context = context_course::instance($course->id);
+//$context = context_course::instance($course->id);
+
+$context = context_system::instance();
 
 $isbookedsession = false;
 //$bookedsession = $session->bookedsession; Liberate - this is only made null 10 lines later??!

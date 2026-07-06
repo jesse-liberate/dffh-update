@@ -77,11 +77,11 @@ $content .= '<div class="training-wrapper">
         '.$text2.'
         </div>
         <div class="col-lg-3">
-        <button type="button" class="btn-custom bg-color-brand-2 hover-bg-color-brand-2 float-left text-white font-weight-bold mb-2 w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        Link to data collection
-</button>
+        <a class="btn-custom bg-color-brand-2 hover-bg-color-brand-2 float-left text-white font-weight-bold mb-2 w-100" href="/auth/ma_email/pages/collection_statement.php" target="_blank">
+        Data collection statement
+</a></section>';
 
-<!-- Modal -->
+/*<!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -143,8 +143,7 @@ $content .= '<div class="training-wrapper">
   </div>
 </div>
         </div>
-    </div>
-</section>';
+    </div>*/
 
 $content .= '<h3 class="mt-5 mb-2">Booking Upcoming Events</h3>';
 echo $OUTPUT->header();
@@ -217,7 +216,7 @@ if(!empty($user_sessions)) {
 ?>
 </div>
 <?php
-$content = '<div class="training-wrapper"><h3 class="mt-5">Available Practice Modules</h3><p>Below is the full list of available training sessions as part of the Response.</p>';
+$content = '<div class="training-wrapper"><h3 class="mt-5">Available Practice Modules</h3><p>Below is the full list of available training sessions as part of the Family Services.</p>';
 
 
 
